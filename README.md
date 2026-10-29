@@ -14,3 +14,23 @@ Institutional-grade earnings intelligence for the US Top 100: what the Street ex
 - `index.html` — the terminal (single file, watchlist persists in browser storage)
 - `data/` — Top-100 universe, earnings calendar, verified META/TSLA v3 card data
 - `docs/` — platform blueprint, watchlist spec + registry schema, consensus/transcript provider research
+
+## Automated price data (Twelve Data via GitHub Actions)
+
+A scheduled workflow (`.github/workflows/twelvedata-refresh.yml`, weekdays
+~08:05 / 12:35 / 16:25 ET, plus manual "Run workflow") runs
+`scripts/td_fetch.py`, which uses the repository secret **TWELVE_DATA**
+(never stored in any file) to refresh:
+
+- `data/prices.json` — batched quotes for the Top-100 universe
+- `data/reactions.json` — first-full-session post-earnings reaction for
+  tickers listed in `data/reporters.json`
+- `data/td_earnings.json` — earnings-date cross-check
+- `data/td_usage.json` — daily API usage snapshot
+
+Budget discipline: the script checks `/api_usage` first and stops for the
+day at 560 credits; a normal day uses ~75 calls (hard cap: under 600/day).
+The terminal page reads `prices.json` / `reactions.json` at load and fails
+soft to its card-verified data when the files are absent.
+Committing refreshed data requires Settings → Actions → General →
+Workflow permissions = "Read and write permissions".

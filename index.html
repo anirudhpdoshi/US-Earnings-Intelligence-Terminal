@@ -85,7 +85,7 @@ function evRows(){let rows=DATA.calendar.slice();
  return rows}
 function evTable(){const rows=evRows();
  return `<table><tr>${[['ticker','Ticker'],['company','Company'],['date','Date'],['x','Time'],['status','Event Status'],['x','Rev Surprise'],['x','EPS Surprise'],['x','Guidance'],['x','FCF'],['x','Reaction']].map(h=>`<th ${['ticker','company','date','status'].includes(h[0])?`onclick="evSort={k:'${h[0]}',dir:evSort.k=='${h[0]}'?-evSort.dir:1};$('#evwrap').innerHTML=evTable()" style="cursor:pointer"`:''}>${h[1]}</th>`).join('')}</tr>
- ${rows.map(c=>{const st=evState(c),m=evMetrics(c);return `<tr onclick="openEvent('${c.ticker}')" style="cursor:pointer"><td class="mono"><b>${c.ticker}</b></td><td>${c.company}</td><td class="mono">${c.date||'UNKNOWN'}</td><td>${c.time||'TBD'}</td><td><span class="badge ${st[1]}">${st[0]}</span></td><td class="num">${m.rev}</td><td class="num">${m.eps}</td><td>${m.guide}</td><td class="num">${m.fcf}</td><td class="num">${m.react}</td></tr>`}).join('')||'<tr><td colspan="10" class="mut">No events in this filter.</td></tr>'}</table>`}
+ ${rows.map(c=>{const st=evState(c),m=evMetrics(c);return `<tr onclick="openEvent('${c.ticker}')" style="cursor:pointer"><td class="mono"><b>${c.ticker}</b></td><td>${c.company}</td><td class="mono">${c.date||'UNKNOWN'}</td><td>${c.time||'TBD'}</td><td><span class="badge ${st[1]}">${st[0]}</span></td><td class="num">${m.rev}</td><td class="num">${m.eps}</td><td>${m.guide}</td><td class="num">${m.fcf}</td><td class="num" data-rxn="${c.ticker}">${m.react}</td></tr>`}).join('')||'<tr><td colspan="10" class="mut">No events in this filter.</td></tr>'}</table>`}
 function home(){const cal=DATA.calendar;
  const today=cal.filter(c=>c.date==ET_TODAY), released=cal.filter(c=>DATA.companies[c.ticker]||DATA.poll[c.ticker]);
  const relToday=today.filter(c=>DATA.poll[c.ticker]||DATA.companies[c.ticker]);
@@ -93,6 +93,7 @@ function home(){const cal=DATA.calendar;
  const awaiting=Object.keys(DATA.companies).length;
  return `<section id="v-home"><h2>Today's Earnings — ${ET_TODAY} (ET)</h2>
  <p class="small" style="margin-top:0">Last successful data refresh: <b>Oct 29, 2026, 16:23 ET</b> — EDGAR submissions poll (release detection) + verified card build. GitHub Pages is static: no background polling runs here; refresh times shown are actual, not simulated.</p>
+ <p class="small" id="pricesline" style="margin-top:0">Market prices: scheduled refresh pending — no price file received yet.</p>
  <div class="kpis">
  <div class="kpi"><b class="num">${today.length}</b><span>SCHEDULED TODAY · of 100 in universe</span></div>
  <div class="kpi"><b class="num">${relToday.length} today · ${released.length} total</b><span>RESULTS RELEASED · official filing detected or analysed</span></div>
@@ -150,7 +151,7 @@ function prod(){return `<section id="v-prod"><h2>Product Launch Tracker</h2><div
 
 function arch(){return `<section id="v-arch"><h2>Completed Earnings Archive</h2><p class="small">Auto-stopped events live here with card, sources, consensus snapshot and stop reason. Archived tickers generate no routine alerts.</p><table><tr><th>Ticker</th><th>Company</th><th>Period</th><th>Completed</th><th>Auto-stop reason</th></tr>${archive.map(a=>`<tr><td class="mono">${a.ticker}</td><td>${a.company}</td><td>${a.period}</td><td class="mono">${a.completed}</td><td>${a.reason}</td></tr>`).join('')||'<tr><td colspan="5" class="mut">Archive is empty — correctly. META/TSLA prototypes are NOT archived as complete: their transcripts are missing, so the 9-point gate has not passed and they must not auto-stop yet.</td></tr>'}</table></section>`}
 
-function sys(){const rows=[['Earnings calendar','Partial','Oct 29, 2026','25 confirmed / 19 estimated / 56 unknown of 100 — estimated dates need company scheduling-release re-verification before alert use'],['Consensus estimates','NOT CONNECTED','—','Only the labelled Oct 19–20, 2026 groundwork snapshot exists for META/TSLA. Provider research complete; no purchase made'],['Company filings (SEC EDGAR)','Available','Oct 29, 2026','Primary releases + 10-Qs verified for META/TSLA prototypes'],['Earnings transcripts','NOT AVAILABLE','—','No transcript retrieved for any company yet'],['Market prices','Partial','—','Alpha Vantage free tier (25 req/day) — verified daily closes; post-earnings reactions shown on META/TSLA cards, cross-checked'],['Segment & geographic data','Available (per filing)','Oct 22, 2026 filings','From 10-Q disclosures for analysed companies'],['AI-specific metrics','Disclosure-only','Oct 29, 2026','AI revenue not separately disclosed by META or TSLA — shown as Not Disclosed, never estimated']];
+function sys(){const rows=[['Earnings calendar','Partial','Oct 29, 2026','25 confirmed / 19 estimated / 56 unknown of 100 — estimated dates need company scheduling-release re-verification before alert use'],['Consensus estimates','NOT CONNECTED','—','Only the labelled Oct 19–20, 2026 groundwork snapshot exists for META/TSLA. Provider research complete; no purchase made'],['Company filings (SEC EDGAR)','Available','Oct 29, 2026','Primary releases + 10-Qs verified for META/TSLA prototypes'],['Earnings transcripts','NOT AVAILABLE','—','No transcript retrieved for any company yet'],['Market prices','Scheduled refresh connected','—','Automated price feed via scheduled repository workflow (batch universe quotes + reactions for tracked reporters; budget-guarded under 600 calls/day). Page reads data/prices.json + data/reactions.json when present and fails soft to card-verified closes when absent'],['Segment & geographic data','Available (per filing)','Oct 22, 2026 filings','From 10-Q disclosures for analysed companies'],['AI-specific metrics','Disclosure-only','Oct 29, 2026','AI revenue not separately disclosed by META or TSLA — shown as Not Disclosed, never estimated']];
  return `<section id="v-sys"><h2>Data Sources &amp; System Status</h2><p class="small">This terminal is a verified-file system, refreshed manually — it is NOT real-time and does not claim to be. Stale or missing data is labelled, never replaced with fabricated values.</p><table><tr><th>Feed</th><th>Status</th><th>Last success</th><th>Note</th></tr>${rows.map(r=>`<tr><td>${r[0]}</td><td><b>${r[1]}</b></td><td class="mono">${r[2]}</td><td>${r[3]}</td></tr>`).join('')}</table></section>`}
 
 function calView(){return `<section id="v-cal"><h2>Earnings Calendar — Top 100</h2><p class="small">44 dated (25 confirmed, 19 estimated), 56 unknown. Consensus columns are “Not available” until a licensed feed is connected.</p>${calTable([...DATA.calendar].sort((a,b)=>(a.date||'9999').localeCompare(b.date||'9999')))}</section>`}
@@ -224,6 +225,29 @@ function doAdd(){const raw=$('#addTxt').value.split(/[,\n]+/).map(x=>x.trim().to
  save();$('#addMsg').textContent=msgs.join(' · ');setTimeout(()=>{document.getElementById('addDlg').close();location.reload()},900)}
 function wAct(i,a){if(a=='rm')watch.splice(i,1);else if(a=='pri')watch[i].pri=watch[i].pri=='High'?'Normal':'High';else watch[i].status=watch[i].status=='PAUSED'?'MONITORING':'PAUSED';save();location.reload()}
 $('#etdate').textContent=ET_TODAY;
+/* ---- Scheduled price feed (fail-soft): files are written by the repository's
+   scheduled data workflow. Absent files change nothing on the page. ---- */
+var TD_RXN={};
+function applyTdPrices(){
+  if(typeof fetch!=='function')return;
+  fetch('data/prices.json').then(function(r){return r.ok?r.json():null}).then(function(p){
+    if(!p||!p.generated_at)return;
+    var el=document.getElementById('pricesline');
+    if(el)el.innerHTML='Market prices: last scheduled refresh <b>'+p.generated_at.replace('T',' ').replace('Z',' UTC')+'</b> · '+p.count+' of 100 quotes received · Verified prices';
+  }).catch(function(){});
+  fetch('data/reactions.json').then(function(r){return r.ok?r.json():null}).then(function(j){
+    if(!j||!j.reactions)return;
+    TD_RXN=j.reactions;
+    document.querySelectorAll('[data-rxn]').forEach(function(td){
+      var v=TD_RXN[td.getAttribute('data-rxn')];
+      if(v&&typeof v.reaction_pct==='number'){
+        td.innerHTML='<span class="'+(v.reaction_pct>=0?'pos':'neg')+'">'+(v.reaction_pct>=0?'+':'')+v.reaction_pct.toFixed(2)+'%</span>';
+        td.title='First full session after release vs prior close ('+v.close_before+' -> '+v.close_after+', '+v.session_after+') · refreshed '+j.generated_at;
+      }
+    });
+  }).catch(function(){});
+}
+applyTdPrices();
 $('#q').addEventListener('change',e=>{const t=e.target.value.trim().toUpperCase();if(DATA.companies[t])openCo(t);else if(uniBy[t]){show('top100')}else{const f=DATA.universe.find(u=>u.company.toLowerCase().includes(e.target.value.toLowerCase()));if(f&&DATA.companies[f.ticker])openCo(f.ticker);else show('top100')}});
 show('home');
 </script></body></html>
