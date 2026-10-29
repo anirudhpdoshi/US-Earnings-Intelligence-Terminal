@@ -91,7 +91,7 @@ function home(){const cal=DATA.calendar;
  const relToday=today.filter(c=>DATA.poll[c.ticker]||DATA.companies[c.ticker]);
  const upBMO=today.filter(c=>c.time=='BMO'&&!DATA.poll[c.ticker]&&!DATA.companies[c.ticker]), upAMC=today.filter(c=>c.time=='AMC'&&!DATA.poll[c.ticker]&&!DATA.companies[c.ticker]);
  const awaiting=Object.keys(DATA.companies).length;
- $('#v-home').innerHTML=`<section id="v-home"><h2>Today's Earnings — ${ET_TODAY} (ET)</h2>
+ return `<section id="v-home"><h2>Today's Earnings — ${ET_TODAY} (ET)</h2>
  <p class="small" style="margin-top:0">Last successful data refresh: <b>Oct 29, 2026, 16:23 ET</b> — EDGAR submissions poll (release detection) + verified card build. GitHub Pages is static: no background polling runs here; refresh times shown are actual, not simulated.</p>
  <div class="kpis">
  <div class="kpi"><b class="num">${today.length}</b><span>SCHEDULED TODAY · of 100 in universe</span></div>
