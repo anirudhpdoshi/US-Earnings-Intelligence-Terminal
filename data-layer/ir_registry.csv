@@ -1,0 +1,101 @@
+ticker,company,cik,ir_url_candidate,url_status,final_url,host_pattern,feed_status
+AAPL,Apple Inc.,0000320193,https://investor.apple.com/,VERIFIED 200,https://investor.apple.com/investor-relations/default.aspx,unknown,not probed
+ABBV,AbbVie Inc.,0001551152,,UNVERIFIED — no candidate recorded,,unknown,not probed
+ABT,ABBOTT LABORATORIES,0000001800,,UNVERIFIED — no candidate recorded,,unknown,not probed
+ACN,Accenture plc,0001467373,,UNVERIFIED — no candidate recorded,,unknown,not probed
+ADI,ANALOG DEVICES INC,0000006281,,UNVERIFIED — no candidate recorded,,unknown,not probed
+ADP,AUTOMATIC DATA PROCESSING INC,0000008670,,UNVERIFIED — no candidate recorded,,unknown,not probed
+ALL,ALLSTATE CORP,0000899051,,UNVERIFIED — no candidate recorded,,unknown,not probed
+AMAT,APPLIED MATERIALS INC /DE,0000006951,,UNVERIFIED — no candidate recorded,,unknown,not probed
+AMD,ADVANCED MICRO DEVICES INC,0000002488,https://ir.amd.com/,VERIFIED 200,https://ir.amd.com/,unknown,not probed
+AMGN,AMGEN INC,0000318154,,UNVERIFIED — no candidate recorded,,unknown,not probed
+AMZN,AMAZON COM INC,0001018724,https://ir.aboutamazon.com/,VERIFIED 200,https://ir.aboutamazon.com/overview/default.aspx,unknown,not probed
+ANET,"Arista Networks, Inc.",0001596532,,UNVERIFIED — no candidate recorded,,unknown,not probed
+APP,AppLovin Corp,0001751008,,UNVERIFIED — no candidate recorded,,unknown,not probed
+ARM,ARM HOLDINGS PLC /UK,0001973239,,UNVERIFIED — no candidate recorded,,unknown,not probed
+ASML,ASML HOLDING NV,0000937966,,UNVERIFIED — no candidate recorded,,unknown,not probed
+AVGO,Broadcom Inc.,0001730168,https://investors.broadcom.com/,CHECKED — ERR,HTTP Error 403: Forbidden,unknown,not probed
+AXP,AMERICAN EXPRESS CO,0000004962,,UNVERIFIED — no candidate recorded,,unknown,not probed
+BA,BOEING CO,0000012927,,UNVERIFIED — no candidate recorded,,unknown,not probed
+BAC,BANK OF AMERICA CORP /DE/,0000070858,,UNVERIFIED — no candidate recorded,,unknown,not probed
+BKNG,Booking Holdings Inc.,0001075531,,UNVERIFIED — no candidate recorded,,unknown,not probed
+BLK,"BlackRock, Inc.",0002012383,,UNVERIFIED — no candidate recorded,,unknown,not probed
+BMY,BRISTOL MYERS SQUIBB CO,0000014272,,UNVERIFIED — no candidate recorded,,unknown,not probed
+BRK.B,BERKSHIRE HATHAWAY INC,0001067983,,UNVERIFIED — no candidate recorded,,unknown,not probed
+C,CITIGROUP INC,0000831001,,UNVERIFIED — no candidate recorded,,unknown,not probed
+CAT,CATERPILLAR INC,0000018230,,UNVERIFIED — no candidate recorded,,unknown,not probed
+CB,Chubb Ltd,0000896159,,UNVERIFIED — no candidate recorded,,unknown,not probed
+CI,Cigna Group,0001739940,,UNVERIFIED — no candidate recorded,,unknown,not probed
+CMCSA,COMCAST CORP,0001166691,,UNVERIFIED — no candidate recorded,,unknown,not probed
+COP,CONOCOPHILLIPS,0001163165,,UNVERIFIED — no candidate recorded,,unknown,not probed
+COST,COSTCO WHOLESALE CORP /NEW,0000909832,https://investor.costco.com/,VERIFIED 200,https://investor.costco.com/overview/default.aspx,unknown,not probed
+CRM,"Salesforce, Inc.",0001108524,https://investor.salesforce.com/,VERIFIED 200,https://investor.salesforce.com/overview/default.aspx,unknown,not probed
+CRWD,"CrowdStrike Holdings, Inc.",0001535527,,UNVERIFIED — no candidate recorded,,unknown,not probed
+CSCO,"CISCO SYSTEMS, INC.",0000858877,,UNVERIFIED — no candidate recorded,,unknown,not probed
+CVS,CVS HEALTH Corp,0000064803,,UNVERIFIED — no candidate recorded,,unknown,not probed
+CVX,CHEVRON CORP,0000093410,,UNVERIFIED — no candidate recorded,,unknown,not probed
+DHR,DANAHER CORP /DE/,0000313616,,UNVERIFIED — no candidate recorded,,unknown,not probed
+DIS,Walt Disney Co,0001744489,,UNVERIFIED — no candidate recorded,,unknown,not probed
+ETN,Eaton Corp plc,0001551182,,UNVERIFIED — no candidate recorded,,unknown,not probed
+GE,GENERAL ELECTRIC CO,0000040545,,UNVERIFIED — no candidate recorded,,unknown,not probed
+GILD,"GILEAD SCIENCES, INC.",0000882095,,UNVERIFIED — no candidate recorded,,unknown,not probed
+GOOGL,Alphabet Inc.,0001652044,https://abc.xyz/investor/,VERIFIED 200,https://abc.xyz/investor/,unknown,not probed
+GS,GOLDMAN SACHS GROUP INC,0000886982,,UNVERIFIED — no candidate recorded,,unknown,not probed
+HD,"HOME DEPOT, INC.",0000354950,https://ir.homedepot.com/,VERIFIED 200,https://ir.homedepot.com/,unknown,not probed
+HON,HONEYWELL INTERNATIONAL INC,0000773840,,UNVERIFIED — no candidate recorded,,unknown,not probed
+IBM,INTERNATIONAL BUSINESS MACHINES CORP,0000051143,,UNVERIFIED — no candidate recorded,,unknown,not probed
+INTC,INTEL CORP,0000050863,,UNVERIFIED — no candidate recorded,,unknown,not probed
+INTU,INTUIT INC.,0000896878,,UNVERIFIED — no candidate recorded,,unknown,not probed
+ISRG,INTUITIVE SURGICAL INC,0001035267,,UNVERIFIED — no candidate recorded,,unknown,not probed
+JNJ,JOHNSON & JOHNSON,0000200406,,UNVERIFIED — no candidate recorded,,unknown,not probed
+JPM,JPMORGAN CHASE & CO,0000019617,https://www.jpmorganchase.com/ir,VERIFIED 200,https://www.jpmorganchase.com/ir,unknown,not probed
+KLAC,KLA CORP,0000319201,,UNVERIFIED — no candidate recorded,,unknown,not probed
+KO,COCA COLA CO,0000021344,,UNVERIFIED — no candidate recorded,,unknown,not probed
+LIN,LINDE PLC,0001707925,,UNVERIFIED — no candidate recorded,,unknown,not probed
+LLY,ELI LILLY & Co,0000059478,https://investor.lilly.com/,CHECKED — ERR,HTTP Error 403: Forbidden,unknown,not probed
+LMT,LOCKHEED MARTIN CORP,0000936468,,UNVERIFIED — no candidate recorded,,unknown,not probed
+LRCX,LAM RESEARCH CORP,0000707549,,UNVERIFIED — no candidate recorded,,unknown,not probed
+MA,Mastercard Inc,0001141391,https://investor.mastercard.com/,VERIFIED 200,https://investor.mastercard.com/overview/default.aspx,unknown,not probed
+MCD,MCDONALDS CORP,0000063908,,UNVERIFIED — no candidate recorded,,unknown,not probed
+MDLZ,"Mondelez International, Inc.",0001103982,,UNVERIFIED — no candidate recorded,,unknown,not probed
+MELI,MERCADOLIBRE INC,0001099590,,UNVERIFIED — no candidate recorded,,unknown,not probed
+MET,METLIFE INC,0001099219,,UNVERIFIED — no candidate recorded,,unknown,not probed
+META,"Meta Platforms, Inc.",0001326801,https://investor.atmeta.com/,VERIFIED 200,https://investor.atmeta.com/home/default.aspx,unknown,not probed
+MRK,"Merck & Co., Inc.",0000310158,,UNVERIFIED — no candidate recorded,,unknown,not probed
+MS,MORGAN STANLEY,0000895421,,UNVERIFIED — no candidate recorded,,unknown,not probed
+MSFT,MICROSOFT CORP,0000789019,https://www.microsoft.com/en-us/investor,CHECKED — ERR,The read operation timed out,unknown,not probed
+MU,MICRON TECHNOLOGY INC,0000723125,,UNVERIFIED — no candidate recorded,,unknown,not probed
+NFLX,NETFLIX INC,0001065280,https://ir.netflix.net/,VERIFIED 200,https://ir.netflix.net/ir-overview/profile/default.aspx,unknown,not probed
+NOW,"ServiceNow, Inc.",0001373715,,UNVERIFIED — no candidate recorded,,unknown,not probed
+NVDA,NVIDIA CORP,0001045810,https://investor.nvidia.com/,VERIFIED 200,https://investor.nvidia.com/home/default.aspx,unknown,not probed
+ORCL,ORACLE CORP,0001341439,https://investor.oracle.com/,VERIFIED 200,https://investor.oracle.com/home/default.aspx,unknown,not probed
+PANW,Palo Alto Networks Inc,0001327567,,UNVERIFIED — no candidate recorded,,unknown,not probed
+PEP,PEPSICO INC,0000077476,,UNVERIFIED — no candidate recorded,,unknown,not probed
+PFE,PFIZER INC,0000078003,,UNVERIFIED — no candidate recorded,,unknown,not probed
+PG,PROCTER & GAMBLE Co,0000080424,,UNVERIFIED — no candidate recorded,,unknown,not probed
+PGR,PROGRESSIVE CORP/OH/,0000080661,,UNVERIFIED — no candidate recorded,,unknown,not probed
+PLTR,Palantir Technologies Inc.,0001321655,,UNVERIFIED — no candidate recorded,,unknown,not probed
+PM,Philip Morris International Inc.,0001413329,,UNVERIFIED — no candidate recorded,,unknown,not probed
+QCOM,QUALCOMM INC/DE,0000804328,,UNVERIFIED — no candidate recorded,,unknown,not probed
+REGN,"REGENERON PHARMACEUTICALS, INC.",0000872589,,UNVERIFIED — no candidate recorded,,unknown,not probed
+RTX,RTX Corp,0000101829,,UNVERIFIED — no candidate recorded,,unknown,not probed
+SBUX,STARBUCKS CORP,0000829224,,UNVERIFIED — no candidate recorded,,unknown,not probed
+SCHW,SCHWAB CHARLES CORP,0000316709,,UNVERIFIED — no candidate recorded,,unknown,not probed
+SHOP,SHOPIFY INC.,0001594805,,UNVERIFIED — no candidate recorded,,unknown,not probed
+SLB,SLB LIMITED/NV,0000087347,,UNVERIFIED — no candidate recorded,,unknown,not probed
+T,AT&T INC.,0000732717,,UNVERIFIED — no candidate recorded,,unknown,not probed
+TGT,TARGET CORP,0000027419,,UNVERIFIED — no candidate recorded,,unknown,not probed
+TMO,THERMO FISHER SCIENTIFIC INC.,0000097745,,UNVERIFIED — no candidate recorded,,unknown,not probed
+TMUS,"T-Mobile US, Inc.",0001283699,,UNVERIFIED — no candidate recorded,,unknown,not probed
+TSLA,"Tesla, Inc.",0001318605,https://ir.tesla.com/,CHECKED — ERR,HTTP Error 403: Forbidden,unknown,not probed
+TSM,TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD,0001046179,,UNVERIFIED — no candidate recorded,,unknown,not probed
+TXN,TEXAS INSTRUMENTS INC,0000097476,,UNVERIFIED — no candidate recorded,,unknown,not probed
+UBER,"Uber Technologies, Inc",0001543151,,UNVERIFIED — no candidate recorded,,unknown,not probed
+UNH,UNITEDHEALTH GROUP INC,0000731766,,UNVERIFIED — no candidate recorded,,unknown,not probed
+UPS,UNITED PARCEL SERVICE INC,0001090727,,UNVERIFIED — no candidate recorded,,unknown,not probed
+V,VISA INC.,0001403161,https://investor.visa.com/,VERIFIED 200,https://investor.visa.com/,unknown,not probed
+VRTX,VERTEX PHARMACEUTICALS INC / MA,0000875320,,UNVERIFIED — no candidate recorded,,unknown,not probed
+VZ,VERIZON COMMUNICATIONS INC,0000732712,,UNVERIFIED — no candidate recorded,,unknown,not probed
+WFC,WELLS FARGO & COMPANY/MN,0000072971,,UNVERIFIED — no candidate recorded,,unknown,not probed
+WMT,Walmart Inc.,0000104169,https://stock.walmart.com/,VERIFIED 200,https://stock.walmart.com/,unknown,not probed
+XOM,ExxonMobil Holdings Corp,0002115436,https://investor.exxonmobil.com/,VERIFIED 200,https://investor.exxonmobil.com/,unknown,not probed

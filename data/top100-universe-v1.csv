@@ -1,0 +1,101 @@
+rank,ticker,company,sector,industry,domicile_flag,market_cap,selection_rationale
+1,NVDA,NVIDIA,Technology,Semiconductors,US,to verify quarterly,Largest US-listed company by market value 28 Oct 2026; AI accelerator leader
+2,AAPL,Apple,Technology,Consumer Electronics,US,to verify quarterly,Second-largest listed value; consumer tech and services bellwether
+3,MSFT,Microsoft,Technology,Software - Infrastructure,US,to verify quarterly,Top-3 listed value; cloud and AI platform leader
+4,GOOGL,Alphabet,Communication Services,Internet Content & Information,US,to verify quarterly,Top-5 listed value; search ads and cloud leader - dual-class counted once (GOOGL/GOOG)
+5,AMZN,Amazon.com,Consumer Discretionary,Internet Retail,US,to verify quarterly,Top-5 listed value; e-commerce and AWS cloud leader
+6,TSM,Taiwan Semiconductor Manufacturing,Technology,Semiconductors,foreign-incorporated US-listed (Taiwan),to verify quarterly,Largest foundry; US-listed ADR; critical AI chip supply chain
+7,AVGO,Broadcom,Technology,Semiconductors,US,to verify quarterly,Top-10 listed value; AI networking and custom silicon
+8,TSLA,Tesla,Consumer Discretionary,Auto Manufacturers,US,to verify quarterly,Top-10 listed value; EV and energy storage leader
+9,META,Meta Platforms,Communication Services,Internet Content & Information,US,to verify quarterly,Top-10 listed value; social platforms and digital ads
+10,BRK.B,Berkshire Hathaway,Financials,Insurance - Diversified,US,to verify quarterly,Top-10 listed value; diversified holding and insurance - Class B line used
+11,LLY,Eli Lilly and Company,Healthcare,Drug Manufacturers,US,to verify quarterly,Largest pharma by value; GLP-1 franchise leader
+12,WMT,Walmart,Consumer Staples,Discount Stores,US,to verify quarterly,Largest retailer by revenue; consumer spending bellwether
+13,JPM,JPMorgan Chase & Co.,Financials,Banks - Diversified,US,to verify quarterly,Largest US bank; financial system bellwether
+14,V,Visa,Financials,Credit Services / Payment Networks,US,to verify quarterly,Largest payment network by value
+15,MU,Micron Technology,Technology,Semiconductors,US,to verify quarterly,Memory/HBM supplier central to AI data centres
+16,XOM,Exxon Mobil,Energy,Oil & Gas Integrated,US,to verify quarterly,Largest US integrated oil and gas company
+17,JNJ,Johnson & Johnson,Healthcare,Drug Manufacturers / Medical,US,to verify quarterly,Diversified healthcare leader
+18,MA,Mastercard,Financials,Credit Services / Payment Networks,US,to verify quarterly,Second major global payment network
+19,AMD,Advanced Micro Devices,Technology,Semiconductors,US,to verify quarterly,Major CPU/GPU challenger in AI data centres
+20,ORCL,Oracle,Technology,Software - Infrastructure,US,to verify quarterly,Enterprise software and cloud; large AI infrastructure commitments
+21,PG,Procter & Gamble,Consumer Staples,Household & Personal Products,US,to verify quarterly,Largest household products company; staples bellwether
+22,HD,The Home Depot,Consumer Discretionary,Home Improvement Retail,US,to verify quarterly,Largest home-improvement retailer; housing demand proxy
+23,CVX,Chevron,Energy,Oil & Gas Integrated,US,to verify quarterly,Second US integrated oil major
+24,BAC,Bank of America,Financials,Banks - Diversified,US,to verify quarterly,Second-largest US bank by assets/deposits
+25,ABBV,AbbVie,Healthcare,Drug Manufacturers,US,to verify quarterly,Major pharma; immunology franchise leader
+26,NFLX,Netflix,Communication Services,Entertainment / Streaming,US,to verify quarterly,Leading global streaming platform
+27,COST,Costco Wholesale,Consumer Staples,Discount Stores,US,to verify quarterly,Leading warehouse club retailer
+28,KO,The Coca-Cola Company,Consumer Staples,Beverages - Non-Alcoholic,US,to verify quarterly,Largest beverage company by value
+29,CSCO,Cisco Systems,Technology,Communication Equipment,US,to verify quarterly,Enterprise networking leader
+30,PLTR,Palantir Technologies,Technology,Software - Application,US,to verify quarterly,High-growth AI/data platform; large strategic value
+31,MRK,Merck & Co.,Healthcare,Drug Manufacturers,US,to verify quarterly,Major pharma; oncology franchise (Keytruda)
+32,ASML,ASML Holding,Technology,Semiconductor Equipment,foreign-incorporated US-listed (Netherlands),to verify quarterly,Sole EUV lithography supplier; US-listed ADR
+33,PEP,PepsiCo,Consumer Staples,Beverages / Food,US,to verify quarterly,Global food and beverage leader
+34,TMUS,T-Mobile US,Communication Services,Telecom Services,US,to verify quarterly,Major US wireless carrier
+35,WFC,Wells Fargo & Company,Financials,Banks - Diversified,US,to verify quarterly,Top-4 US bank
+36,CRM,Salesforce,Technology,Software - Application,US,to verify quarterly,Largest CRM / enterprise SaaS platform
+37,IBM,International Business Machines,Technology,IT Services / Software,US,to verify quarterly,"Enterprise IT, hybrid cloud and AI services"
+38,GE,GE Aerospace,Industrials,Aerospace & Defense,US,to verify quarterly,Aircraft engine leader; aerospace bellwether
+39,CAT,Caterpillar,Industrials,Machinery,US,to verify quarterly,Largest construction/mining equipment maker; cycle proxy
+40,GS,The Goldman Sachs Group,Financials,Capital Markets,US,to verify quarterly,Leading global investment bank
+41,MS,Morgan Stanley,Financials,Capital Markets,US,to verify quarterly,Leading investment bank and wealth manager
+42,UNH,UnitedHealth Group,Healthcare,Healthcare Plans,US,to verify quarterly,Largest US health insurer / care platform
+43,MCD,McDonald's,Consumer Discretionary,Restaurants,US,to verify quarterly,Largest restaurant chain by value
+44,ABT,Abbott Laboratories,Healthcare,Medical Devices / Diagnostics,US,to verify quarterly,Diversified medical devices and diagnostics leader
+45,PM,Philip Morris International,Consumer Staples,Tobacco,US,to verify quarterly,Largest tobacco company by value; smoke-free transition
+46,RTX,RTX Corporation,Industrials,Aerospace & Defense,US,to verify quarterly,Major defense and aerospace supplier
+47,AMGN,Amgen,Healthcare,Biotechnology,US,to verify quarterly,Large-cap biotech leader
+48,T,AT&T,Communication Services,Telecom Services,US,to verify quarterly,Major US telecom carrier
+49,DIS,The Walt Disney Company,Communication Services,Entertainment,US,to verify quarterly,Media and parks conglomerate bellwether
+50,INTC,Intel,Technology,Semiconductors,US,to verify quarterly,Major US CPU maker and foundry aspirant
+51,QCOM,QUALCOMM,Technology,Semiconductors,US,to verify quarterly,Mobile/wireless chip and licensing leader
+52,TXN,Texas Instruments,Technology,Semiconductors,US,to verify quarterly,Largest analog semiconductor company
+53,BLK,BlackRock,Financials,Asset Management,US,to verify quarterly,World's largest asset manager
+54,SCHW,The Charles Schwab Corporation,Financials,Capital Markets,US,to verify quarterly,Largest retail brokerage platform
+55,LRCX,Lam Research,Technology,Semiconductor Equipment,US,to verify quarterly,Leading wafer-fabrication equipment supplier
+56,AMAT,Applied Materials,Technology,Semiconductor Equipment,US,to verify quarterly,Largest semiconductor equipment company by revenue
+57,KLAC,KLA Corporation,Technology,Semiconductor Equipment,US,to verify quarterly,Process-control equipment leader
+58,PANW,Palo Alto Networks,Technology,Software - Cybersecurity,US,to verify quarterly,Largest cybersecurity platform by value
+59,CRWD,CrowdStrike Holdings,Technology,Software - Cybersecurity,US,to verify quarterly,Leading endpoint cybersecurity platform
+60,ADI,Analog Devices,Technology,Semiconductors,US,to verify quarterly,Major analog/mixed-signal chip maker
+61,ISRG,Intuitive Surgical,Healthcare,Medical Devices,US,to verify quarterly,Robotic surgery leader
+62,GILD,Gilead Sciences,Healthcare,Biotechnology,US,to verify quarterly,HIV/antiviral pharma leader
+63,VRTX,Vertex Pharmaceuticals,Healthcare,Biotechnology,US,to verify quarterly,CF franchise leader; large-cap biotech
+64,BKNG,Booking Holdings,Consumer Discretionary,Travel Services,US,to verify quarterly,Largest online travel agency by value
+65,SBUX,Starbucks,Consumer Discretionary,Restaurants,US,to verify quarterly,Largest coffee chain; consumer proxy
+66,MDLZ,Mondelez International,Consumer Staples,Confectionery / Food,US,to verify quarterly,Global snacking leader
+67,REGN,Regeneron Pharmaceuticals,Healthcare,Biotechnology,US,to verify quarterly,Large-cap biotech; ophthalmology/immunology
+68,C,Citigroup,Financials,Banks - Diversified,US,to verify quarterly,Top US global bank
+69,BA,The Boeing Company,Industrials,Aerospace & Defense,US,to verify quarterly,Major commercial aircraft and defense maker
+70,UPS,United Parcel Service,Industrials,Integrated Freight & Logistics,US,to verify quarterly,Largest package delivery company; trade proxy
+71,HON,Honeywell International,Industrials,Conglomerates / Aerospace,US,to verify quarterly,Diversified industrial and aerospace supplier
+72,LMT,Lockheed Martin,Industrials,Aerospace & Defense,US,to verify quarterly,Largest defense contractor
+73,AXP,American Express,Financials,Credit Services,US,to verify quarterly,Premium payments and consumer credit leader
+74,PGR,The Progressive Corporation,Financials,Insurance - Property & Casualty,US,to verify quarterly,Largest US auto insurer by premiums growth
+75,CB,Chubb,Financials,Insurance - Property & Casualty,foreign-incorporated US-listed (Switzerland),to verify quarterly,Largest publicly traded P&C insurer; incorporated in Zurich
+76,ETN,Eaton Corporation,Industrials,Electrical Equipment,foreign-incorporated US-listed (Ireland),to verify quarterly,Power management leader; data-centre electrical demand
+77,DHR,Danaher,Healthcare,Diagnostics & Life Sciences Tools,US,to verify quarterly,Life sciences and diagnostics platform
+78,TMO,Thermo Fisher Scientific,Healthcare,Life Sciences Tools & Services,US,to verify quarterly,Largest life-sciences tools company
+79,ACN,Accenture,Technology,IT Services,foreign-incorporated US-listed (Ireland),to verify quarterly,Largest IT consulting/services firm
+80,LIN,Linde,Materials,Specialty Chemicals / Industrial Gases,foreign-incorporated US-listed (Ireland),to verify quarterly,Largest industrial gases company
+81,SHOP,Shopify,Technology,Software - Application,foreign-incorporated US-listed (Canada),to verify quarterly,"Leading commerce platform; Canadian-incorporated, US-listed"
+82,MELI,MercadoLibre,Consumer Discretionary,Internet Retail,US,to verify quarterly,"Latin America e-commerce/payments leader; Delaware-incorporated, HQ Argentina"
+83,ARM,Arm Holdings,Technology,Semiconductors,foreign-incorporated US-listed (United Kingdom),to verify quarterly,Dominant CPU architecture licensor; US-listed ADR
+84,APP,AppLovin,Communication Services,Software - Application / Ad Tech,US,to verify quarterly,High-growth mobile ad-tech platform
+85,UBER,Uber Technologies,Industrials,Ground Transportation / Platform,US,to verify quarterly,Largest rideshare/delivery platform
+86,NOW,ServiceNow,Technology,Software - Application,US,to verify quarterly,Enterprise workflow SaaS leader
+87,INTU,Intuit,Technology,Software - Application,US,to verify quarterly,"Tax/accounting SaaS leader (TurboTax, QuickBooks)"
+88,ADP,Automatic Data Processing,Technology,Software / HR Outsourcing,US,to verify quarterly,Largest payroll/HR outsourcing provider
+89,COP,ConocoPhillips,Energy,Oil & Gas E&P,US,to verify quarterly,Largest independent US E&P company
+90,SLB,SLB (Schlumberger),Energy,Oil & Gas Equipment & Services,foreign-incorporated US-listed (Curacao),to verify quarterly,Largest oilfield services company; incorporated in Curacao
+91,VZ,Verizon Communications,Communication Services,Telecom Services,US,to verify quarterly,Largest US wireless carrier by subscribers
+92,CMCSA,Comcast,Communication Services,Telecom / Media,US,to verify quarterly,Largest cable/broadband operator; NBCUniversal owner
+93,PFE,Pfizer,Healthcare,Drug Manufacturers,US,to verify quarterly,Major global pharma company
+94,BMY,Bristol Myers Squibb,Healthcare,Drug Manufacturers,US,to verify quarterly,Major pharma; oncology/immunology
+95,CVS,CVS Health,Healthcare,Healthcare Plans / Pharmacy,US,to verify quarterly,"Pharmacy, PBM and health benefits platform"
+96,CI,The Cigna Group,Healthcare,Healthcare Plans,US,to verify quarterly,Major health insurer and PBM
+97,ANET,Arista Networks,Technology,Communication Equipment,US,to verify quarterly,Cloud networking leader for AI data centres
+98,TGT,Target,Consumer Discretionary,Discount Stores,US,to verify quarterly,Second major US general-merchandise retailer
+99,MET,MetLife,Financials,Insurance - Life,US,to verify quarterly,Major global life insurer
+100,ALL,The Allstate Corporation,Financials,Insurance - Property & Casualty,US,to verify quarterly,Major US personal-lines insurer

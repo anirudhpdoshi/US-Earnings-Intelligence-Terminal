@@ -1,0 +1,80 @@
+{
+ "polled_at": "2026-10-29T09:05:26",
+ "results": {
+  "LLY": {
+   "name": "ELI LILLY & Co",
+   "hits": [
+    {
+     "form": "8-K",
+     "date": "2026-10-29",
+     "accession": "0000059478-26-000104",
+     "items": "2.02,9.01"
+    }
+   ]
+  },
+  "MA": {
+   "name": "Mastercard Inc",
+   "hits": [
+    {
+     "form": "8-K",
+     "date": "2026-10-29",
+     "accession": "0001141391-26-000122",
+     "items": "2.02,9.01"
+    }
+   ]
+  },
+  "AMZN": {
+   "name": "AMAZON COM INC",
+   "hits": []
+  },
+  "INTC": {
+   "name": "INTEL CORP",
+   "hits": []
+  },
+  "SBUX": {
+   "name": "STARBUCKS CORP",
+   "hits": []
+  },
+  "MRK": {
+   "name": "Merck & Co., Inc.",
+   "hits": [
+    {
+     "form": "8-K",
+     "date": "2026-10-29",
+     "accession": "0001104659-26-119825",
+     "items": "2.02,9.01"
+    }
+   ]
+  },
+  "BMY": {
+   "name": "BRISTOL MYERS SQUIBB CO",
+   "hits": [
+    {
+     "form": "8-K",
+     "date": "2026-10-29",
+     "accession": "0000014272-26-000022",
+     "items": "2.02,7.01,9.01"
+    }
+   ]
+  },
+  "GILD": {
+   "name": "GILEAD SCIENCES, INC.",
+   "hits": []
+  },
+  "MDLZ": {
+   "name": "Mondelez International, Inc.",
+   "hits": []
+  },
+  "CAT": {
+   "name": "CATERPILLAR INC",
+   "hits": [
+    {
+     "form": "8-K",
+     "date": "2026-10-29",
+     "accession": "0000018230-26-000052",
+     "items": "2.02,7.01,9.01"
+    }
+   ]
+  }
+ }
+}

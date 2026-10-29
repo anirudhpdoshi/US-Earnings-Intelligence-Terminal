@@ -1,0 +1,374 @@
+{
+  "schema": "earnings-intelligence-v3-prototype/1",
+  "company": "Tesla, Inc.",
+  "ticker": "TSLA",
+  "exchange": "Nasdaq",
+  "sector": "Automotive / Energy — EVs, energy storage, AI/robotics (company terms its AI programme 'Super Intelligence (SI)')",
+  "fiscal_period": {
+    "label": "Q3 2026",
+    "quarter_end": "2026-09-30",
+    "reported": "2026-10-21, after market close (Q3 2026 Update furnished as Ex. 99.1 to 8-K filed Oct 21, 2026; call 5:30 p.m. ET per pre-report groundwork / deck webcast time 4:30 p.m. CT)",
+    "fiscal_calendar_note": "Calendar fiscal year; Q3 = quarter ended Sep 30, 2026"
+  },
+  "primary_sources": [
+    "Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+    "Tesla Form 10-Q for quarter ended Sep 30, 2026, filed Oct 22, 2026 (SEC accession 0001628280-26-066775), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm"
+  ],
+  "cross_check": "Headline figures verified in BOTH the Q3 2026 Update deck (Ex. 99.1) and the 10-Q filed Oct 22, 2026; EDGAR company-facts XBRL agrees (revenue $28,046M; operating income $718M; GAAP EPS $0.22). Q3 OCF/capex in the deck's financial summary ($6,263M / $4,732M) also reconcile exactly to 10-Q 9M-minus-6M XBRL derivations, and deck TTM OCF $18,710M / TTM FCF $3,303M reconcile to FY2025-minus-9M2025-plus-9M2026 filing arithmetic.",
+  "headline": {
+    "revenue": {
+      "value": 28046,
+      "unit": "USD millions",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+      "class": "actual",
+      "yoy_change": "-0.2% (28,095 in Q3 2025, calculated) — essentially flat YoY; +sequential vs Q2 2026 revenue 28,236 is -0.7% (calculated)"
+    },
+    "gaap_eps_diluted": {
+      "value": 0.22,
+      "unit": "USD per share (EPS attributable to common stockholders, diluted, GAAP)",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+      "class": "actual",
+      "yoy_change": "-44% (0.39 in Q3 2025)"
+    },
+    "adjusted_eps_non_gaap": {
+      "value": 0.48,
+      "unit": "USD per share (EPS attributable to common stockholders, diluted, non-GAAP)",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+      "class": "actual, company-adjusted",
+      "yoy_change": "-4% (0.50 in Q3 2025)",
+      "note": "Tesla's non-GAAP bridge (deck reconciliation): GAAP net income attributable $787M + stock-based compensation net of tax $982M - digital-assets unrealized gain net of tax $224M + SpaceX equity investment unrealized loss net of tax $108M + certain tax items $44M = non-GAAP net income $1,697M. There is NO single one-time legal-type charge analogous to Meta's; the largest adjustment is recurring stock-based compensation. Do not describe $0.48 as 'ex-one-time-item' EPS."
+    },
+    "operating_income": {
+      "value": 718,
+      "unit": "USD millions",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+      "class": "actual",
+      "yoy_change": "-56% (1,624 in Q3 2025)"
+    },
+    "operating_margin_pct": {
+      "value": 2.6,
+      "unit": "% (718 / 28,046, calculated; deck reports operating margin down 322 bp YoY)",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+      "class": "calculated"
+    },
+    "gross_profit": {
+      "value": 5494,
+      "unit": "USD millions",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+      "class": "actual",
+      "yoy_change": "+8.7% (5,054 in Q3 2025, calculated)"
+    },
+    "gross_margin_pct": {
+      "value": 19.6,
+      "unit": "% (calculated; deck reports total GAAP gross margin up 160 bp YoY)",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+      "class": "calculated"
+    },
+    "automotive_gross_margin_ex_regulatory_credits_pct": {
+      "value": 18.1,
+      "unit": "% non-GAAP, Q3 2026 (deck key-metrics reconciliation; GAAP automotive gross margin 18.5%)",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+      "class": "actual",
+      "note": "Matches the 18.1% figure reported in prior outlet-verified summaries."
+    },
+    "net_income_gaap_attributable": {
+      "value": 787,
+      "unit": "USD millions",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+      "class": "actual",
+      "yoy_change": "-43% (1,373 in Q3 2025, calculated)"
+    },
+    "net_income_non_gaap_attributable": {
+      "value": 1697,
+      "unit": "USD millions",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+      "class": "actual, company-adjusted"
+    },
+    "adjusted_ebitda": {
+      "value": 3900,
+      "unit": "USD millions (margin 13.9% calculated; deck reports adjusted EBITDA margin down 114 bp YoY)",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+      "class": "actual, company-adjusted"
+    }
+  },
+  "cash_flow_and_fcf": {
+    "operating_cash_flow": {
+      "value": 6263,
+      "unit": "USD millions",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+      "class": "actual",
+      "note": "Deck financial summary Q3 column; reconciles to 10-Q XBRL 9M 2026 OCF 14,897 - 6M 2026 OCF 8,634 = 6,263."
+    },
+    "capex": {
+      "value": 4732,
+      "unit": "USD millions",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+      "class": "actual",
+      "note": "Deck definition (from Q1 2025): capex presented inclusive of purchases of energy generation and storage systems. Reconciles to 10-Q XBRL PPE purchases 9M 13,014 - 6M 8,282 = 4,732."
+    },
+    "fcf_standard_ocf_minus_capex": {
+      "value": 1531,
+      "unit": "USD millions (6,263 - 4,732)",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+      "class": "calculated",
+      "note": "Equals Tesla's own stated FCF: the deck defines 'Free cash flow = operating cash flow less capex' — for Tesla the company definition and the platform standard definition COINCIDE (no finance-lease add-on of the Meta type). Q3 FCF was positive vs a pre-report expectation of a large outflow cited in groundwork (labelled snapshot — see consensus section)."
+    },
+    "fcf_company_defined": {
+      "value": 1531,
+      "unit": "USD millions — same as standard definition above (deck footnote 2)",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+      "class": "actual, company-defined non-GAAP"
+    },
+    "fcf_margin_pct": {
+      "value": 5.5,
+      "unit": "% of revenue (calculated)",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "calculated from Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+      "class": "calculated"
+    },
+    "fcf_per_diluted_share_usd": {
+      "value": 0.43,
+      "unit": "USD (1,531 / 3,541M diluted shares, calculated)",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "calculated",
+      "class": "calculated"
+    },
+    "fcf_conversion_pct": {
+      "value": 195,
+      "unit": "% of GAAP net income attributable to common stockholders (1,531 / 787, calculated) — conversion above 100% reflects non-cash charges (D&A $1,852M in the quarter per deck reconciliation) exceeding the GAAP-to-cash gap",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "calculated",
+      "class": "calculated"
+    },
+    "ttm_to_q3_2026": {
+      "operating_cash_flow": {
+        "value": 18710,
+        "unit": "USD millions (deck TTM table; reconciles to filing arithmetic)",
+        "period": "TTM ended Sep 30, 2026",
+        "source": "Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+        "class": "actual"
+      },
+      "capex": {
+        "value": 15407,
+        "unit": "USD millions (deck TTM table)",
+        "period": "TTM ended Sep 30, 2026",
+        "source": "Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+        "class": "actual"
+      },
+      "fcf": {
+        "value": 3303,
+        "unit": "USD millions (deck TTM table)",
+        "period": "TTM ended Sep 30, 2026",
+        "source": "Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+        "class": "actual",
+        "note": "TTM FCF has fallen from $6,834M at Q3 2025 (deck TTM series) as TTM capex rose from $8,914M to $15,407M — the cash-quality trend flag for Tesla."
+      }
+    },
+    "share_based_compensation": {
+      "value": 1165,
+      "unit": "USD millions, Q3 2026 gross SBC expense (deck Adjusted EBITDA reconciliation). SBC net of tax in the non-GAAP EPS bridge: $982M.",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+      "class": "actual"
+    },
+    "cash_equivalents_and_short_term_investments": {
+      "value": 45447,
+      "unit": "USD millions at Sep 30, 2026 (deck balance sheet; +$1,923M in the quarter, deck highlights '$1.9B increase')",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+      "class": "actual"
+    },
+    "debt": {
+      "total_debt_and_finance_leases_usd_millions": 9523,
+      "breakdown": "Non-recourse debt $9,265M; recourse debt $2M (deck balance-sheet footnote, Sep 30, 2026); current portion of debt & finance leases $1,387M + non-current $8,136M = $9,523M total carrying debt & finance leases (deck balance sheet)",
+      "source": "Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm"
+    }
+  },
+  "consensus_comparison": {
+    "status": "LABELLED_PRE_RELEASE_SNAPSHOT — NOT A LICENSED FEED",
+    "cutoff": "Oct 20, 2026, ~19:00 ET (pre-release; reports were after close Oct 21, 2026)",
+    "source": "Pre-release consensus groundwork file ~/workspace/earnings-card/tsla_meta_q3_2026_consensus_groundwork.md, prepared Oct 19-20, 2026 from named aggregator/analyst sources cited inline therein (NOT a licensed consensus feed; no post-release backfill)",
+    "items": [
+      {
+        "metric": "Revenue",
+        "consensus": "~$27.9B (Reuters Oct 19: $27.88B; FactSet $27.935B; Zacks $27.79-27.8B; Seeking Alpha $28.3B)",
+        "actual_usd_millions": 28046,
+        "surprise": "IN LINE / SLIGHT BEAT vs ~$27.9B central (calculated, approx +0.5%)"
+      },
+      {
+        "metric": "Non-GAAP EPS",
+        "consensus": "~$0.43-0.45 (Reuters $0.43; FactSet $0.45; Zacks $0.43-0.44)",
+        "actual_non_gaap_usd": 0.48,
+        "surprise": "BEAT vs ~$0.44 central (calculated). GAAP EPS $0.22 is not the consensus basis."
+      },
+      {
+        "metric": "Deliveries",
+        "consensus": "461,974 expected (pre-report roundup cited in groundwork)",
+        "actual": 486532,
+        "surprise": "BEAT, +5.3% vs expectation (as reported pre-release in groundwork)"
+      },
+      {
+        "metric": "Energy storage deployed",
+        "consensus": "~15.9 GWh company-compiled analyst consensus (19 analysts; median 16.2 GWh, cited in groundwork)",
+        "actual_gwh": 13.7,
+        "surprise": "MISS, approx -14% vs ~15.9 GWh"
+      },
+      {
+        "metric": "Energy generation & storage revenue",
+        "consensus": "~$3.9B expected (outlet-verified summary in memory, Oct 21)",
+        "actual_usd_millions": 2881,
+        "surprise": "MISS vs ~$3.9B expectation (labelled, from prior verified reporting — not a licensed snapshot)"
+      },
+      {
+        "metric": "Free cash flow",
+        "consensus": "Pre-report expectation of an outflow of ~$5B was cited in prior verified reporting (memory, Oct 21-22)",
+        "actual_usd_millions": 1531,
+        "surprise": "Large positive surprise vs that expectation (labelled; source chain is outlet reporting, not a licensed feed)"
+      }
+    ],
+    "caveat": "No licensed pre-release consensus snapshot is connected to this platform (Blueprint v1, §3). Figures above are the frozen Oct 19-20, 2026 groundwork snapshot with sources named there; they must not be presented as licensed consensus, and no post-release estimates have been substituted."
+  },
+  "guidance": {
+    "status": "NO FORMAL NUMERIC GUIDANCE PROVIDED (NOT PROVIDED)",
+    "note": "Tesla's Q3 2026 Update contains a qualitative Outlook section only — no next-quarter or full-year revenue, EPS, margin, capex or FCF guidance ranges. Per platform rules this is recorded as NOT PROVIDED; nothing is manufactured or derived into a guidance figure.",
+    "qualitative_outlook_as_disclosed": [
+      "Volume: focused on maximum factory capacity utilisation; deliveries/deployments will be impacted by aggregate demand, supply-chain readiness and allocation between customer sales and the owned/operated fleet (deck, Outlook).",
+      "Cash: will manage the business to maintain a strong balance sheet and sufficient liquidity to fund the product roadmap and long-term capacity expansion, incl. vertical integration (deck, Outlook).",
+      "Profit: over time, hardware-related profits are expected to be accompanied by an acceleration of SI, software and fleet-based profits (deck, Outlook — qualitative, unquantified).",
+      "Production has begun for Tesla Semi in Nevada and Optimus in Fremont; capacity build-out for SI compute, solar, battery materials and semiconductor manufacturing is underway (deck, Outlook)."
+    ],
+    "classification": "NOT PROVIDED (numeric) — qualitative outlook only"
+  },
+  "segments": {
+    "source": "Tesla Q3 2026 Update (shareholder deck), Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066738), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm and Tesla Form 10-Q for quarter ended Sep 30, 2026, filed Oct 22, 2026 (SEC accession 0001628280-26-066775), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
+    "reporting_note": "Tesla reports revenue lines, not separate reportable operating segments with segment profit in the deck; the 10-Q inventory note splits Automotive vs Energy generation & storage. Segment operating profit by line is NOT DISCLOSED in these primary sources and is not asserted.",
+    "revenue_lines_q3_2026": [
+      {
+        "line": "Automotive sales",
+        "usd_millions": 20094,
+        "prior_year": 20359
+      },
+      {
+        "line": "Automotive regulatory credits",
+        "usd_millions": 113,
+        "prior_year": 417,
+        "note": "Credits revenue fell ~73% YoY (calculated) — a margin/quality headwind the market watches."
+      },
+      {
+        "line": "Automotive leasing",
+        "usd_millions": 353,
+        "prior_year": 429
+      },
+      {
+        "line": "Total automotive revenues",
+        "usd_millions": 20560,
+        "prior_year": 21205,
+        "yoy": "-3.0% (calculated)"
+      },
+      {
+        "line": "Energy generation and storage (sales 2,745 + leasing 136 per 10-Q disaggregation)",
+        "usd_millions": 2881,
+        "prior_year": 3415,
+        "yoy": "-15.6% (calculated)"
+      },
+      {
+        "line": "Services and other",
+        "usd_millions": 4605,
+        "prior_year": 3475,
+        "yoy": "+32.5% (calculated)"
+      }
+    ],
+    "operating_highlights": {
+      "produced": 464391,
+      "deliveries": 486532,
+      "deliveries_yoy": "-2% (deck: 497,099 in Q3 2025; Model 3/Y 478,237; other models 8,295, -48% YoY calculated)",
+      "energy_storage_deployed_gwh": 13.7,
+      "energy_storage_prior_year_gwh": 12.5,
+      "active_fsd_subscriptions_millions": 1.74,
+      "global_vehicle_inventory_days_of_supply": 11,
+      "other": "Produced and delivered the 10 millionth vehicle (deck highlights); largest passenger-vehicle backlog in four years (deck highlights, qualitative); Cybercab Robotaxi rides in Austin began Sep 3, 2026, cumulative unsupervised Robotaxi miles grew eightfold QoQ (deck highlights)."
+    }
+  },
+  "geography": {
+    "source": "Tesla Form 10-Q for quarter ended Sep 30, 2026, filed Oct 22, 2026 (SEC accession 0001628280-26-066775), https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm (revenue by sales location; Q3 2026 vs Q3 2025)",
+    "united_states_usd_millions": {
+      "2026": 12495,
+      "2025": 14598,
+      "yoy": "-14.4% (calculated)"
+    },
+    "china_usd_millions": {
+      "2026": 5209,
+      "2025": 5653,
+      "yoy": "-7.9% (calculated)"
+    },
+    "other_international_usd_millions": {
+      "2026": 10342,
+      "2025": 7844,
+      "yoy": "+31.9% (calculated)"
+    },
+    "check": "Regions sum to reported total revenue $28,046M. Geographic mix shifted away from the US toward other international markets YoY."
+  },
+  "ai_impact": {
+    "classification": [
+      "AI adopter / developer in-house ('Super Intelligence (SI)' programme, company terminology)",
+      "AI-enabled product (FSD (Supervised), Robotaxi), robotics (Optimus)"
+    ],
+    "ai_revenue_disclosed": "AI / SI revenue NOT separately disclosed. FSD-related amounts are not broken out as AI revenue in the deck or 10-Q; active FSD subscriptions were 1.74M at quarter end (deck). No AI revenue figure is asserted and AI ROI cannot be calculated from disclosed data.",
+    "ai_capex_commentary_as_disclosed": [
+      "Deck highlights: 'We continue to invest in the future through R&D and Capex spend across our businesses, including SI, robotics and energy.' No SI/AI-only capex figure is disclosed — total Q3 capex was $4,732M and total R&D was $2,761M (+69% YoY, calculated from deck statements: 1,630 in Q3 2025).",
+      "Deck Outlook: 'Capacity build-out and ramp related to our multi-year infrastructure initiatives, including SI compute, solar, battery material and semiconductor manufacturing are underway.'",
+      "Robotaxi: Cybercab rides in Austin from Sep 3, 2026; cumulative unsupervised miles grew eightfold QoQ (deck highlights, qualitative — no revenue disclosed for Robotaxi).",
+      "Deck MD&A-equivalent commentary: management believes FSD is driving demand in markets where available and is working with regulators on approvals elsewhere (deck highlights, paraphrased)."
+    ],
+    "scorecard": {
+      "ai_monetization": "Unclear (FSD subscriptions growing — 1.74M, +67% YoY calculated from 1.04M — but no AI-attributable revenue disclosed)",
+      "ai_productivity": "Unproven (no quantified AI productivity metric disclosed in primary sources reviewed)",
+      "ai_investment_intensity": "High and rising (TTM capex $15,407M vs $8,914M a year earlier, deck TTM series; R&D +69% YoY in Q3)",
+      "ai_competitive_position": "Unclear (Robotaxi/FSD progress is company-reported; independent verification not in primary sources)",
+      "ai_fcf_impact": "Mixed (Q3 FCF positive at +$1.53B despite heavy investment, but TTM FCF fell to $3.30B from $6.83B a year ago as capex ramped)",
+      "evidence_quality": "High for total spend (filed figures); Low for AI-specific returns (not separately disclosed)"
+    }
+  },
+  "management_commentary": {
+    "status": "PARTIAL — shareholder deck only",
+    "note": "The deck's management commentary (highlights and Outlook, quoted/paraphrased above) has been reviewed. NO earnings-call transcript has been retrieved or reviewed for this prototype (no transcript feed is connected; the deck provides a webcast, not a transcript). Call Q&A is NOT ANALYZED and must not be inferred.",
+    "transcript": "NOT AVAILABLE"
+  },
+  "three_verdicts": {
+    "earnings_quality": {
+      "verdict": "Low-Moderate",
+      "rationale": "Revenue was flat YoY (-0.2%) and operating income fell 56% with operating margin down 322 bp to 2.6%; GAAP EPS fell 44%. Positives: gross profit rose 8.7% and total gross margin expanded 160 bp YoY, services revenue grew 33%, and the non-GAAP decline was modest (-4%). Negatives on quality: regulatory-credit revenue collapsed to $113M from $417M, operating expenses rose 39% YoY (R&D +69%), and the GAAP-to-non-GAAP gap is mostly recurring SBC ($982M net of tax), not a one-off."
+    },
+    "forward_outlook": {
+      "verdict": "Neutral / Unclear",
+      "rationale": "No formal numeric guidance was provided (NOT PROVIDED) — there is no raised/lowered guide to score. Qualitative signals are mixed-positive: largest vehicle backlog in four years, Robotaxi/Semi/Optimus ramps, and an SI/software profit-acceleration narrative that is explicitly long-dated ('over time'). Against that, battery availability was cited as the limiting factor on auto volumes in the quarter."
+    },
+    "cash_quality": {
+      "verdict": "Strong in the quarter (deteriorating TTM trend)",
+      "rationale": "Q3 OCF $6.26B and FCF +$1.53B (vs pre-report outflow expectations in the labelled snapshot), FCF conversion ~195% of GAAP attributable net income, and cash + short-term investments rose $1.9B to $45.45B. The trend flag: TTM FCF fell to $3.30B from $6.83B a year ago because TTM capex nearly doubled to $15.41B — cash quality is strong now, but the investment ramp is absorbing a rising share of it."
+    }
+  },
+  "gaps": [
+    "Consensus: no licensed pre-release feed — only the labelled Oct 19-20, 2026 groundwork snapshot (see consensus_comparison.caveat).",
+    "Earnings-call transcript / Q&A: NOT retrieved; management intelligence is deck-only.",
+    "Formal numeric guidance: NOT PROVIDED by the company — recorded as such, not derived.",
+    "Post-earnings share-price reaction: NOT included — not in primary sources and no verified market-data pull was made for this prototype.",
+    "Segment operating profit by revenue line: not disclosed in the primary sources reviewed; not asserted.",
+    "AI-attributable revenue / capex: not separately disclosed by the company; not estimated."
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "schema": "earnings-intelligence-v3-prototype/1",
+  "company": "Meta Platforms, Inc.",
+  "ticker": "META",
+  "exchange": "Nasdaq",
+  "sector": "Technology — Internet platforms / digital advertising",
+  "fiscal_period": {
+    "label": "Q3 2026",
+    "quarter_end": "2026-09-30",
+    "reported": "2026-10-21, after market close (release dated Oct 21, 2026)",
+    "fiscal_calendar_note": "Calendar fiscal year; Q3 = quarter ended Sep 30, 2026"
+  },
+  "primary_sources": [
+    "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+    "Meta Platforms Form 10-Q for quarter ended Sep 30, 2026, filed Oct 22, 2026 (SEC accession 0001628280-26-066773), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm"
+  ],
+  "cross_check": "Every headline figure below was verified in BOTH the 8-K Ex. 99.1 release and the 10-Q filed Oct 22, 2026 (income statement, cash-flow statement and EDGAR company-facts XBRL agree). Prior outlet-reported figures (memory, Oct 21-23) matched the primary sources on all headline items.",
+  "headline": {
+    "revenue": {
+      "value": 64601,
+      "unit": "USD millions",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+      "class": "actual",
+      "yoy_change": "+26% reported and constant-currency (51,242 in Q3 2025)"
+    },
+    "gaap_eps_diluted": {
+      "value": 3.83,
+      "unit": "USD per share",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+      "class": "actual",
+      "yoy_change": "+265% (1.05 in Q3 2025, a period with an unusually high tax provision)"
+    },
+    "adjusted_eps_ex_one_time_charge": {
+      "value": 7.4,
+      "unit": "USD per share, company-presented ex-charge figure (non-GAAP presentation in release)",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+      "class": "actual, company-adjusted",
+      "note": "GAAP diluted EPS $3.83 + $3.57 per-share effect of the $9.89B legal charge = $7.40, per release. This is an ex-one-item figure, NOT a standard adjusted-EPS series; the only adjustment is the identified legal charge."
+    },
+    "one_time_item": {
+      "description": "Charge related to August 2026 agreement with 52 U.S. state attorneys general resolving teen mental-health / social-media litigation; agreement provides for payments of up to ~$18.59B in total",
+      "amount_usd_millions": 9890,
+      "booked_in": "General and administrative expense, Q3 2026",
+      "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm"
+    },
+    "operating_income": {
+      "value": 12988,
+      "unit": "USD millions",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+      "class": "actual",
+      "yoy_change": "-37% (20,535 in Q3 2025)"
+    },
+    "operating_income_ex_charge": {
+      "value": 22878,
+      "unit": "USD millions, calculated from company disclosure (12,988 + 9,890)",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+      "class": "calculated",
+      "yoy_change": "+11.4% vs Q3 2025 operating income of 20,535"
+    },
+    "operating_margin_gaap_pct": {
+      "value": 20.1,
+      "unit": "% (12,988 / 64,601)",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+      "class": "calculated",
+      "note": "Release prints 20% (vs 40% Q3 2025). Ex-charge operating margin would be 35.4% (calculated)."
+    },
+    "gross_profit": {
+      "value": 51232,
+      "unit": "USD millions, calculated (revenue 64,601 - cost of revenue 13,369, both as reported)",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+      "class": "calculated"
+    },
+    "net_income": {
+      "value": 9860,
+      "unit": "USD millions",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+      "class": "actual",
+      "yoy_change": "+264% (2,709 in Q3 2025)"
+    },
+    "effective_tax_rate_pct": {
+      "value": 24,
+      "unit": "% GAAP; 17% ex-charge (company-presented)",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+      "class": "actual"
+    }
+  },
+  "cash_flow_and_fcf": {
+    "operating_cash_flow": {
+      "value": 32786,
+      "unit": "USD millions",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+      "class": "actual",
+      "note": "Release cash-flow statement Q3 column: $32,786M. (EDGAR XBRL 9M-minus-6M derivation gives $32,785M — $1M rounding difference in filed XBRL period totals; release Q3 statement used.)"
+    },
+    "capex_purchases_of_property_and_equipment": {
+      "value": 33942,
+      "unit": "USD millions",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+      "class": "actual"
+    },
+    "capex_incl_finance_lease_principal": {
+      "value": 34906,
+      "unit": "USD millions (33,942 PPE purchases + 964 finance-lease principal payments); release headlines 'capital expenditures, including principal payments on finance leases, were $34.91B'",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+      "class": "actual"
+    },
+    "fcf_standard_ocf_minus_ppe_capex": {
+      "value": -1156,
+      "unit": "USD millions (32,786 - 33,942)",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+      "class": "calculated",
+      "note": "Standard definition per platform spec: FCF = OCF - capital expenditures (PPE purchases)."
+    },
+    "fcf_company_defined": {
+      "value": -2120,
+      "unit": "USD millions",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+      "class": "actual, company-defined non-GAAP",
+      "note": "Meta defines FCF as OCF - purchases of property and equipment - principal payments on finance leases. Company-defined FCF differs from the standard definition by the $964M finance-lease principal. Both are stated; never mix them."
+    },
+    "fcf_margin_pct": {
+      "standard": {
+        "value": -1.8,
+        "unit": "% of revenue (calculated)",
+        "period": "Q3 2026 (three months ended September 30, 2026)",
+        "source": "calculated from Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+        "class": "calculated"
+      },
+      "company_defined": {
+        "value": -3.3,
+        "unit": "% of revenue (calculated)",
+        "period": "Q3 2026 (three months ended September 30, 2026)",
+        "source": "calculated from Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+        "class": "calculated"
+      }
+    },
+    "fcf_per_diluted_share_usd": {
+      "standard": {
+        "value": -0.45,
+        "unit": "USD (-1,156 / 2,573M diluted shares)",
+        "period": "Q3 2026 (three months ended September 30, 2026)",
+        "source": "calculated",
+        "class": "calculated"
+      },
+      "company_defined": {
+        "value": -0.82,
+        "unit": "USD (-2,120 / 2,573M diluted shares)",
+        "period": "Q3 2026 (three months ended September 30, 2026)",
+        "source": "calculated",
+        "class": "calculated"
+      }
+    },
+    "fcf_conversion_pct_of_net_income": {
+      "standard": {
+        "value": -11.7,
+        "unit": "% (calculated)",
+        "period": "Q3 2026 (three months ended September 30, 2026)",
+        "source": "calculated",
+        "class": "calculated"
+      },
+      "company_defined": {
+        "value": -21.5,
+        "unit": "% (calculated)",
+        "period": "Q3 2026 (three months ended September 30, 2026)",
+        "source": "calculated",
+        "class": "calculated"
+      },
+      "note": "Negative because capex exceeded OCF in the quarter; net income remained positive. This is the platform's key cash-quality flag for META this quarter."
+    },
+    "ttm_to_q3_2026": {
+      "operating_cash_flow": {
+        "value": 133087,
+        "unit": "USD millions (FY2025 115,800 - 9M 2025 79,586 + 9M 2026 96,873, all as reported)",
+        "period": "Trailing 12 months ended Sep 30, 2026",
+        "source": "Meta Platforms Form 10-Q for quarter ended Sep 30, 2026, filed Oct 22, 2026 (SEC accession 0001628280-26-066773), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm and FY2025 Form 10-K figures via EDGAR company facts",
+        "class": "calculated"
+      },
+      "fcf_standard": {
+        "value": 28649,
+        "unit": "USD millions (TTM OCF 133,087 - TTM PPE purchases 104,438, calculated as FY2025 69,691 - 9M 2025 48,308 + 9M 2026 83,055)",
+        "period": "TTM ended Sep 30, 2026",
+        "source": "calculated from reported filings",
+        "class": "calculated"
+      },
+      "fcf_company_defined": {
+        "value": 25126,
+        "unit": "USD millions (TTM standard FCF 28,649 - TTM finance-lease principal 3,523, calculated as FY2025 2,524 - 9M 2025 1,770 + 9M 2026 2,769)",
+        "period": "TTM ended Sep 30, 2026",
+        "source": "calculated from reported filings",
+        "class": "calculated"
+      }
+    },
+    "share_based_compensation": {
+      "value": 7363,
+      "unit": "USD millions, Q3 2026 cash-flow statement (non-cash addback)",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+      "class": "actual",
+      "note": "SBC = 22.5% of Q3 OCF and 11.4% of revenue (calculated). No share repurchases in Q3 2026 (cash-flow statement shows $0 vs $3,327M in Q3 2025), so buybacks did not offset SBC dilution this quarter — there were none."
+    },
+    "cash_and_marketable_securities": {
+      "value": 82449,
+      "unit": "USD millions at Sep 30, 2026 (cash & equivalents 11,222 + marketable securities 71,227)",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+      "class": "actual"
+    },
+    "long_term_debt": {
+      "value": 80922,
+      "unit": "USD millions at Sep 30, 2026 (vs 58,744 at Dec 31, 2025)",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+      "class": "actual"
+    },
+    "dividends_paid": {
+      "value": 1361,
+      "unit": "USD millions, Q3 2026 (dividends and dividend equivalents)",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+      "class": "actual"
+    },
+    "acquisitions_paid": {
+      "value": 111,
+      "unit": "USD millions, Q3 2026 (acquisitions of businesses and intangible assets)",
+      "period": "Q3 2026 (three months ended September 30, 2026)",
+      "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+      "class": "actual"
+    }
+  },
+  "consensus_comparison": {
+    "status": "LABELLED_PRE_RELEASE_SNAPSHOT — NOT A LICENSED FEED",
+    "cutoff": "Oct 20, 2026, ~19:00 ET (pre-release; reports were after close Oct 21, 2026)",
+    "source": "Pre-release consensus groundwork file ~/workspace/earnings-card/tsla_meta_q3_2026_consensus_groundwork.md, prepared Oct 19-20, 2026 from named aggregator/analyst sources cited inline therein (NOT a licensed consensus feed; no post-release backfill)",
+    "items": [
+      {
+        "metric": "Revenue",
+        "consensus": "~$63.3B (MarketBeat $63.34B; TipRanks $63.34B; defenseworld/ABMN $63.30B)",
+        "actual_usd_millions": 64601,
+        "surprise": "BEAT, approx +2.0% vs ~$63.3B (calculated)"
+      },
+      {
+        "metric": "Adjusted EPS",
+        "consensus": "~$6.6 central (MarketBeat $6.58; TipRanks $6.60; range across cited sources $6.28-$6.85 incl. Bloomberg median adj. $6.85 via Pepperstone)",
+        "actual_ex_charge_usd": 7.4,
+        "surprise": "BEAT vs ~$6.6 central (calculated, approx +12%). Compare ONLY against the ex-charge $7.40 — GAAP $3.83 is not comparable to adjusted consensus because of the identified legal charge. Pre-report BofA GAAP forecast was $3.79, close to the $3.83 printed."
+      },
+      {
+        "metric": "Free cash flow (company-defined)",
+        "consensus": "Bloomberg median FCF estimate was negative $9.14B (via Pepperstone, cited in groundwork)",
+        "actual_usd_millions": -2120,
+        "surprise": "Negative but far smaller outflow than that pre-report median estimate (labelled, single-chain citation — treat as indicative, not licensed consensus)"
+      }
+    ],
+    "caveat": "No licensed pre-release consensus snapshot is connected to this platform (Blueprint v1, §3). The figures above are the frozen Oct 19-20, 2026 groundwork snapshot with sources named there; they must not be presented as a licensed consensus feed, and no post-release estimates have been substituted."
+  },
+  "guidance": {
+    "next_quarter_q4_2026": {
+      "revenue": {
+        "value": "73,000-76,000",
+        "unit": "USD millions range (midpoint 74,500, calculated)",
+        "period": "Q3 2026 (three months ended September 30, 2026)",
+        "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+        "class": "guidance (management)",
+        "note": "Assumes ~1% FX headwind to YoY revenue growth at then-current rates. Groundwork cited a Q4 street revenue figure of ~$73.56B (Pepperstone) — guidance midpoint sits above it (labelled pre-release snapshot, see consensus section)."
+      },
+      "tax_rate": "Q4 2026 tax rate expected 15-17% (management, in release)",
+      "classification": "PROVIDED — Q4 revenue range above the labelled pre-release street figure"
+    },
+    "full_year_2026": {
+      "total_expenses": {
+        "value": "175,000-179,000",
+        "unit": "USD millions range",
+        "period": "Q3 2026 (three months ended September 30, 2026)",
+        "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+        "class": "guidance (management)",
+        "note": "Release wording: 'We are raising our expense outlook to incorporate the $9.9 billion charge related to legal proceedings recognized in the third quarter.' Prior expense range is NOT stated in the Q3 release and is not asserted here."
+      },
+      "capex_incl_finance_leases": {
+        "value": "135,000-145,000",
+        "unit": "USD millions range",
+        "period": "Q3 2026 (three months ended September 30, 2026)",
+        "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+        "class": "guidance (management)",
+        "note": "Release wording: 'narrowed from our prior outlook of $130-145 billion' — i.e. low end RAISED by $5B, high end maintained."
+      },
+      "operating_income": "Excluding the Q3 legal charge, management continues to expect 2026 operating income above 2025 operating income (release, CFO outlook commentary)",
+      "reality_labs_losses_2026": "Expected to decline vs 2025 to a range of $18-19B (management, in release)",
+      "classification": "RAISED / NARROWED-UP on capex low end; expenses RAISED (to incorporate the legal charge); no FY revenue guidance provided (NOT PROVIDED)"
+    },
+    "beyond_2026": {
+      "fy2027_revenue": "NOT PROVIDED as a number. Management stated (release) that AI benefits to the core business plus emerging opportunities 'position us to sustain strong overall revenue growth throughout 2027' — qualitative only.",
+      "reality_labs_2027": "Losses expected to narrow to around $15B in 2027 (management, in release)"
+    }
+  },
+  "segments": {
+    "source": "Meta Platforms Q3 2026 earnings release, Ex. 99.1 to Form 8-K filed Oct 21, 2026 (SEC accession 0001628280-26-066700), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm (segment table, Q3 2026)",
+    "family_of_apps": {
+      "revenue_usd_millions": 64158,
+      "revenue_yoy": "+26% (50,772 in Q3 2025, calculated)",
+      "operating_income_usd_millions": 17117,
+      "operating_income_prior_year": 24967,
+      "note": "As reported in the release segment table. Advertising revenue $63,061M (+26% YoY, calculated from 50,082); other FoA revenue $1,097M."
+    },
+    "reality_labs": {
+      "revenue_usd_millions": 443,
+      "revenue_yoy": "-5.7% (470 in Q3 2025, calculated)",
+      "operating_loss_usd_millions": -4129,
+      "operating_loss_prior_year": -4432,
+      "note": "Loss narrowed YoY in Q3; FY2026 RL losses guided to $18-19B, ~$15B in 2027 (management)."
+    },
+    "operating_metrics": {
+      "family_dap_billions_avg_sep_2026": 3.64,
+      "dap_yoy": "+3%",
+      "ad_impressions_yoy": "+10%",
+      "average_price_per_ad_yoy": "+14%",
+      "headcount_sep_30_2026": 66775,
+      "headcount_yoy": "-15% (release highlights)"
+    }
+  },
+  "geography": {
+    "source": "Meta Platforms Form 10-Q for quarter ended Sep 30, 2026, filed Oct 22, 2026 (SEC accession 0001628280-26-066773), https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm (Note 2 — Revenue, by customer address; Q3 2026 vs Q3 2025)",
+    "united_states_and_canada_usd_millions": {
+      "2026": 26217,
+      "2025": 19708
+    },
+    "europe_usd_millions": {
+      "2026": 14023,
+      "2025": 11566,
+      "note": "Includes Russia and Turkey per filing footnote"
+    },
+    "asia_pacific_usd_millions": {
+      "2026": 16993,
+      "2025": 14304
+    },
+    "rest_of_world_usd_millions": {
+      "2026": 7368,
+      "2025": 5664,
+      "note": "Africa, Latin America and Middle East per filing footnote"
+    },
+    "check": "Regions sum to reported total revenue $64,601M."
+  },
+  "ai_impact": {
+    "classification": [
+      "AI model developer",
+      "AI-enabled consumer/advertising platform",
+      "AI infrastructure investor (data centres)"
+    ],
+    "ai_revenue_disclosed": "AI revenue NOT separately disclosed. Management stated qualitatively (release, CFO outlook) that 'our AI investments are already delivering substantial incremental advertising revenue through stronger engagement, better recommendations, and more efficient monetization' — no AI revenue figure is given, so AI ROI cannot be calculated reliably and is NOT estimated here.",
+    "ai_capex_commentary_as_disclosed": [
+      "Q3 2026 capital expenditures incl. finance-lease principal were $34.91B (release); FY2026 capex guidance raised at the low end / narrowed to $135-145B from $130-145B (release). Capex is not split into AI vs non-AI by the company in the release — no AI-only capex figure is asserted.",
+      "CFO outlook (release): 'we expect to continue investing aggressively to support both our core business and emerging AI initiatives'; current and scheduled capacity gives flexibility across 'model training, core business growth, and the development and support of new products'.",
+      "CFO outlook (release): MSL (Meta Superintelligence Labs) investments 'will take longer to generate returns than those in our core business' — management's own timeline caveat, paraphrased from the release.",
+      "CEO statement in release (verified quotation): 'We hit major milestones this quarter toward delivering personal superintelligence for everyone - including launching Muse and Muse Wonder, our first frontier model' and 'Our investments are paying off, the core business is strong, and we're seeing velocity across the board.'",
+      "10-Q MD&A: R&D expense growth driven in part by higher data-centre / technical-infrastructure expense and 'third-party AI token costs' (paraphrase of filing text). Q3 R&D was $20,054M, +32% YoY (release income statement, calculated YoY)."
+    ],
+    "scorecard": {
+      "ai_monetization": "Emerging (qualitative management evidence via advertising; no separately disclosed AI revenue)",
+      "ai_productivity": "Partially evidenced (management cites engagement / recommendation / monetization efficiency; no quantified per-unit productivity metric disclosed in the release)",
+      "ai_investment_intensity": "High (Q3 capex incl. leases $34.91B = 54% of revenue, calculated; FY guide $135-145B)",
+      "ai_competitive_position": "Unclear-to-Strengthening (management claims frontier-model milestone; independent verification not in primary sources)",
+      "ai_fcf_impact": "Negative in Q3 2026 (capex exceeded OCF; company-defined FCF -$2.12B)",
+      "evidence_quality": "High for spend (filed figures); Low for AI-specific returns (not separately disclosed)"
+    }
+  },
+  "management_commentary": {
+    "status": "PARTIAL — release only",
+    "note": "CEO quotation and CFO outlook commentary above are from the primary release. NO earnings-call transcript has been retrieved or reviewed for this prototype (no transcript feed is connected); call Q&A, tone and avoided topics are NOT ANALYZED and must not be inferred. The release states transcripts of calls with publishing equity research analysts would be posted to investor.atmeta.com — not retrieved as of Oct 29, 2026.",
+    "transcript": "NOT AVAILABLE"
+  },
+  "other_material_items": [
+    "Board approved a new non-voting Class C common stock (effective Jan 19, 2027) with a one-share Class C stock dividend per Class A/B share, expected to be economically similar to a 2-for-1 split in Class A price terms per the release; purpose stated as financing growth incl. AI infrastructure, employee compensation and potential acquisitions (release)."
+  ],
+  "three_verdicts": {
+    "earnings_quality": {
+      "verdict": "Moderate (High ex-one-time charge)",
+      "rationale": "Revenue +26% reported and constant-currency with ad price +14% and impressions +10% is genuine operating growth; ex-charge operating income $22.88B (+11.4% YoY, calculated). But GAAP operating income fell 37% on the $9.89B legal charge, total costs rose 68% YoY, and SBC was $7.36B in the quarter."
+    },
+    "forward_outlook": {
+      "verdict": "Positive",
+      "rationale": "Q4 2026 revenue guide $73-76B (midpoint above the labelled pre-release street figure ~$73.56B); FY capex low end raised; Reality Labs losses guided down in 2026 ($18-19B) and to ~$15B in 2027; management qualitatively guided to sustained strong revenue growth through 2027 (no FY2027 number provided). Partially offset: FY expense outlook raised to $175-179B (to incorporate the legal charge) and further youth-related litigation is flagged by management itself."
+    },
+    "cash_quality": {
+      "verdict": "Weak in the quarter (Mixed on TTM)",
+      "rationale": "OCF was strong at $32.79B, but capex of $34.91B incl. leases exceeded it: company-defined FCF -$2.12B, standard FCF -$1.16B, FCF conversion negative. On a TTM basis FCF is still positive (standard +$28.65B; company-defined +$25.13B, both calculated), so the weakness is investment-driven and current-quarter, not a collapse in cash generation. No buybacks in Q3 to offset $7.36B of SBC."
+    }
+  },
+  "gaps": [
+    "Consensus: no licensed pre-release feed — only the labelled Oct 19-20, 2026 groundwork snapshot (see consensus_comparison.caveat).",
+    "Earnings-call transcript / Q&A: NOT retrieved; management-intelligence section is release-only.",
+    "Post-earnings share-price reaction: NOT included — not in primary sources and no verified market-data pull was made for this prototype.",
+    "Market share: no sourced market-share dataset connected; not asserted.",
+    "Guidance prior-period expense range: not stated in the Q3 release; not asserted."
+  ]
+}
