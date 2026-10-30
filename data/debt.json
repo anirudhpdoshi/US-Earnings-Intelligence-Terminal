@@ -1,0 +1,6384 @@
+{
+ "generated_at": "2026-10-30T11:39:08Z",
+ "by_ticker": {
+  "NVDA": {
+   "asof": "2026-07-26",
+   "filed": "2026-08-26",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 33366.0,
+   "lt_noncurrent_m": 32366.0,
+   "current_m": 1000.0,
+   "cash_m": 22443.0,
+   "net_debt_m": 10923.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 24896.0,
+   "repaid_ytd_m": null,
+   "raised_fy_m": null,
+   "repaid_fy_m": 0.0,
+   "series": [
+    [
+     "2024-10-27",
+     8462.0
+    ],
+    [
+     "2025-01-26",
+     8463.0
+    ],
+    [
+     "2025-04-27",
+     8464.0
+    ],
+    [
+     "2025-07-27",
+     8466.0
+    ],
+    [
+     "2025-10-26",
+     8467.0
+    ],
+    [
+     "2026-01-25",
+     8468.0
+    ],
+    [
+     "2026-04-26",
+     8470.0
+    ],
+    [
+     "2026-07-26",
+     33366.0
+    ]
+   ],
+   "sector": "Technology",
+   "maturity": null,
+   "shares_out": 24100000000,
+   "invest": {
+    "capex_ytd_m": 4434.0,
+    "ppe_net_m": 14285.0,
+    "securities_m": 46900.0,
+    "equity_inv_m": null,
+    "acq_ytd_m": 298.0
+   }
+  },
+  "AAPL": {
+   "asof": "2026-06-27",
+   "filed": "2026-07-31",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 82347.0,
+   "lt_noncurrent_m": 71340.0,
+   "current_m": 11007.0,
+   "cash_m": 39544.0,
+   "net_debt_m": 42803.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 0.0,
+   "repaid_ytd_m": 8146.0,
+   "raised_fy_m": 4481.0,
+   "repaid_fy_m": 10932.0,
+   "series": [
+    [
+     "2024-09-28",
+     96662.0
+    ],
+    [
+     "2024-12-28",
+     94804.0
+    ],
+    [
+     "2025-03-29",
+     92204.0
+    ],
+    [
+     "2025-06-28",
+     91775.0
+    ],
+    [
+     "2025-09-27",
+     90678.0
+    ],
+    [
+     "2025-12-27",
+     88512.0
+    ],
+    [
+     "2026-03-28",
+     82714.0
+    ],
+    [
+     "2026-06-27",
+     82347.0
+    ]
+   ],
+   "sector": "Technology",
+   "maturity": {
+    "buckets": {
+     "next12": 12393.0,
+     "y2": 10078.0,
+     "y3": 9300.0,
+     "y4": 5235.0,
+     "y5": 4972.0,
+     "after5": 49303.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-09-27"
+   },
+   "shares_out": 14594180000,
+   "invest": {
+    "capex_ytd_m": 6799.0,
+    "ppe_net_m": 51431.0,
+    "securities_m": 106973.0,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "MSFT": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-28",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 35481.0,
+   "lt_noncurrent_m": 31090.0,
+   "current_m": 4391.0,
+   "cash_m": 20281.0,
+   "net_debt_m": 15200.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": null,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-12-31",
+     44970.0
+    ],
+    [
+     "2025-03-31",
+     42881.0
+    ],
+    [
+     "2025-06-30",
+     43151.0
+    ],
+    [
+     "2025-09-30",
+     43208.0
+    ],
+    [
+     "2025-12-31",
+     40262.0
+    ],
+    [
+     "2026-03-31",
+     40262.0
+    ],
+    [
+     "2026-06-30",
+     40294.0
+    ],
+    [
+     "2026-09-30",
+     35481.0
+    ]
+   ],
+   "sector": "Technology",
+   "maturity": {
+    "buckets": {
+     "next12": 9250.0,
+     "y2": 0.0,
+     "y3": 2001.0,
+     "y4": 0.0,
+     "y5": 500.0,
+     "after5": 34385.0
+    },
+    "family": "long-term debt",
+    "asof": "2026-06-30"
+   },
+   "shares_out": 7426194552,
+   "invest": {
+    "capex_ytd_m": 39367.0,
+    "ppe_net_m": 346844.0,
+    "securities_m": 58894.0,
+    "equity_inv_m": 12400.0,
+    "acq_ytd_m": null
+   }
+  },
+  "GOOGL": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-29",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 126118.0,
+   "lt_noncurrent_m": 125102.0,
+   "current_m": 1016.0,
+   "cash_m": 56334.0,
+   "net_debt_m": 69784.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 85222.0,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 64564.0,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-12-31",
+     11882.0
+    ],
+    [
+     "2025-03-31",
+     11886.0
+    ],
+    [
+     "2025-06-30",
+     24607.0
+    ],
+    [
+     "2025-09-30",
+     23602.0
+    ],
+    [
+     "2025-12-31",
+     48543.0
+    ],
+    [
+     "2026-03-31",
+     79499.0
+    ],
+    [
+     "2026-06-30",
+     100164.0
+    ],
+    [
+     "2026-09-30",
+     126118.0
+    ]
+   ],
+   "sector": "Communication Services",
+   "maturity": {
+    "buckets": {
+     "next12": 2000.0,
+     "y2": 1000.0,
+     "y3": 2676.0,
+     "y4": 1764.0,
+     "y5": 5500.0,
+     "after5": 36145.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": null,
+   "invest": {
+    "capex_ytd_m": 131953.0,
+    "ppe_net_m": null,
+    "securities_m": 208764.0,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "AMZN": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-30",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 180332.0,
+   "lt_noncurrent_m": 173125.0,
+   "current_m": 7207.0,
+   "cash_m": 55783.0,
+   "net_debt_m": 124549.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 115100.0,
+   "repaid_ytd_m": 2759.0,
+   "raised_fy_m": 130027.0,
+   "repaid_fy_m": 4021.0,
+   "series": [
+    [
+     "2024-12-31",
+     57791.0
+    ],
+    [
+     "2025-03-31",
+     58464.0
+    ],
+    [
+     "2025-06-30",
+     55896.0
+    ],
+    [
+     "2025-09-30",
+     54959.0
+    ],
+    [
+     "2025-12-31",
+     68851.0
+    ],
+    [
+     "2026-03-31",
+     122058.0
+    ],
+    [
+     "2026-06-30",
+     132549.0
+    ],
+    [
+     "2026-09-30",
+     180332.0
+    ]
+   ],
+   "sector": "Consumer Discretionary",
+   "maturity": {
+    "buckets": {
+     "next12": 2752.0,
+     "y2": 8832.0,
+     "y3": 4752.0,
+     "y4": 3000.0,
+     "y5": 4500.0,
+     "after5": 45000.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 10813138306,
+   "invest": {
+    "capex_ytd_m": 175670.0,
+    "ppe_net_m": null,
+    "securities_m": 58443.0,
+    "equity_inv_m": 395.0,
+    "acq_ytd_m": 63753.0
+   }
+  },
+  "TSM": {
+   "status": "no_xbrl_debt"
+  },
+  "AVGO": {
+   "asof": "2026-08-02",
+   "filed": "2026-09-10",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 59419.0,
+   "lt_noncurrent_m": 57167.0,
+   "current_m": 2252.0,
+   "cash_m": 23975.0,
+   "net_debt_m": 35444.0,
+   "interest_ytd_m": 2355.0,
+   "interest_days": 272,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": 6.26,
+   "eff_basis": "ytd",
+   "raised_ytd_m": 4474.0,
+   "repaid_ytd_m": 10528.0,
+   "raised_fy_m": 15666.0,
+   "repaid_fy_m": 18478.0,
+   "series": [
+    [
+     "2021-10-31",
+     41499.0
+    ],
+    [
+     "2022-01-30",
+     39505.0
+    ],
+    [
+     "2022-05-01",
+     41227.0
+    ],
+    [
+     "2022-07-31",
+     41227.0
+    ],
+    [
+     "2025-11-02",
+     65136.0
+    ],
+    [
+     "2026-02-01",
+     66057.0
+    ],
+    [
+     "2026-05-03",
+     64907.0
+    ],
+    [
+     "2026-08-02",
+     59419.0
+    ]
+   ],
+   "sector": "Technology",
+   "maturity": {
+    "buckets": {
+     "next12": 3152.0,
+     "y2": 2500.0,
+     "y3": 7120.0,
+     "y4": 4655.0,
+     "y5": 6406.0,
+     "after5": 43287.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-11-02"
+   },
+   "shares_out": 4773629865,
+   "invest": {
+    "capex_ytd_m": 1013.0,
+    "ppe_net_m": 3144.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "TSLA": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-22",
+   "basis": "Total debt carrying amount as reported",
+   "total_debt_m": 9284.0,
+   "lt_noncurrent_m": null,
+   "current_m": 1311.0,
+   "cash_m": 17853.0,
+   "net_debt_m": -8569.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 5834.0,
+   "repaid_ytd_m": null,
+   "raised_fy_m": null,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-12-31",
+     7907.0
+    ],
+    [
+     "2025-03-31",
+     7268.0
+    ],
+    [
+     "2025-06-30",
+     6979.0
+    ],
+    [
+     "2025-09-30",
+     7485.0
+    ],
+    [
+     "2025-12-31",
+     8177.0
+    ],
+    [
+     "2026-03-31",
+     9039.0
+    ],
+    [
+     "2026-06-30",
+     9080.0
+    ],
+    [
+     "2026-09-30",
+     9284.0
+    ]
+   ],
+   "sector": "Consumer Discretionary",
+   "maturity": {
+    "buckets": {
+     "next12": 1576.0,
+     "y2": 1233.0,
+     "y3": 649.0,
+     "y4": 4386.0,
+     "y5": 89.0,
+     "after5": 244.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 3952757946,
+   "invest": {
+    "capex_ytd_m": 13014.0,
+    "ppe_net_m": null,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "META": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-22",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 83669.0,
+   "lt_noncurrent_m": 80922.0,
+   "current_m": 2747.0,
+   "cash_m": 11222.0,
+   "net_debt_m": 72447.0,
+   "interest_ytd_m": 2170.0,
+   "interest_days": 272,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": 5.18,
+   "eff_basis": "ytd",
+   "raised_ytd_m": 24910.0,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 29906.0,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-12-31",
+     28826.0
+    ],
+    [
+     "2025-03-31",
+     28829.0
+    ],
+    [
+     "2025-06-30",
+     28832.0
+    ],
+    [
+     "2025-09-30",
+     28834.0
+    ],
+    [
+     "2025-12-31",
+     58744.0
+    ],
+    [
+     "2026-03-31",
+     58748.0
+    ],
+    [
+     "2026-06-30",
+     83664.0
+    ],
+    [
+     "2026-09-30",
+     83669.0
+    ]
+   ],
+   "sector": "Communication Services",
+   "maturity": {
+    "buckets": {
+     "next12": 0.0,
+     "y2": 2750.0,
+     "y3": 1500.0,
+     "y4": 1000.0,
+     "y5": 5000.0,
+     "after5": 48750.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": null,
+   "invest": {
+    "capex_ytd_m": 83055.0,
+    "ppe_net_m": null,
+    "securities_m": 71227.0,
+    "equity_inv_m": 11547.0,
+    "acq_ytd_m": null
+   }
+  },
+  "LLY": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-29",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 46986.0,
+   "lt_noncurrent_m": 46986.0,
+   "current_m": 2517.0,
+   "cash_m": 4885.0,
+   "net_debt_m": 42101.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 8941.0,
+   "repaid_ytd_m": 1623.0,
+   "raised_fy_m": 13167.0,
+   "repaid_fy_m": 778.0,
+   "series": [
+    [
+     "2024-12-31",
+     28527.0
+    ],
+    [
+     "2025-03-31",
+     34499.5
+    ],
+    [
+     "2025-06-30",
+     34180.1
+    ],
+    [
+     "2025-09-30",
+     40873.6
+    ],
+    [
+     "2025-12-31",
+     40868.0
+    ],
+    [
+     "2026-03-31",
+     39370.0
+    ],
+    [
+     "2026-06-30",
+     47858.0
+    ],
+    [
+     "2026-09-30",
+     46986.0
+    ]
+   ],
+   "sector": "Healthcare",
+   "maturity": null,
+   "shares_out": 940745031,
+   "invest": {
+    "capex_ytd_m": null,
+    "ppe_net_m": 32188.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "WMT": {
+   "asof": "2026-07-31",
+   "filed": "2026-08-28",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 50411.0,
+   "lt_noncurrent_m": 36462.0,
+   "current_m": 13949.0,
+   "cash_m": 11529.0,
+   "net_debt_m": 38882.0,
+   "interest_ytd_m": 711.0,
+   "interest_days": 180,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": 3.17,
+   "eff_basis": "ytd",
+   "raised_ytd_m": 4230.0,
+   "repaid_ytd_m": 2303.0,
+   "raised_fy_m": 3983.0,
+   "repaid_fy_m": 2625.0,
+   "series": [
+    [
+     "2024-10-31",
+     40470.0
+    ],
+    [
+     "2025-01-31",
+     39067.0
+    ],
+    [
+     "2025-04-30",
+     46200.0
+    ],
+    [
+     "2025-07-31",
+     43488.0
+    ],
+    [
+     "2025-10-31",
+     46369.0
+    ],
+    [
+     "2026-01-31",
+     44762.0
+    ],
+    [
+     "2026-04-30",
+     51456.0
+    ],
+    [
+     "2026-07-31",
+     50411.0
+    ]
+   ],
+   "sector": "Consumer Staples",
+   "maturity": {
+    "buckets": {
+     "next12": 3542.0,
+     "y2": 3237.0,
+     "y3": 3389.0,
+     "y4": 2143.0,
+     "y5": 2600.0,
+     "after5": 23255.0
+    },
+    "family": "long-term debt",
+    "asof": "2026-01-31"
+   },
+   "shares_out": 7933746241,
+   "invest": {
+    "capex_ytd_m": 14181.0,
+    "ppe_net_m": 142482.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "JPM": {
+   "asof": "2026-06-30",
+   "filed": "2026-08-06",
+   "basis": "LT debt & finance leases incl. current maturities",
+   "total_debt_m": 532953.0,
+   "lt_noncurrent_m": null,
+   "current_m": null,
+   "cash_m": null,
+   "net_debt_m": null,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": null,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-09-30",
+     460795.0
+    ],
+    [
+     "2024-12-31",
+     454311.0
+    ],
+    [
+     "2025-03-31",
+     472204.0
+    ],
+    [
+     "2025-06-30",
+     485095.0
+    ],
+    [
+     "2025-09-30",
+     496558.0
+    ],
+    [
+     "2025-12-31",
+     499982.0
+    ],
+    [
+     "2026-03-31",
+     516812.0
+    ],
+    [
+     "2026-06-30",
+     532953.0
+    ]
+   ],
+   "sector": "Financials",
+   "maturity": null,
+   "shares_out": 2658186195,
+   "invest": {
+    "capex_ytd_m": null,
+    "ppe_net_m": null,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "V": {
+   "asof": "2026-03-31",
+   "filed": "2026-04-29",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 23976.0,
+   "lt_noncurrent_m": 22417.0,
+   "current_m": 1559.0,
+   "cash_m": 12404.0,
+   "net_debt_m": 11572.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 2995.0,
+   "repaid_ytd_m": 4000.0,
+   "raised_fy_m": 3924.0,
+   "repaid_fy_m": 0.0,
+   "series": [
+    [
+     "2024-06-30",
+     20602.0
+    ],
+    [
+     "2024-09-30",
+     20836.0
+    ],
+    [
+     "2024-12-31",
+     20609.0
+    ],
+    [
+     "2025-03-31",
+     20762.0
+    ],
+    [
+     "2025-06-30",
+     25138.0
+    ],
+    [
+     "2025-09-30",
+     25171.0
+    ],
+    [
+     "2025-12-31",
+     21177.0
+    ],
+    [
+     "2026-03-31",
+     23976.0
+    ]
+   ],
+   "sector": "Financials",
+   "maturity": {
+    "buckets": {
+     "next12": 5587.0,
+     "y2": 2750.0,
+     "y3": 1470.0,
+     "y4": 1176.0,
+     "y5": 1500.0,
+     "after5": 12909.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-09-30"
+   },
+   "shares_out": 469280842,
+   "invest": {
+    "capex_ytd_m": 761.0,
+    "ppe_net_m": 4778.0,
+    "securities_m": 1393.0,
+    "equity_inv_m": null,
+    "acq_ytd_m": 705.0
+   }
+  },
+  "MU": {
+   "asof": "2026-09-03",
+   "filed": "2026-10-09",
+   "basis": "LT debt & finance leases (noncurrent as reported)",
+   "total_debt_m": 4688.0,
+   "lt_noncurrent_m": 4688.0,
+   "current_m": null,
+   "cash_m": 38364.0,
+   "net_debt_m": -33676.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 0.0,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-11-28",
+     13252.0
+    ],
+    [
+     "2025-02-27",
+     13851.0
+    ],
+    [
+     "2025-05-29",
+     15003.0
+    ],
+    [
+     "2025-08-28",
+     14017.0
+    ],
+    [
+     "2025-11-27",
+     11187.0
+    ],
+    [
+     "2026-02-26",
+     9557.0
+    ],
+    [
+     "2026-05-28",
+     5140.0
+    ],
+    [
+     "2026-09-03",
+     4688.0
+    ]
+   ],
+   "sector": "Technology",
+   "maturity": {
+    "buckets": {
+     "next12": 0.0,
+     "y2": 0.0,
+     "y3": 0.0,
+     "y4": 0.0,
+     "y5": 0.0,
+     "after5": 2808.0
+    },
+    "family": "long-term debt",
+    "asof": "2026-09-03"
+   },
+   "shares_out": 1131423212,
+   "invest": {
+    "capex_ytd_m": 30712.0,
+    "ppe_net_m": null,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "XOM": {
+   "asof": "2026-06-30",
+   "filed": "2026-08-03",
+   "basis": "LT debt & finance leases (noncurrent as reported)",
+   "total_debt_m": 32229.0,
+   "lt_noncurrent_m": 32229.0,
+   "current_m": null,
+   "cash_m": 10588.0,
+   "net_debt_m": 21641.0,
+   "interest_ytd_m": 522.0,
+   "interest_days": 180,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": 3.18,
+   "eff_basis": "ytd",
+   "raised_ytd_m": 894.0,
+   "repaid_ytd_m": 135.0,
+   "raised_fy_m": null,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2025-12-31",
+     34241.0
+    ],
+    [
+     "2026-06-30",
+     32229.0
+    ]
+   ],
+   "sector": "Energy",
+   "maturity": null,
+   "shares_out": 4111911960,
+   "invest": {
+    "capex_ytd_m": 12997.0,
+    "ppe_net_m": 296298.0,
+    "securities_m": null,
+    "equity_inv_m": 33324.0,
+    "acq_ytd_m": null
+   }
+  },
+  "JNJ": {
+   "asof": "2026-09-27",
+   "filed": "2026-10-21",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 44651.0,
+   "lt_noncurrent_m": 35799.0,
+   "current_m": 8852.0,
+   "cash_m": 16910.0,
+   "net_debt_m": 27741.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 0.0,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 9138.0,
+   "repaid_fy_m": 1757.0,
+   "series": [
+    [
+     "2024-12-29",
+     38383.0
+    ],
+    [
+     "2025-03-30",
+     52252.0
+    ],
+    [
+     "2025-06-29",
+     50761.0
+    ],
+    [
+     "2025-09-28",
+     45795.0
+    ],
+    [
+     "2025-12-28",
+     49933.0
+    ],
+    [
+     "2026-03-29",
+     54987.0
+    ],
+    [
+     "2026-06-28",
+     49036.0
+    ],
+    [
+     "2026-09-27",
+     44651.0
+    ]
+   ],
+   "sector": "Healthcare",
+   "maturity": {
+    "buckets": {
+     "next12": 2000.0,
+     "y2": 3216.0,
+     "y3": 3128.0,
+     "y4": 2153.0,
+     "y5": 2689.0,
+     "after5": 28252.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-28"
+   },
+   "shares_out": 2407310266,
+   "invest": {
+    "capex_ytd_m": 3732.0,
+    "ppe_net_m": 24104.0,
+    "securities_m": 318.0,
+    "equity_inv_m": null,
+    "acq_ytd_m": 352.0
+   }
+  },
+  "MA": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-29",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 23938.0,
+   "lt_noncurrent_m": 22189.0,
+   "current_m": 1749.0,
+   "cash_m": 10147.0,
+   "net_debt_m": 13791.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": 680.0,
+   "interest_fy_end": "2025-12-31",
+   "eff_rate_pct": 3.58,
+   "eff_basis": "fy",
+   "raised_ytd_m": 5596.0,
+   "repaid_ytd_m": 618.0,
+   "raised_fy_m": null,
+   "repaid_fy_m": 750.0,
+   "series": [
+    [
+     "2024-12-31",
+     18226.0
+    ],
+    [
+     "2025-03-31",
+     18802.0
+    ],
+    [
+     "2025-06-30",
+     18970.0
+    ],
+    [
+     "2025-09-30",
+     18983.0
+    ],
+    [
+     "2025-12-31",
+     19000.0
+    ],
+    [
+     "2026-03-31",
+     18960.0
+    ],
+    [
+     "2026-06-30",
+     24643.0
+    ],
+    [
+     "2026-09-30",
+     23938.0
+    ]
+   ],
+   "sector": "Financials",
+   "maturity": {
+    "buckets": {
+     "next12": 750.0,
+     "y2": 1941.0,
+     "y3": 2750.0,
+     "y4": 1882.0,
+     "y5": 1676.0,
+     "after5": 10150.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 122530193,
+   "invest": {
+    "capex_ytd_m": 667.0,
+    "ppe_net_m": 2642.0,
+    "securities_m": 317.0,
+    "equity_inv_m": null,
+    "acq_ytd_m": 1372.0
+   }
+  },
+  "AMD": {
+   "asof": "2026-06-27",
+   "filed": "2026-08-05",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 3226.0,
+   "lt_noncurrent_m": 2351.0,
+   "current_m": 875.0,
+   "cash_m": 5086.0,
+   "net_debt_m": -1860.0,
+   "interest_ytd_m": 74.0,
+   "interest_days": 181,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": 6.03,
+   "eff_basis": "ytd",
+   "raised_ytd_m": 0.0,
+   "repaid_ytd_m": null,
+   "raised_fy_m": null,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-09-28",
+     1720.0
+    ],
+    [
+     "2024-12-28",
+     1721.0
+    ],
+    [
+     "2025-03-29",
+     4164.0
+    ],
+    [
+     "2025-06-28",
+     3218.0
+    ],
+    [
+     "2025-09-27",
+     3220.0
+    ],
+    [
+     "2025-12-27",
+     4096.0
+    ],
+    [
+     "2026-03-28",
+     3224.0
+    ],
+    [
+     "2026-06-27",
+     3226.0
+    ]
+   ],
+   "sector": "Technology",
+   "maturity": {
+    "buckets": {
+     "next12": 875.0,
+     "y3": 625.0,
+     "y4": 0.0,
+     "y5": 750.0,
+     "after5": 1000.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-27"
+   },
+   "shares_out": 1632475042,
+   "invest": {
+    "capex_ytd_m": 1197.0,
+    "ppe_net_m": 3439.0,
+    "securities_m": 11426.0,
+    "equity_inv_m": 302.0,
+    "acq_ytd_m": 129.0
+   }
+  },
+  "ORCL": {
+   "asof": "2026-05-31",
+   "filed": "2026-06-22",
+   "basis": "Total debt carrying amount as reported",
+   "total_debt_m": 130105.0,
+   "lt_noncurrent_m": null,
+   "current_m": 7199.0,
+   "cash_m": 31289.0,
+   "net_debt_m": 98816.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": 4599.0,
+   "interest_fy_end": "2026-05-31",
+   "eff_rate_pct": 3.53,
+   "eff_basis": "fy",
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": null,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2023-05-31",
+     90856.0
+    ],
+    [
+     "2024-05-31",
+     87202.0
+    ],
+    [
+     "2024-11-30",
+     6250.0
+    ],
+    [
+     "2025-02-28",
+     14000.0
+    ],
+    [
+     "2025-05-31",
+     92917.0
+    ],
+    [
+     "2025-11-30",
+     18000.0
+    ],
+    [
+     "2026-02-28",
+     43000.0
+    ],
+    [
+     "2026-05-31",
+     130105.0
+    ]
+   ],
+   "sector": "Technology",
+   "maturity": {
+    "buckets": {
+     "next12": 7210.0,
+     "y2": 10145.0,
+     "y3": 5500.0,
+     "y4": 7250.0,
+     "y5": 9750.0,
+     "after5": 90250.0
+    },
+    "family": "long-term debt",
+    "asof": "2026-05-31"
+   },
+   "shares_out": 3023736000,
+   "invest": {
+    "capex_ytd_m": 55663.0,
+    "ppe_net_m": 99957.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "PG": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-22",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 21897.0,
+   "lt_noncurrent_m": 21897.0,
+   "current_m": 17028.0,
+   "cash_m": null,
+   "net_debt_m": null,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": 747.0,
+   "raised_fy_m": 2652.0,
+   "repaid_fy_m": 3390.0,
+   "series": [
+    [
+     "2024-12-31",
+     25263.0
+    ],
+    [
+     "2025-03-31",
+     24252.0
+    ],
+    [
+     "2025-06-30",
+     30372.0
+    ],
+    [
+     "2025-09-30",
+     24315.0
+    ],
+    [
+     "2025-12-31",
+     25577.0
+    ],
+    [
+     "2026-03-31",
+     23852.0
+    ],
+    [
+     "2026-06-30",
+     29299.0
+    ],
+    [
+     "2026-09-30",
+     21897.0
+    ]
+   ],
+   "sector": "Consumer Staples",
+   "maturity": {
+    "buckets": {
+     "next12": 6457.0,
+     "y2": 2123.0,
+     "y3": 1993.0,
+     "y4": 3939.0,
+     "y5": 2275.0
+    },
+    "family": "long-term debt",
+    "asof": "2026-06-30"
+   },
+   "shares_out": 2317783143,
+   "invest": {
+    "capex_ytd_m": 1366.0,
+    "ppe_net_m": 25519.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": 0.0
+   }
+  },
+  "HD": {
+   "asof": "2026-08-02",
+   "filed": "2026-08-25",
+   "basis": "LT debt & finance leases incl. current portion",
+   "total_debt_m": 48648.0,
+   "lt_noncurrent_m": 43951.0,
+   "current_m": 4697.0,
+   "cash_m": 2085.0,
+   "net_debt_m": 46563.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 122.0,
+   "repaid_ytd_m": null,
+   "raised_fy_m": null,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-10-27",
+     53234.0
+    ],
+    [
+     "2025-02-02",
+     53067.0
+    ],
+    [
+     "2025-05-04",
+     52228.0
+    ],
+    [
+     "2025-08-03",
+     52317.0
+    ],
+    [
+     "2025-11-02",
+     52814.0
+    ],
+    [
+     "2026-02-01",
+     51308.0
+    ],
+    [
+     "2026-05-03",
+     50006.0
+    ],
+    [
+     "2026-08-02",
+     48648.0
+    ]
+   ],
+   "sector": "Consumer Discretionary",
+   "maturity": {
+    "buckets": {
+     "next12": 4684.0,
+     "y2": 3625.0,
+     "y3": 3115.0,
+     "y4": 3852.0,
+     "y5": 2072.0,
+     "after5": 32049.0
+    },
+    "family": "long-term debt",
+    "asof": "2026-02-01"
+   },
+   "shares_out": 997689626,
+   "invest": {
+    "capex_ytd_m": 1724.0,
+    "ppe_net_m": null,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": 1333.0
+   }
+  },
+  "CVX": {
+   "asof": "2025-12-31",
+   "filed": "2026-02-24",
+   "basis": "Total debt carrying amount as reported",
+   "total_debt_m": 30922.0,
+   "lt_noncurrent_m": null,
+   "current_m": 10918.0,
+   "cash_m": null,
+   "net_debt_m": null,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": 1217.0,
+   "interest_fy_end": "2025-12-31",
+   "eff_rate_pct": 3.94,
+   "eff_basis": "fy",
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 11402.0,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2018-12-31",
+     23730.0
+    ],
+    [
+     "2019-12-31",
+     18730.0
+    ],
+    [
+     "2020-12-31",
+     33507.0
+    ],
+    [
+     "2021-12-31",
+     27141.0
+    ],
+    [
+     "2022-12-31",
+     18975.0
+    ],
+    [
+     "2023-12-31",
+     16281.0
+    ],
+    [
+     "2024-12-31",
+     14836.0
+    ],
+    [
+     "2025-12-31",
+     30922.0
+    ]
+   ],
+   "sector": "Energy",
+   "maturity": {
+    "buckets": {
+     "next12": 2345.0,
+     "y2": 5723.0,
+     "y3": 4752.0,
+     "y4": 1567.0,
+     "y5": 5350.0,
+     "after5": 11185.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 1975771274,
+   "invest": {
+    "capex_ytd_m": 17347.0,
+    "ppe_net_m": null,
+    "securities_m": 0.0,
+    "equity_inv_m": 43037.0,
+    "acq_ytd_m": -1056.0
+   }
+  },
+  "BAC": {
+   "asof": "2026-06-30",
+   "filed": "2026-07-31",
+   "basis": "LongTermDebt as reported",
+   "total_debt_m": 339863.0,
+   "lt_noncurrent_m": null,
+   "current_m": null,
+   "cash_m": null,
+   "net_debt_m": null,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 77366.0,
+   "repaid_ytd_m": 52000.0,
+   "raised_fy_m": 99867.0,
+   "repaid_fy_m": 76031.0,
+   "series": [
+    [
+     "2024-09-30",
+     296927.0
+    ],
+    [
+     "2024-12-31",
+     283279.0
+    ],
+    [
+     "2025-03-31",
+     304146.0
+    ],
+    [
+     "2025-06-30",
+     313418.0
+    ],
+    [
+     "2025-09-30",
+     311484.0
+    ],
+    [
+     "2025-12-31",
+     317816.0
+    ],
+    [
+     "2026-03-31",
+     325964.0
+    ],
+    [
+     "2026-06-30",
+     339863.0
+    ]
+   ],
+   "sector": "Financials",
+   "maturity": {
+    "buckets": {
+     "next12": 41713.0,
+     "y2": 41225.0,
+     "y3": 40525.0,
+     "y4": 31444.0,
+     "y5": 15680.0,
+     "after5": 147229.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 6992748365,
+   "invest": {
+    "capex_ytd_m": null,
+    "ppe_net_m": 12788.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "ABBV": {
+   "asof": "2026-06-30",
+   "filed": "2026-08-03",
+   "basis": "LT debt & finance leases incl. current portion",
+   "total_debt_m": 70822.0,
+   "lt_noncurrent_m": 62481.0,
+   "current_m": 8341.0,
+   "cash_m": 6569.0,
+   "net_debt_m": 64253.0,
+   "interest_ytd_m": 1463.0,
+   "interest_days": 180,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": 4.18,
+   "eff_basis": "ytd",
+   "raised_ytd_m": 7991.0,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 3994.0,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-09-30",
+     71079.0
+    ],
+    [
+     "2024-12-31",
+     67144.0
+    ],
+    [
+     "2025-03-31",
+     68296.0
+    ],
+    [
+     "2025-06-30",
+     64925.0
+    ],
+    [
+     "2025-09-30",
+     64953.0
+    ],
+    [
+     "2025-12-31",
+     64997.0
+    ],
+    [
+     "2026-03-31",
+     72858.0
+    ],
+    [
+     "2026-06-30",
+     70822.0
+    ]
+   ],
+   "sector": "Healthcare",
+   "maturity": {
+    "buckets": {
+     "next12": 6000.0,
+     "y2": 5130.0,
+     "y3": 4466.0,
+     "y4": 8645.0,
+     "y5": 1000.0,
+     "after5": 39262.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 1767117285,
+   "invest": {
+    "capex_ytd_m": 587.0,
+    "ppe_net_m": 5796.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": 0.0
+   }
+  },
+  "NFLX": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-21",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 15132.4,
+   "lt_noncurrent_m": 12657.6,
+   "current_m": 2474.8,
+   "cash_m": 8194.3,
+   "net_debt_m": 6938.1,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 992.5,
+   "repaid_ytd_m": 0.0,
+   "raised_fy_m": null,
+   "repaid_fy_m": 1833.5,
+   "series": [
+    [
+     "2024-12-31",
+     15582.8
+    ],
+    [
+     "2025-03-31",
+     15016.9
+    ],
+    [
+     "2025-06-30",
+     14453.2
+    ],
+    [
+     "2025-09-30",
+     14463.0
+    ],
+    [
+     "2025-12-31",
+     14462.8
+    ],
+    [
+     "2026-03-31",
+     14360.5
+    ],
+    [
+     "2026-06-30",
+     14309.3
+    ],
+    [
+     "2026-09-30",
+     15132.4
+    ]
+   ],
+   "sector": "Communication Services",
+   "maturity": null,
+   "shares_out": 4106325903,
+   "invest": {
+    "capex_ytd_m": 693.5,
+    "ppe_net_m": 2560.6,
+    "securities_m": 8226.5,
+    "equity_inv_m": null,
+    "acq_ytd_m": 585.7
+   }
+  },
+  "COST": {
+   "asof": "2026-08-30",
+   "filed": "2026-10-07",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 6162.0,
+   "lt_noncurrent_m": 3914.0,
+   "current_m": 2248.0,
+   "cash_m": 20207.0,
+   "net_debt_m": -14045.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": 145.0,
+   "interest_fy_end": "2026-08-30",
+   "eff_rate_pct": 2.35,
+   "eff_basis": "fy",
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 496.0,
+   "repaid_fy_m": 69.0,
+   "series": [
+    [
+     "2024-11-24",
+     5842.0
+    ],
+    [
+     "2025-02-16",
+     5853.0
+    ],
+    [
+     "2025-05-11",
+     5895.0
+    ],
+    [
+     "2025-08-31",
+     5788.0
+    ],
+    [
+     "2025-11-23",
+     5736.0
+    ],
+    [
+     "2026-02-15",
+     5760.0
+    ],
+    [
+     "2026-05-10",
+     5670.0
+    ],
+    [
+     "2026-08-30",
+     6162.0
+    ]
+   ],
+   "sector": "Consumer Staples",
+   "maturity": {
+    "buckets": {
+     "next12": 2250.0,
+     "y2": 0.0,
+     "y3": 136.0,
+     "y4": 1750.0,
+     "y5": 161.0,
+     "after5": 1878.0
+    },
+    "family": "long-term debt",
+    "asof": "2026-08-30"
+   },
+   "shares_out": 443129349,
+   "invest": {
+    "capex_ytd_m": 6435.0,
+    "ppe_net_m": 35633.0,
+    "securities_m": 796.0,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "KO": {
+   "asof": "2026-10-02",
+   "filed": "2026-10-28",
+   "basis": "LT debt & finance leases incl. current maturities",
+   "total_debt_m": 41546.0,
+   "lt_noncurrent_m": null,
+   "current_m": null,
+   "cash_m": 13454.0,
+   "net_debt_m": 28092.0,
+   "interest_ytd_m": 1098.0,
+   "interest_days": 274,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": 3.46,
+   "eff_basis": "ytd",
+   "raised_ytd_m": 19.0,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 4980.0,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-12-31",
+     43023.0
+    ],
+    [
+     "2025-03-28",
+     43693.0
+    ],
+    [
+     "2025-06-27",
+     45067.0
+    ],
+    [
+     "2025-09-26",
+     45097.0
+    ],
+    [
+     "2025-12-31",
+     43941.0
+    ],
+    [
+     "2026-04-03",
+     43558.0
+    ],
+    [
+     "2026-07-03",
+     43495.0
+    ],
+    [
+     "2026-10-02",
+     41546.0
+    ]
+   ],
+   "sector": "Consumer Staples",
+   "maturity": {
+    "buckets": {
+     "next12": 1822.0,
+     "y2": 4817.0,
+     "y3": 2923.0,
+     "y4": 2955.0,
+     "y5": 3411.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 4301902335,
+   "invest": {
+    "capex_ytd_m": 1063.0,
+    "ppe_net_m": 9485.0,
+    "securities_m": 2672.0,
+    "equity_inv_m": 20710.0,
+    "acq_ytd_m": null
+   }
+  },
+  "CSCO": {
+   "asof": "2026-07-25",
+   "filed": "2026-09-02",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 22872.0,
+   "lt_noncurrent_m": 19372.0,
+   "current_m": 10161.0,
+   "cash_m": 7218.0,
+   "net_debt_m": 15654.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 13048.0,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-10-26",
+     20117.0
+    ],
+    [
+     "2025-01-25",
+     20122.0
+    ],
+    [
+     "2025-04-26",
+     25105.0
+    ],
+    [
+     "2025-07-26",
+     24611.0
+    ],
+    [
+     "2025-10-25",
+     24613.0
+    ],
+    [
+     "2026-01-24",
+     24617.0
+    ],
+    [
+     "2026-04-25",
+     22869.0
+    ],
+    [
+     "2026-07-25",
+     22872.0
+    ]
+   ],
+   "sector": "Technology",
+   "maturity": {
+    "buckets": {
+     "next12": 3502.0,
+     "y2": 1000.0,
+     "y3": 2500.0,
+     "y4": 1000.0,
+     "y5": 2500.0,
+     "after5": 12500.0
+    },
+    "family": "long-term debt",
+    "asof": "2026-07-25"
+   },
+   "shares_out": 3942586873,
+   "invest": {
+    "capex_ytd_m": 1410.0,
+    "ppe_net_m": 2760.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": 516.0
+   }
+  },
+  "PLTR": {
+   "status": "no_xbrl_debt"
+  },
+  "MRK": {
+   "asof": "2026-06-30",
+   "filed": "2026-08-07",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 51081.0,
+   "lt_noncurrent_m": 51081.0,
+   "current_m": 2825.0,
+   "cash_m": 6849.0,
+   "net_debt_m": 44232.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 5956.0,
+   "repaid_ytd_m": 1145.0,
+   "raised_fy_m": null,
+   "repaid_fy_m": 2503.0,
+   "series": [
+    [
+     "2024-09-30",
+     34982.0
+    ],
+    [
+     "2024-12-31",
+     36962.0
+    ],
+    [
+     "2025-03-31",
+     33484.0
+    ],
+    [
+     "2025-06-30",
+     33968.0
+    ],
+    [
+     "2025-09-30",
+     39969.0
+    ],
+    [
+     "2025-12-31",
+     49050.0
+    ],
+    [
+     "2026-03-31",
+     46673.0
+    ],
+    [
+     "2026-06-30",
+     51081.0
+    ]
+   ],
+   "sector": "Healthcare",
+   "maturity": {
+    "buckets": {
+     "next12": 2600.0,
+     "y2": 2700.0,
+     "y3": 2100.0,
+     "y4": 3000.0,
+     "y5": 2700.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 2467171638,
+   "invest": {
+    "capex_ytd_m": 1884.0,
+    "ppe_net_m": 25737.0,
+    "securities_m": 1514.0,
+    "equity_inv_m": null,
+    "acq_ytd_m": 8779.0
+   }
+  },
+  "ASML": {
+   "status": "no_xbrl_debt"
+  },
+  "PEP": {
+   "asof": "2025-12-27",
+   "filed": "2026-02-03",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 49182.0,
+   "lt_noncurrent_m": 42321.0,
+   "current_m": 6861.0,
+   "cash_m": 9159.0,
+   "net_debt_m": 40023.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": 1121.0,
+   "interest_fy_end": "2025-12-27",
+   "eff_rate_pct": 2.28,
+   "eff_basis": "fy",
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 8189.0,
+   "repaid_fy_m": 4082.0,
+   "series": [
+    [
+     "2018-12-29",
+     32321.0
+    ],
+    [
+     "2019-12-28",
+     32068.0
+    ],
+    [
+     "2020-12-26",
+     44150.0
+    ],
+    [
+     "2021-12-25",
+     40334.0
+    ],
+    [
+     "2022-12-31",
+     39071.0
+    ],
+    [
+     "2023-12-30",
+     44105.0
+    ],
+    [
+     "2024-12-28",
+     44306.0
+    ],
+    [
+     "2025-12-27",
+     49182.0
+    ]
+   ],
+   "sector": "Consumer Staples",
+   "maturity": null,
+   "shares_out": 1362741092,
+   "invest": {
+    "capex_ytd_m": 4415.0,
+    "ppe_net_m": 29905.0,
+    "securities_m": null,
+    "equity_inv_m": 2038.0,
+    "acq_ytd_m": null
+   }
+  },
+  "TMUS": {
+   "asof": "2025-12-31",
+   "filed": "2026-02-11",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 86282.0,
+   "lt_noncurrent_m": 81147.0,
+   "current_m": 5135.0,
+   "cash_m": 5598.0,
+   "net_debt_m": 80684.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 8587.0,
+   "repaid_fy_m": 6199.0,
+   "series": [
+    [
+     "2022-03-31",
+     69726.0
+    ],
+    [
+     "2022-06-30",
+     69494.0
+    ],
+    [
+     "2022-09-30",
+     72232.0
+    ],
+    [
+     "2022-12-31",
+     77124.0
+    ],
+    [
+     "2023-03-31",
+     73250.0
+    ],
+    [
+     "2023-12-31",
+     75018.0
+    ],
+    [
+     "2024-12-31",
+     78265.0
+    ],
+    [
+     "2025-12-31",
+     86282.0
+    ]
+   ],
+   "sector": "Communication Services",
+   "maturity": null,
+   "shares_out": 1059272571,
+   "invest": {
+    "capex_ytd_m": 9955.0,
+    "ppe_net_m": 38333.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": 3523.0
+   }
+  },
+  "WFC": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-28",
+   "basis": "LongTermDebt as reported",
+   "total_debt_m": 221043.0,
+   "lt_noncurrent_m": null,
+   "current_m": null,
+   "cash_m": null,
+   "net_debt_m": null,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": 17294.0,
+   "raised_fy_m": null,
+   "repaid_fy_m": 34470.0,
+   "series": [
+    [
+     "2024-12-31",
+     173078.0
+    ],
+    [
+     "2025-03-31",
+     173660.0
+    ],
+    [
+     "2025-06-30",
+     176237.0
+    ],
+    [
+     "2025-09-30",
+     177773.0
+    ],
+    [
+     "2025-12-31",
+     174712.0
+    ],
+    [
+     "2026-03-31",
+     183941.0
+    ],
+    [
+     "2026-06-30",
+     182139.0
+    ],
+    [
+     "2026-09-30",
+     182851.0
+    ]
+   ],
+   "sector": "Financials",
+   "maturity": {
+    "buckets": {
+     "next12": 23474.0,
+     "y2": 13316.0,
+     "y3": 26366.0,
+     "y4": 19171.0,
+     "y5": 12143.0,
+     "after5": 80242.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 3001850317,
+   "invest": {
+    "capex_ytd_m": null,
+    "ppe_net_m": null,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "CRM": {
+   "asof": "2026-07-31",
+   "filed": "2026-08-27",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 39288.0,
+   "lt_noncurrent_m": 39288.0,
+   "current_m": 0.0,
+   "cash_m": 8310.0,
+   "net_debt_m": 30978.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": 324.0,
+   "interest_fy_end": "2026-01-31",
+   "eff_rate_pct": 2.24,
+   "eff_basis": "fy",
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": null,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-10-31",
+     8432.0
+    ],
+    [
+     "2025-01-31",
+     8433.0
+    ],
+    [
+     "2025-04-30",
+     8435.0
+    ],
+    [
+     "2025-07-31",
+     8436.0
+    ],
+    [
+     "2025-10-31",
+     8438.0
+    ],
+    [
+     "2026-01-31",
+     14439.0
+    ],
+    [
+     "2026-04-30",
+     39280.0
+    ],
+    [
+     "2026-07-31",
+     39288.0
+    ]
+   ],
+   "sector": "Technology",
+   "maturity": {
+    "buckets": {
+     "next12": 4000.0,
+     "y2": 0.0,
+     "y3": 4500.0,
+     "y4": 0.0,
+     "y5": 0.0,
+     "after5": 6000.0
+    },
+    "family": "long-term debt",
+    "asof": "2026-01-31"
+   },
+   "shares_out": 823000000,
+   "invest": {
+    "capex_ytd_m": 316.0,
+    "ppe_net_m": null,
+    "securities_m": 3093.0,
+    "equity_inv_m": null,
+    "acq_ytd_m": 1504.0
+   }
+  },
+  "IBM": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-22",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 63817.0,
+   "lt_noncurrent_m": 56804.0,
+   "current_m": 7013.0,
+   "cash_m": 9233.0,
+   "net_debt_m": 54584.0,
+   "interest_ytd_m": 1451.0,
+   "interest_days": 272,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": 3.28,
+   "eff_basis": "ytd",
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": null,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-12-31",
+     54973.0
+    ],
+    [
+     "2025-03-31",
+     63284.0
+    ],
+    [
+     "2025-06-30",
+     64164.0
+    ],
+    [
+     "2025-09-30",
+     63116.0
+    ],
+    [
+     "2025-12-31",
+     61260.0
+    ],
+    [
+     "2026-03-31",
+     66361.0
+    ],
+    [
+     "2026-06-30",
+     61987.0
+    ],
+    [
+     "2026-09-30",
+     63817.0
+    ]
+   ],
+   "sector": "Technology",
+   "maturity": {
+    "buckets": {
+     "next12": 6425.0,
+     "y2": 6753.0,
+     "y3": 5172.0,
+     "y4": 5095.0,
+     "y5": 4492.0,
+     "after5": 34348.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 945120805,
+   "invest": {
+    "capex_ytd_m": 793.0,
+    "ppe_net_m": null,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": 11364.0
+   }
+  },
+  "GE": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-20",
+   "basis": "LT debt & finance leases (noncurrent as reported)",
+   "total_debt_m": 16991.0,
+   "lt_noncurrent_m": 16991.0,
+   "current_m": null,
+   "cash_m": null,
+   "net_debt_m": null,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 0.0,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 1985.0,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-12-31",
+     17234.0
+    ],
+    [
+     "2025-03-31",
+     17487.0
+    ],
+    [
+     "2025-06-30",
+     16998.0
+    ],
+    [
+     "2025-09-30",
+     18771.0
+    ],
+    [
+     "2025-12-31",
+     18808.0
+    ],
+    [
+     "2026-03-31",
+     18174.0
+    ],
+    [
+     "2026-06-30",
+     17157.0
+    ],
+    [
+     "2026-09-30",
+     16991.0
+    ]
+   ],
+   "sector": "Industrials",
+   "maturity": {
+    "buckets": {
+     "next12": 1661.0,
+     "y2": 1693.0,
+     "y3": 480.0,
+     "y4": 1639.0,
+     "y5": 1700.0,
+     "after5": 13296.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 1033351921,
+   "invest": {
+    "capex_ytd_m": 1002.0,
+    "ppe_net_m": null,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": 1.0
+   }
+  },
+  "CAT": {
+   "asof": "2025-12-31",
+   "filed": "2026-02-13",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 36210.0,
+   "lt_noncurrent_m": 30696.0,
+   "current_m": 5514.0,
+   "cash_m": 9980.0,
+   "net_debt_m": 26230.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": null,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2018-12-31",
+     30723.0
+    ],
+    [
+     "2019-12-31",
+     31447.0
+    ],
+    [
+     "2020-12-31",
+     28014.0
+    ],
+    [
+     "2021-12-31",
+     31437.0
+    ],
+    [
+     "2022-12-31",
+     31671.0
+    ],
+    [
+     "2023-12-31",
+     29115.0
+    ],
+    [
+     "2024-12-31",
+     31744.0
+    ],
+    [
+     "2025-12-31",
+     36210.0
+    ]
+   ],
+   "sector": "Industrials",
+   "maturity": {
+    "buckets": {
+     "next12": 7120.0,
+     "y2": 8920.0,
+     "y3": 7747.0,
+     "y4": 3112.0,
+     "y5": 1261.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 459674889,
+   "invest": {
+    "capex_ytd_m": 2821.0,
+    "ppe_net_m": 15140.0,
+    "securities_m": 3549.0,
+    "equity_inv_m": null,
+    "acq_ytd_m": 47.0
+   }
+  },
+  "GS": {
+   "status": "no_xbrl_debt"
+  },
+  "MS": {
+   "asof": "2026-06-30",
+   "filed": "2026-08-04",
+   "basis": "LongTermDebt as reported",
+   "total_debt_m": 383156.0,
+   "lt_noncurrent_m": null,
+   "current_m": null,
+   "cash_m": 160135.0,
+   "net_debt_m": 223021.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 99444.0,
+   "repaid_ytd_m": 54037.0,
+   "raised_fy_m": null,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-09-30",
+     291223.0
+    ],
+    [
+     "2024-12-31",
+     284307.0
+    ],
+    [
+     "2025-03-31",
+     296997.0
+    ],
+    [
+     "2025-06-30",
+     320128.0
+    ],
+    [
+     "2025-09-30",
+     324128.0
+    ],
+    [
+     "2025-12-31",
+     341681.0
+    ],
+    [
+     "2026-03-31",
+     363010.0
+    ],
+    [
+     "2026-06-30",
+     383156.0
+    ]
+   ],
+   "sector": "Financials",
+   "maturity": {
+    "buckets": {
+     "next12": 26235.0,
+     "y2": 39617.0,
+     "y3": 44762.0,
+     "y4": 36510.0,
+     "y5": 30920.0,
+     "after5": 163637.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 1570566292,
+   "invest": {
+    "capex_ytd_m": null,
+    "ppe_net_m": null,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "UNH": {
+   "asof": "2026-06-30",
+   "filed": "2026-08-10",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 69501.0,
+   "lt_noncurrent_m": 69501.0,
+   "current_m": 3827.0,
+   "cash_m": 28585.0,
+   "net_debt_m": 40916.0,
+   "interest_ytd_m": 1917.0,
+   "interest_days": 180,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": 5.41,
+   "eff_basis": "ytd",
+   "raised_ytd_m": 0.0,
+   "repaid_ytd_m": 2500.0,
+   "raised_fy_m": 2969.0,
+   "repaid_fy_m": 3050.0,
+   "series": [
+    [
+     "2024-09-30",
+     74101.0
+    ],
+    [
+     "2024-12-31",
+     72359.0
+    ],
+    [
+     "2025-03-31",
+     71285.0
+    ],
+    [
+     "2025-06-30",
+     73495.0
+    ],
+    [
+     "2025-09-30",
+     72399.0
+    ],
+    [
+     "2025-12-31",
+     72320.0
+    ],
+    [
+     "2026-03-31",
+     71440.0
+    ],
+    [
+     "2026-06-30",
+     69501.0
+    ]
+   ],
+   "sector": "Healthcare",
+   "maturity": {
+    "buckets": {
+     "next12": 6082.0,
+     "y2": 3530.0,
+     "y3": 3605.0,
+     "y4": 3655.0,
+     "y5": 3855.0,
+     "after5": 58657.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 897594847,
+   "invest": {
+    "capex_ytd_m": 1562.0,
+    "ppe_net_m": 10762.0,
+    "securities_m": 50285.0,
+    "equity_inv_m": 4000.0,
+    "acq_ytd_m": 98.0
+   }
+  },
+  "MCD": {
+   "asof": "2026-06-30",
+   "filed": "2026-08-07",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 39863.0,
+   "lt_noncurrent_m": 39863.0,
+   "current_m": 0.0,
+   "cash_m": 822.0,
+   "net_debt_m": 39041.0,
+   "interest_ytd_m": 809.0,
+   "interest_days": 180,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": 4.13,
+   "eff_basis": "ytd",
+   "raised_ytd_m": 1159.0,
+   "repaid_ytd_m": 581.0,
+   "raised_fy_m": 4724.0,
+   "repaid_fy_m": 4802.0,
+   "series": [
+    [
+     "2024-09-30",
+     39586.0
+    ],
+    [
+     "2024-12-31",
+     38424.0
+    ],
+    [
+     "2025-03-31",
+     38925.0
+    ],
+    [
+     "2025-06-30",
+     41403.0
+    ],
+    [
+     "2025-09-30",
+     41283.0
+    ],
+    [
+     "2025-12-31",
+     40698.0
+    ],
+    [
+     "2026-03-31",
+     40105.0
+    ],
+    [
+     "2026-06-30",
+     39863.0
+    ]
+   ],
+   "sector": "Consumer Discretionary",
+   "maturity": {
+    "buckets": {
+     "next12": 0.0,
+     "y2": 3201.0,
+     "y3": 5166.0,
+     "y4": 3637.0,
+     "y5": 3011.0,
+     "after5": 25130.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 707641531,
+   "invest": {
+    "capex_ytd_m": 1516.0,
+    "ppe_net_m": 28479.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "ABT": {
+   "asof": "2026-03-31",
+   "filed": "2026-04-29",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 34047.0,
+   "lt_noncurrent_m": 29638.0,
+   "current_m": 4409.0,
+   "cash_m": 6803.0,
+   "net_debt_m": 27244.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": null,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-06-30",
+     14754.0
+    ],
+    [
+     "2024-09-30",
+     14979.0
+    ],
+    [
+     "2024-12-31",
+     14125.0
+    ],
+    [
+     "2025-03-31",
+     13242.0
+    ],
+    [
+     "2025-06-30",
+     13437.0
+    ],
+    [
+     "2025-09-30",
+     12941.0
+    ],
+    [
+     "2025-12-31",
+     12929.0
+    ],
+    [
+     "2026-03-31",
+     34047.0
+    ]
+   ],
+   "sector": "Healthcare",
+   "maturity": {
+    "buckets": {
+     "next12": 3000.0,
+     "y2": 700.0,
+     "y3": 653.0,
+     "y4": 591.0,
+     "y5": 650.0,
+     "after5": 7400.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 1741812429,
+   "invest": {
+    "capex_ytd_m": 399.0,
+    "ppe_net_m": 12377.0,
+    "securities_m": null,
+    "equity_inv_m": 151.0,
+    "acq_ytd_m": null
+   }
+  },
+  "PM": {
+   "asof": "2025-12-31",
+   "filed": "2026-02-06",
+   "basis": "Total debt carrying amount as reported",
+   "total_debt_m": 49005.0,
+   "lt_noncurrent_m": null,
+   "current_m": null,
+   "cash_m": 4872.0,
+   "net_debt_m": 44133.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 7055.0,
+   "repaid_fy_m": 5368.0,
+   "series": [
+    [
+     "2018-12-31",
+     31268.0
+    ],
+    [
+     "2019-12-31",
+     30962.0
+    ],
+    [
+     "2020-12-31",
+     31552.0
+    ],
+    [
+     "2021-12-31",
+     27800.0
+    ],
+    [
+     "2022-12-31",
+     37883.0
+    ],
+    [
+     "2023-12-31",
+     46333.0
+    ],
+    [
+     "2024-12-31",
+     45989.0
+    ],
+    [
+     "2025-12-31",
+     49005.0
+    ]
+   ],
+   "sector": "Consumer Staples",
+   "maturity": {
+    "buckets": {
+     "next12": 3540.0,
+     "y2": 6816.0,
+     "y3": 4968.0,
+     "y4": 4968.0,
+     "y5": 5903.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 1558655629,
+   "invest": {
+    "capex_ytd_m": 1569.0,
+    "ppe_net_m": null,
+    "securities_m": null,
+    "equity_inv_m": 1019.0,
+    "acq_ytd_m": null
+   }
+  },
+  "RTX": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-20",
+   "basis": "Total debt carrying amount as reported",
+   "total_debt_m": 37253.0,
+   "lt_noncurrent_m": null,
+   "current_m": null,
+   "cash_m": 9173.0,
+   "net_debt_m": 28080.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": 526.0,
+   "raised_fy_m": 0.0,
+   "repaid_fy_m": 3429.0,
+   "series": [
+    [
+     "2024-12-31",
+     41146.0
+    ],
+    [
+     "2025-03-31",
+     41158.0
+    ],
+    [
+     "2025-06-30",
+     40416.0
+    ],
+    [
+     "2025-09-30",
+     38919.0
+    ],
+    [
+     "2025-12-31",
+     37777.0
+    ],
+    [
+     "2026-03-31",
+     37267.0
+    ],
+    [
+     "2026-06-30",
+     37236.0
+    ],
+    [
+     "2026-09-30",
+     37253.0
+    ]
+   ],
+   "sector": "Industrials",
+   "maturity": {
+    "buckets": {
+     "next12": 3412.0,
+     "y2": 2928.0,
+     "y3": 3490.0,
+     "y4": 922.0,
+     "y5": 1593.0,
+     "after5": 25432.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 1349440548,
+   "invest": {
+    "capex_ytd_m": 1964.0,
+    "ppe_net_m": 17235.0,
+    "securities_m": 707.0,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "AMGN": {
+   "asof": "2026-06-30",
+   "filed": "2026-08-05",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 57304.0,
+   "lt_noncurrent_m": 51859.0,
+   "current_m": 5445.0,
+   "cash_m": 13989.0,
+   "net_debt_m": 43315.0,
+   "interest_ytd_m": 1330.0,
+   "interest_days": 180,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": 4.58,
+   "eff_basis": "ytd",
+   "raised_ytd_m": 3964.0,
+   "repaid_ytd_m": 833.0,
+   "raised_fy_m": 0.0,
+   "repaid_fy_m": 5000.0,
+   "series": [
+    [
+     "2024-09-30",
+     60398.0
+    ],
+    [
+     "2024-12-31",
+     60099.0
+    ],
+    [
+     "2025-03-31",
+     57381.0
+    ],
+    [
+     "2025-06-30",
+     56204.0
+    ],
+    [
+     "2025-09-30",
+     54587.0
+    ],
+    [
+     "2025-12-31",
+     54604.0
+    ],
+    [
+     "2026-03-31",
+     57323.0
+    ],
+    [
+     "2026-06-30",
+     57304.0
+    ]
+   ],
+   "sector": "Healthcare",
+   "maturity": {
+    "buckets": {
+     "next12": 4571.0,
+     "y2": 2724.0,
+     "y3": 4984.0,
+     "y4": 2943.0,
+     "y5": 4000.0,
+     "after5": 36822.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 540632005,
+   "invest": {
+    "capex_ytd_m": 1225.0,
+    "ppe_net_m": 8547.0,
+    "securities_m": 13415.0,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "T": {
+   "asof": "2025-12-31",
+   "filed": "2026-02-09",
+   "basis": "Total debt carrying amount as reported",
+   "total_debt_m": 144311.0,
+   "lt_noncurrent_m": null,
+   "current_m": 9011.0,
+   "cash_m": 18234.0,
+   "net_debt_m": 126077.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 0.0,
+   "repaid_ytd_m": 3679.0,
+   "raised_fy_m": 14027.0,
+   "repaid_fy_m": 5528.0,
+   "series": [
+    [
+     "2019-12-31",
+     164557.0
+    ],
+    [
+     "2020-12-31",
+     165451.0
+    ],
+    [
+     "2021-12-31",
+     177742.0
+    ],
+    [
+     "2022-12-31",
+     143284.0
+    ],
+    [
+     "2023-12-31",
+     143347.0
+    ],
+    [
+     "2024-12-31",
+     131835.0
+    ],
+    [
+     "2025-12-31",
+     144311.0
+    ]
+   ],
+   "sector": "Communication Services",
+   "maturity": {
+    "buckets": {
+     "next12": 8652.0,
+     "y2": 8953.0,
+     "y3": 6905.0,
+     "y4": 6918.0,
+     "y5": 7020.0,
+     "after5": 106216.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 6736473433,
+   "invest": {
+    "capex_ytd_m": 20842.0,
+    "ppe_net_m": null,
+    "securities_m": 587.0,
+    "equity_inv_m": 1106.0,
+    "acq_ytd_m": 379.0
+   }
+  },
+  "DIS": {
+   "asof": "2026-06-27",
+   "filed": "2026-08-05",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 46041.0,
+   "lt_noncurrent_m": 37414.0,
+   "current_m": 8627.0,
+   "cash_m": 5185.0,
+   "net_debt_m": 40856.0,
+   "interest_ytd_m": 1379.0,
+   "interest_days": 272,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": 4.03,
+   "eff_basis": "ytd",
+   "raised_ytd_m": 5046.0,
+   "repaid_ytd_m": 3625.0,
+   "raised_fy_m": 1057.0,
+   "repaid_fy_m": 3735.0,
+   "series": [
+    [
+     "2024-09-28",
+     45815.0
+    ],
+    [
+     "2024-12-28",
+     45308.0
+    ],
+    [
+     "2025-03-29",
+     42889.0
+    ],
+    [
+     "2025-06-28",
+     42263.0
+    ],
+    [
+     "2025-09-27",
+     42026.0
+    ],
+    [
+     "2025-12-27",
+     46640.0
+    ],
+    [
+     "2026-03-28",
+     47358.0
+    ],
+    [
+     "2026-06-27",
+     46041.0
+    ]
+   ],
+   "sector": "Communication Services",
+   "maturity": {
+    "buckets": {
+     "next12": 6751.0,
+     "y2": 2985.0,
+     "y3": 1750.0,
+     "y4": 2391.0,
+     "y5": 1502.0,
+     "after5": 25872.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-09-27"
+   },
+   "shares_out": 1726686902,
+   "invest": {
+    "capex_ytd_m": 6780.0,
+    "ppe_net_m": 44744.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "INTC": {
+   "asof": "2026-09-26",
+   "filed": "2026-10-30",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 46317.0,
+   "lt_noncurrent_m": 46317.0,
+   "current_m": 3817.0,
+   "cash_m": 21846.0,
+   "net_debt_m": 24471.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 13000.0,
+   "repaid_ytd_m": 9000.0,
+   "raised_fy_m": 0.0,
+   "repaid_fy_m": 3750.0,
+   "series": [
+    [
+     "2024-12-28",
+     50011.0
+    ],
+    [
+     "2025-03-29",
+     44911.0
+    ],
+    [
+     "2025-06-28",
+     44026.0
+    ],
+    [
+     "2025-09-27",
+     44057.0
+    ],
+    [
+     "2025-12-27",
+     46585.0
+    ],
+    [
+     "2026-03-28",
+     43027.0
+    ],
+    [
+     "2026-06-27",
+     48549.0
+    ],
+    [
+     "2026-09-26",
+     46317.0
+    ]
+   ],
+   "sector": "Technology",
+   "maturity": {
+    "buckets": {
+     "next12": 2500.0,
+     "y2": 3826.0,
+     "y3": 3173.0,
+     "y4": 3288.0,
+     "y5": 2750.0,
+     "after5": 31698.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-27"
+   },
+   "shares_out": 5315000000,
+   "invest": {
+    "capex_ytd_m": 10216.0,
+    "ppe_net_m": null,
+    "securities_m": 39523.0,
+    "equity_inv_m": null,
+    "acq_ytd_m": 596.0
+   }
+  },
+  "QCOM": {
+   "asof": "2025-09-28",
+   "filed": "2025-11-05",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 14811.0,
+   "lt_noncurrent_m": 14811.0,
+   "current_m": 0.0,
+   "cash_m": 5520.0,
+   "net_debt_m": 9291.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 1487.0,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2020-09-27",
+     15226.0
+    ],
+    [
+     "2021-09-26",
+     15245.0
+    ],
+    [
+     "2022-06-26",
+     15045.0
+    ],
+    [
+     "2022-09-25",
+     14983.0
+    ],
+    [
+     "2022-12-25",
+     16877.0
+    ],
+    [
+     "2023-09-24",
+     15398.0
+    ],
+    [
+     "2024-09-29",
+     14634.0
+    ],
+    [
+     "2025-09-28",
+     14811.0
+    ]
+   ],
+   "sector": "Technology",
+   "maturity": {
+    "buckets": {
+     "next12": 0.0,
+     "y2": 2000.0,
+     "y3": 962.0,
+     "y4": 0.0,
+     "y5": 1700.0,
+     "after5": 10445.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-09-28"
+   },
+   "shares_out": 1050000000,
+   "invest": {
+    "capex_ytd_m": 1192.0,
+    "ppe_net_m": 4690.0,
+    "securities_m": 4635.0,
+    "equity_inv_m": 163.0,
+    "acq_ytd_m": null
+   }
+  },
+  "TXN": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-23",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 13555.0,
+   "lt_noncurrent_m": 12905.0,
+   "current_m": 650.0,
+   "cash_m": 4211.0,
+   "net_debt_m": 9344.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 0.0,
+   "repaid_ytd_m": 500.0,
+   "raised_fy_m": 1199.0,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-12-31",
+     13596.0
+    ],
+    [
+     "2025-03-31",
+     12848.0
+    ],
+    [
+     "2025-06-30",
+     14043.0
+    ],
+    [
+     "2025-09-30",
+     14046.0
+    ],
+    [
+     "2025-12-31",
+     14048.0
+    ],
+    [
+     "2026-03-31",
+     14050.0
+    ],
+    [
+     "2026-06-30",
+     14052.0
+    ],
+    [
+     "2026-09-30",
+     13555.0
+    ]
+   ],
+   "sector": "Technology",
+   "maturity": null,
+   "shares_out": 913770316,
+   "invest": {
+    "capex_ytd_m": 1653.0,
+    "ppe_net_m": 11833.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "BLK": {
+   "asof": "2026-06-30",
+   "filed": "2026-08-06",
+   "basis": "LongTermDebt as reported",
+   "total_debt_m": 12744.0,
+   "lt_noncurrent_m": null,
+   "current_m": null,
+   "cash_m": 10492.0,
+   "net_debt_m": 2252.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 0.0,
+   "repaid_ytd_m": 0.0,
+   "raised_fy_m": 1080.0,
+   "repaid_fy_m": 796.0,
+   "series": [
+    [
+     "2024-09-30",
+     12370.0
+    ],
+    [
+     "2024-12-31",
+     12314.0
+    ],
+    [
+     "2025-03-31",
+     12349.0
+    ],
+    [
+     "2025-06-30",
+     12762.0
+    ],
+    [
+     "2025-09-30",
+     12766.0
+    ],
+    [
+     "2025-12-31",
+     12768.0
+    ],
+    [
+     "2026-03-31",
+     12749.0
+    ],
+    [
+     "2026-06-30",
+     12744.0
+    ]
+   ],
+   "sector": "Financials",
+   "maturity": null,
+   "shares_out": 154926181,
+   "invest": {
+    "capex_ytd_m": 215.0,
+    "ppe_net_m": 1305.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": 15.0
+   }
+  },
+  "SCHW": {
+   "asof": "2026-06-30",
+   "filed": "2026-08-07",
+   "basis": "Total debt carrying amount as reported",
+   "total_debt_m": 22965.0,
+   "lt_noncurrent_m": null,
+   "current_m": null,
+   "cash_m": 40580.0,
+   "net_debt_m": -17615.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": null,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-09-30",
+     22480.0
+    ],
+    [
+     "2024-12-31",
+     22474.0
+    ],
+    [
+     "2025-03-31",
+     21493.0
+    ],
+    [
+     "2025-06-30",
+     20237.0
+    ],
+    [
+     "2025-09-30",
+     20230.0
+    ],
+    [
+     "2025-12-31",
+     22237.0
+    ],
+    [
+     "2026-03-31",
+     20630.0
+    ],
+    [
+     "2026-06-30",
+     22965.0
+    ]
+   ],
+   "sector": "Financials",
+   "maturity": {
+    "buckets": {
+     "next12": 4124.0,
+     "y2": 3463.0,
+     "y3": 1950.0,
+     "y4": 4200.0,
+     "y5": 500.0,
+     "after5": 8000.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 1729335714,
+   "invest": {
+    "capex_ytd_m": 325.0,
+    "ppe_net_m": null,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": 577.0
+   }
+  },
+  "LRCX": {
+   "asof": "2026-06-28",
+   "filed": "2026-08-07",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 3722.1,
+   "lt_noncurrent_m": 3721.9,
+   "current_m": 0.1,
+   "cash_m": 5579.2,
+   "net_debt_m": -1857.1,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": 155.9,
+   "interest_fy_end": "2026-06-28",
+   "eff_rate_pct": 4.19,
+   "eff_basis": "fy",
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": null,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2020-12-27",
+     5780.8
+    ],
+    [
+     "2021-03-28",
+     5774.3
+    ],
+    [
+     "2021-06-27",
+     4960.9
+    ],
+    [
+     "2022-06-26",
+     4962.5
+    ],
+    [
+     "2023-06-25",
+     4965.4
+    ],
+    [
+     "2024-06-30",
+     4967.4
+    ],
+    [
+     "2025-06-29",
+     4469.4
+    ],
+    [
+     "2026-06-28",
+     3722.1
+    ]
+   ],
+   "sector": "Technology",
+   "maturity": {
+    "buckets": {
+     "next12": 0.0,
+     "y2": 0.0,
+     "y3": 1000.0,
+     "y4": 750.0,
+     "y5": 0.0,
+     "after5": 2000.0
+    },
+    "family": "long-term debt",
+    "asof": "2026-06-28"
+   },
+   "shares_out": 1249171000,
+   "invest": {
+    "capex_ytd_m": 966.4,
+    "ppe_net_m": 2936.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "AMAT": {
+   "asof": "2026-07-26",
+   "filed": "2026-08-20",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 7743.0,
+   "lt_noncurrent_m": 5245.0,
+   "current_m": 2498.0,
+   "cash_m": 7037.0,
+   "net_debt_m": 706.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 991.0,
+   "repaid_fy_m": 700.0,
+   "series": [
+    [
+     "2024-10-27",
+     6959.0
+    ],
+    [
+     "2025-01-26",
+     6960.0
+    ],
+    [
+     "2025-04-27",
+     6961.0
+    ],
+    [
+     "2025-07-27",
+     6962.0
+    ],
+    [
+     "2025-10-26",
+     6555.0
+    ],
+    [
+     "2026-01-25",
+     6553.0
+    ],
+    [
+     "2026-04-26",
+     7654.0
+    ],
+    [
+     "2026-07-26",
+     7743.0
+    ]
+   ],
+   "sector": "Technology",
+   "maturity": null,
+   "shares_out": 793597443,
+   "invest": {
+    "capex_ytd_m": 1988.0,
+    "ppe_net_m": 5606.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": 262.0
+   }
+  },
+  "KLAC": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-29",
+   "basis": "Total debt carrying amount as reported",
+   "total_debt_m": 5950.0,
+   "lt_noncurrent_m": null,
+   "current_m": null,
+   "cash_m": 1532.0,
+   "net_debt_m": 4418.1,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 0.0,
+   "repaid_fy_m": 0.0,
+   "series": [
+    [
+     "2020-12-31",
+     3490.0
+    ],
+    [
+     "2021-03-31",
+     3470.0
+    ],
+    [
+     "2025-06-30",
+     5950.0
+    ],
+    [
+     "2025-09-30",
+     5950.0
+    ],
+    [
+     "2025-12-31",
+     5950.0
+    ],
+    [
+     "2026-03-31",
+     5950.0
+    ],
+    [
+     "2026-06-30",
+     5950.0
+    ],
+    [
+     "2026-09-30",
+     5950.0
+    ]
+   ],
+   "sector": "Technology",
+   "maturity": null,
+   "shares_out": 1302962435,
+   "invest": {
+    "capex_ytd_m": 194.8,
+    "ppe_net_m": 1541.3,
+    "securities_m": 3176.0,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "PANW": {
+   "status": "no_xbrl_debt"
+  },
+  "CRWD": {
+   "asof": "2026-07-31",
+   "filed": "2026-08-27",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 746.2,
+   "lt_noncurrent_m": 746.2,
+   "current_m": 0.0,
+   "cash_m": 5013.8,
+   "net_debt_m": -4267.6,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": null,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-10-31",
+     743.6
+    ],
+    [
+     "2025-01-31",
+     744.0
+    ],
+    [
+     "2025-04-30",
+     744.4
+    ],
+    [
+     "2025-07-31",
+     744.7
+    ],
+    [
+     "2025-10-31",
+     745.1
+    ],
+    [
+     "2026-01-31",
+     745.5
+    ],
+    [
+     "2026-04-30",
+     745.8
+    ],
+    [
+     "2026-07-31",
+     746.2
+    ]
+   ],
+   "sector": "Technology",
+   "maturity": null,
+   "shares_out": 1023934842,
+   "invest": {
+    "capex_ytd_m": 222.0,
+    "ppe_net_m": 1174.9,
+    "securities_m": null,
+    "equity_inv_m": 69.3,
+    "acq_ytd_m": 881.4
+   }
+  },
+  "ADI": {
+   "asof": "2026-08-01",
+   "filed": "2026-08-19",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 8116.5,
+   "lt_noncurrent_m": 6771.6,
+   "current_m": 1344.9,
+   "cash_m": 2165.9,
+   "net_debt_m": 5950.6,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 0.0,
+   "repaid_ytd_m": 0.0,
+   "raised_fy_m": null,
+   "repaid_fy_m": 400.0,
+   "series": [
+    [
+     "2024-11-02",
+     7981.7
+    ],
+    [
+     "2025-02-01",
+     7018.4
+    ],
+    [
+     "2025-05-03",
+     6648.4
+    ],
+    [
+     "2025-08-02",
+     8139.9
+    ],
+    [
+     "2025-11-01",
+     8591.7
+    ],
+    [
+     "2026-01-31",
+     8139.2
+    ],
+    [
+     "2026-05-02",
+     8134.7
+    ],
+    [
+     "2026-08-01",
+     8116.5
+    ]
+   ],
+   "sector": "Technology",
+   "maturity": null,
+   "shares_out": 484565465,
+   "invest": {
+    "capex_ytd_m": 392.7,
+    "ppe_net_m": 3352.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": 1536.0
+   }
+  },
+  "ISRG": {
+   "status": "no_xbrl_debt"
+  },
+  "GILD": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-30",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 26231.0,
+   "lt_noncurrent_m": 23815.0,
+   "current_m": 2416.0,
+   "cash_m": null,
+   "net_debt_m": null,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 4085.0,
+   "repaid_ytd_m": 2802.0,
+   "raised_fy_m": 0.0,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-12-31",
+     26711.0
+    ],
+    [
+     "2025-03-31",
+     24952.0
+    ],
+    [
+     "2025-06-30",
+     24946.0
+    ],
+    [
+     "2025-09-30",
+     24941.0
+    ],
+    [
+     "2025-12-31",
+     24936.0
+    ],
+    [
+     "2026-03-31",
+     22174.0
+    ],
+    [
+     "2026-06-30",
+     26246.0
+    ],
+    [
+     "2026-09-30",
+     26231.0
+    ]
+   ],
+   "sector": "Healthcare",
+   "maturity": null,
+   "shares_out": 1240338614,
+   "invest": {
+    "capex_ytd_m": 494.0,
+    "ppe_net_m": 5945.0,
+    "securities_m": 0.0,
+    "equity_inv_m": null,
+    "acq_ytd_m": 11337.0
+   }
+  },
+  "VRTX": {
+   "status": "no_xbrl_debt"
+  },
+  "BKNG": {
+   "asof": "2026-06-30",
+   "filed": "2026-08-04",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 20180.0,
+   "lt_noncurrent_m": 18180.0,
+   "current_m": 2000.0,
+   "cash_m": 17214.0,
+   "net_debt_m": 2966.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 2975.0,
+   "repaid_ytd_m": 1000.0,
+   "raised_fy_m": 3681.0,
+   "repaid_fy_m": 4970.0,
+   "series": [
+    [
+     "2024-09-30",
+     16212.0
+    ],
+    [
+     "2024-12-31",
+     16598.0
+    ],
+    [
+     "2025-03-31",
+     16024.0
+    ],
+    [
+     "2025-06-30",
+     18472.0
+    ],
+    [
+     "2025-09-30",
+     16996.0
+    ],
+    [
+     "2025-12-31",
+     18736.0
+    ],
+    [
+     "2026-03-31",
+     18413.0
+    ],
+    [
+     "2026-06-30",
+     20180.0
+    ]
+   ],
+   "sector": "Consumer Discretionary",
+   "maturity": null,
+   "shares_out": 751380500,
+   "invest": {
+    "capex_ytd_m": 183.0,
+    "ppe_net_m": 767.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "SBUX": {
+   "asof": "2026-06-28",
+   "filed": "2026-07-29",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 13278.6,
+   "lt_noncurrent_m": 11780.2,
+   "current_m": 1498.4,
+   "cash_m": null,
+   "net_debt_m": null,
+   "interest_ytd_m": 410.6,
+   "interest_days": 272,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": 3.82,
+   "eff_basis": "ytd",
+   "raised_ytd_m": 0.0,
+   "repaid_ytd_m": 2815.9,
+   "raised_fy_m": 1748.5,
+   "repaid_fy_m": 1250.0,
+   "series": [
+    [
+     "2024-09-29",
+     15568.4
+    ],
+    [
+     "2024-12-29",
+     15561.4
+    ],
+    [
+     "2025-03-30",
+     15571.8
+    ],
+    [
+     "2025-06-29",
+     17319.1
+    ],
+    [
+     "2025-09-28",
+     16074.8
+    ],
+    [
+     "2025-12-28",
+     16080.4
+    ],
+    [
+     "2026-03-29",
+     15081.9
+    ],
+    [
+     "2026-06-28",
+     13278.6
+    ]
+   ],
+   "sector": "Consumer Discretionary",
+   "maturity": {
+    "buckets": {
+     "next12": 0.0,
+     "y2": 1500.0,
+     "y3": 1076.5,
+     "y4": 1750.0,
+     "y5": 928.2,
+     "after5": 8129.4
+    },
+    "family": "long-term debt",
+    "asof": "2026-06-28"
+   },
+   "shares_out": 1140000000,
+   "invest": {
+    "capex_ytd_m": 887.8,
+    "ppe_net_m": 6991.8,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": 0.0
+   }
+  },
+  "MDLZ": {
+   "asof": "2025-12-31",
+   "filed": "2026-02-04",
+   "basis": "LT debt & finance leases incl. current maturities",
+   "total_debt_m": 21205.0,
+   "lt_noncurrent_m": null,
+   "current_m": null,
+   "cash_m": null,
+   "net_debt_m": null,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": 599.0,
+   "interest_fy_end": "2025-12-31",
+   "eff_rate_pct": 2.82,
+   "eff_basis": "fy",
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 1594.0,
+   "repaid_fy_m": 2077.0,
+   "series": [
+    [
+     "2018-12-31",
+     18372.0
+    ],
+    [
+     "2019-12-31",
+     18426.0
+    ],
+    [
+     "2020-12-31",
+     20046.0
+    ],
+    [
+     "2021-12-31",
+     19512.0
+    ],
+    [
+     "2022-12-31",
+     22933.0
+    ],
+    [
+     "2023-12-31",
+     19408.0
+    ],
+    [
+     "2024-12-31",
+     17749.0
+    ],
+    [
+     "2025-12-31",
+     21205.0
+    ]
+   ],
+   "sector": "Consumer Staples",
+   "maturity": null,
+   "shares_out": 1265838379,
+   "invest": {
+    "capex_ytd_m": 1279.0,
+    "ppe_net_m": null,
+    "securities_m": null,
+    "equity_inv_m": 667.0,
+    "acq_ytd_m": 15.0
+   }
+  },
+  "REGN": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-30",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 1987.0,
+   "lt_noncurrent_m": 1987.0,
+   "current_m": 0.0,
+   "cash_m": 3659.1,
+   "net_debt_m": -1672.1,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": null,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-12-31",
+     1984.4
+    ],
+    [
+     "2025-03-31",
+     1984.8
+    ],
+    [
+     "2025-06-30",
+     1985.1
+    ],
+    [
+     "2025-09-30",
+     1985.5
+    ],
+    [
+     "2025-12-31",
+     1985.9
+    ],
+    [
+     "2026-03-31",
+     1986.2
+    ],
+    [
+     "2026-06-30",
+     1986.6
+    ],
+    [
+     "2026-09-30",
+     1987.0
+    ]
+   ],
+   "sector": "Healthcare",
+   "maturity": null,
+   "shares_out": 93955110,
+   "invest": {
+    "capex_ytd_m": 771.0,
+    "ppe_net_m": null,
+    "securities_m": 15199.4,
+    "equity_inv_m": null,
+    "acq_ytd_m": 0.0
+   }
+  },
+  "C": {
+   "asof": "2025-12-31",
+   "filed": "2026-02-20",
+   "basis": "LongTermDebt as reported",
+   "total_debt_m": 367705.0,
+   "lt_noncurrent_m": null,
+   "current_m": null,
+   "cash_m": null,
+   "net_debt_m": null,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 122029.0,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-03-31",
+     285495.0
+    ],
+    [
+     "2024-06-30",
+     280321.0
+    ],
+    [
+     "2024-09-30",
+     299081.0
+    ],
+    [
+     "2024-12-31",
+     287300.0
+    ],
+    [
+     "2025-03-31",
+     295684.0
+    ],
+    [
+     "2025-06-30",
+     317761.0
+    ],
+    [
+     "2025-09-30",
+     315846.0
+    ],
+    [
+     "2025-12-31",
+     315827.0
+    ]
+   ],
+   "sector": "Financials",
+   "maturity": {
+    "buckets": {
+     "next12": 46855.0,
+     "y2": 35267.0,
+     "y3": 39385.0,
+     "y4": 21301.0,
+     "y5": 29537.0,
+     "after5": 143482.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 1749319009,
+   "invest": {
+    "capex_ytd_m": 6520.0,
+    "ppe_net_m": null,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "BA": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-27",
+   "basis": "LT debt & finance leases (noncurrent as reported)",
+   "total_debt_m": 41351.0,
+   "lt_noncurrent_m": 41351.0,
+   "current_m": null,
+   "cash_m": 9498.0,
+   "net_debt_m": 31853.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 46.0,
+   "repaid_ytd_m": 8415.0,
+   "raised_fy_m": null,
+   "repaid_fy_m": 3621.0,
+   "series": [
+    [
+     "2024-12-31",
+     52586.0
+    ],
+    [
+     "2025-03-31",
+     45688.0
+    ],
+    [
+     "2025-06-30",
+     44604.0
+    ],
+    [
+     "2025-09-30",
+     44611.0
+    ],
+    [
+     "2025-12-31",
+     45637.0
+    ],
+    [
+     "2026-03-31",
+     44354.0
+    ],
+    [
+     "2026-06-30",
+     41335.0
+    ],
+    [
+     "2026-09-30",
+     41351.0
+    ]
+   ],
+   "sector": "Industrials",
+   "maturity": {
+    "buckets": {
+     "next12": 8351.0,
+     "y2": 4403.0,
+     "y3": 2739.0,
+     "y4": 2508.0,
+     "y5": 5274.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 792449940,
+   "invest": {
+    "capex_ytd_m": 3040.0,
+    "ppe_net_m": 16685.0,
+    "securities_m": 530.0,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "UPS": {
+   "asof": "2026-06-30",
+   "filed": "2026-08-05",
+   "basis": "LT debt & finance leases (noncurrent as reported)",
+   "total_debt_m": 23850.0,
+   "lt_noncurrent_m": 23850.0,
+   "current_m": null,
+   "cash_m": 4653.0,
+   "net_debt_m": 19197.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 0.0,
+   "repaid_ytd_m": 85.0,
+   "raised_fy_m": 4153.0,
+   "repaid_fy_m": 2069.0,
+   "series": [
+    [
+     "2024-09-30",
+     20324.0
+    ],
+    [
+     "2024-12-31",
+     19446.0
+    ],
+    [
+     "2025-03-31",
+     19511.0
+    ],
+    [
+     "2025-06-30",
+     23820.0
+    ],
+    [
+     "2025-09-30",
+     23850.0
+    ],
+    [
+     "2025-12-31",
+     23519.0
+    ],
+    [
+     "2026-03-31",
+     23749.0
+    ],
+    [
+     "2026-06-30",
+     23850.0
+    ]
+   ],
+   "sector": "Industrials",
+   "maturity": {
+    "buckets": {
+     "next12": 500.0,
+     "y2": 1000.0,
+     "y3": 588.0,
+     "y4": 1299.0,
+     "y5": 1526.0,
+     "after5": 18672.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 713924267,
+   "invest": {
+    "capex_ytd_m": 1724.0,
+    "ppe_net_m": null,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": 0.0
+   }
+  },
+  "HON": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-22",
+   "basis": "LT debt & finance leases incl. current portion",
+   "total_debt_m": 14169.0,
+   "lt_noncurrent_m": 10386.0,
+   "current_m": 3783.0,
+   "cash_m": 5694.0,
+   "net_debt_m": 8475.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": null,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-12-31",
+     26765.0
+    ],
+    [
+     "2025-03-31",
+     27076.0
+    ],
+    [
+     "2025-06-30",
+     30241.0
+    ],
+    [
+     "2025-09-30",
+     30164.0
+    ],
+    [
+     "2025-12-31",
+     28678.0
+    ],
+    [
+     "2026-03-31",
+     32109.0
+    ],
+    [
+     "2026-06-30",
+     31510.0
+    ],
+    [
+     "2026-09-30",
+     14169.0
+    ]
+   ],
+   "sector": "Industrials",
+   "maturity": {
+    "buckets": {
+     "next12": 1546.0,
+     "y2": 6731.0,
+     "y3": 1588.0,
+     "y4": 2002.0,
+     "y5": 2830.0,
+     "after5": 14349.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 317358518,
+   "invest": {
+    "capex_ytd_m": 369.0,
+    "ppe_net_m": null,
+    "securities_m": 594.0,
+    "equity_inv_m": 7273.0,
+    "acq_ytd_m": 1763.0
+   }
+  },
+  "LMT": {
+   "asof": "2026-09-27",
+   "filed": "2026-10-22",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 20498.0,
+   "lt_noncurrent_m": 20498.0,
+   "current_m": 0.0,
+   "cash_m": 5960.0,
+   "net_debt_m": 14538.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 0.0,
+   "repaid_ytd_m": 1168.0,
+   "raised_fy_m": null,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-12-31",
+     20270.0
+    ],
+    [
+     "2025-03-30",
+     20304.0
+    ],
+    [
+     "2025-06-29",
+     21638.0
+    ],
+    [
+     "2025-09-28",
+     22189.0
+    ],
+    [
+     "2025-12-31",
+     21700.0
+    ],
+    [
+     "2026-03-29",
+     20697.0
+    ],
+    [
+     "2026-06-28",
+     20538.0
+    ],
+    [
+     "2026-09-27",
+     20498.0
+    ]
+   ],
+   "sector": "Industrials",
+   "maturity": null,
+   "shares_out": 231004640,
+   "invest": {
+    "capex_ytd_m": 1268.0,
+    "ppe_net_m": 11524.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "AXP": {
+   "asof": "2025-12-31",
+   "filed": "2026-02-06",
+   "basis": "Total debt carrying amount as reported",
+   "total_debt_m": 56626.0,
+   "lt_noncurrent_m": null,
+   "current_m": null,
+   "cash_m": null,
+   "net_debt_m": null,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 24377.0,
+   "repaid_fy_m": 18157.0,
+   "series": [
+    [
+     "2018-12-31",
+     59552.0
+    ],
+    [
+     "2019-12-31",
+     58446.0
+    ],
+    [
+     "2020-12-31",
+     43042.0
+    ],
+    [
+     "2021-12-31",
+     39074.0
+    ],
+    [
+     "2022-12-31",
+     43415.0
+    ],
+    [
+     "2023-12-31",
+     48411.0
+    ],
+    [
+     "2024-12-31",
+     50271.0
+    ],
+    [
+     "2025-12-31",
+     56626.0
+    ]
+   ],
+   "sector": "Financials",
+   "maturity": {
+    "buckets": {
+     "next12": 6114.0,
+     "y2": 12078.0,
+     "y3": 8120.0,
+     "y4": 7763.0,
+     "y5": 3400.0,
+     "after5": 19151.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 670552018,
+   "invest": {
+    "capex_ytd_m": 2425.0,
+    "ppe_net_m": 6118.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": 633.0
+   }
+  },
+  "PGR": {
+   "asof": "2025-12-31",
+   "filed": "2026-03-02",
+   "basis": "Total debt carrying amount as reported",
+   "total_debt_m": 6950.0,
+   "lt_noncurrent_m": null,
+   "current_m": null,
+   "cash_m": null,
+   "net_debt_m": null,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": 278.0,
+   "interest_fy_end": "2025-12-31",
+   "eff_rate_pct": 4.0,
+   "eff_basis": "fy",
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": null,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2018-12-31",
+     4450.0
+    ],
+    [
+     "2019-12-31",
+     4450.0
+    ],
+    [
+     "2020-12-31",
+     5450.0
+    ],
+    [
+     "2021-12-31",
+     4950.0
+    ],
+    [
+     "2022-12-31",
+     6450.0
+    ],
+    [
+     "2023-12-31",
+     6950.0
+    ],
+    [
+     "2024-12-31",
+     6950.0
+    ],
+    [
+     "2025-12-31",
+     6950.0
+    ]
+   ],
+   "sector": "Financials",
+   "maturity": {
+    "buckets": {
+     "next12": 0.0,
+     "y2": 1000.0,
+     "y3": 0.0,
+     "y4": 850.0,
+     "y5": 500.0,
+     "after5": 4600.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 581371770,
+   "invest": {
+    "capex_ytd_m": 348.0,
+    "ppe_net_m": 783.0,
+    "securities_m": 92871.0,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "CB": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-28",
+   "basis": "LongTermDebt as reported",
+   "total_debt_m": 18658.0,
+   "lt_noncurrent_m": null,
+   "current_m": null,
+   "cash_m": null,
+   "net_debt_m": null,
+   "interest_ytd_m": 602.0,
+   "interest_days": 272,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": 4.99,
+   "eff_basis": "ytd",
+   "raised_ytd_m": 2909.0,
+   "repaid_ytd_m": 1500.0,
+   "raised_fy_m": 2424.0,
+   "repaid_fy_m": 800.0,
+   "series": [
+    [
+     "2024-12-31",
+     14379.0
+    ],
+    [
+     "2025-03-31",
+     14508.0
+    ],
+    [
+     "2025-06-30",
+     13477.0
+    ],
+    [
+     "2025-09-30",
+     15727.0
+    ],
+    [
+     "2025-12-31",
+     15728.0
+    ],
+    [
+     "2026-03-31",
+     15970.0
+    ],
+    [
+     "2026-06-30",
+     17452.0
+    ],
+    [
+     "2026-09-30",
+     17990.0
+    ]
+   ],
+   "sector": "Financials",
+   "maturity": null,
+   "shares_out": 382079222,
+   "invest": {
+    "capex_ytd_m": null,
+    "ppe_net_m": null,
+    "securities_m": 125804.0,
+    "equity_inv_m": null,
+    "acq_ytd_m": 25.0
+   }
+  },
+  "ETN": {
+   "asof": "2025-12-31",
+   "filed": "2026-02-26",
+   "basis": "LT debt & finance leases incl. current maturities",
+   "total_debt_m": 9895.0,
+   "lt_noncurrent_m": null,
+   "current_m": null,
+   "cash_m": 622.0,
+   "net_debt_m": 9273.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 1058.0,
+   "repaid_fy_m": 717.0,
+   "series": [
+    [
+     "2018-12-31",
+     7521.0
+    ],
+    [
+     "2019-12-31",
+     8322.0
+    ],
+    [
+     "2020-12-31",
+     8058.0
+    ],
+    [
+     "2021-12-31",
+     8579.0
+    ],
+    [
+     "2022-12-31",
+     8655.0
+    ],
+    [
+     "2023-12-31",
+     9269.0
+    ],
+    [
+     "2024-12-31",
+     9152.0
+    ],
+    [
+     "2025-12-31",
+     9895.0
+    ]
+   ],
+   "sector": "Industrials",
+   "maturity": {
+    "buckets": {
+     "next12": 1136.0,
+     "y2": 706.0,
+     "y3": 504.0,
+     "y4": 203.0,
+     "y5": 1206.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 388400000,
+   "invest": {
+    "capex_ytd_m": 919.0,
+    "ppe_net_m": 4316.0,
+    "securities_m": null,
+    "equity_inv_m": 903.0,
+    "acq_ytd_m": 1490.0
+   }
+  },
+  "DHR": {
+   "asof": "2026-09-25",
+   "filed": "2026-10-21",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 24388.0,
+   "lt_noncurrent_m": 24388.0,
+   "current_m": 2094.0,
+   "cash_m": null,
+   "net_debt_m": null,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": null,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-12-31",
+     15500.0
+    ],
+    [
+     "2025-03-28",
+     15976.0
+    ],
+    [
+     "2025-06-27",
+     16853.0
+    ],
+    [
+     "2025-09-26",
+     16833.0
+    ],
+    [
+     "2025-12-31",
+     18416.0
+    ],
+    [
+     "2026-03-27",
+     17561.0
+    ],
+    [
+     "2026-06-26",
+     25147.0
+    ],
+    [
+     "2026-09-25",
+     24388.0
+    ]
+   ],
+   "sector": "Healthcare",
+   "maturity": {
+    "buckets": {
+     "next12": 2410.0,
+     "y2": 2305.0,
+     "y3": 1726.0,
+     "y4": 1203.0,
+     "y5": 935.0,
+     "after5": 9839.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 703530815,
+   "invest": {
+    "capex_ytd_m": 761.0,
+    "ppe_net_m": 5773.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": 9881.0
+   }
+  },
+  "TMO": {
+   "asof": "2026-06-27",
+   "filed": "2026-07-31",
+   "basis": "Total debt carrying amount as reported",
+   "total_debt_m": 42592.0,
+   "lt_noncurrent_m": null,
+   "current_m": 3368.0,
+   "cash_m": 4064.0,
+   "net_debt_m": 38528.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 5238.0,
+   "repaid_ytd_m": 1412.0,
+   "raised_fy_m": 7759.0,
+   "repaid_fy_m": 2412.0,
+   "series": [
+    [
+     "2024-09-28",
+     35390.0
+    ],
+    [
+     "2024-12-31",
+     31332.0
+    ],
+    [
+     "2025-03-29",
+     34261.0
+    ],
+    [
+     "2025-06-28",
+     35303.0
+    ],
+    [
+     "2025-09-27",
+     35745.0
+    ],
+    [
+     "2025-12-31",
+     39459.0
+    ],
+    [
+     "2026-03-28",
+     43267.0
+    ],
+    [
+     "2026-06-27",
+     42592.0
+    ]
+   ],
+   "sector": "Healthcare",
+   "maturity": {
+    "buckets": {
+     "next12": 3528.0,
+     "y2": 3254.0,
+     "y3": 3057.0,
+     "y4": 3150.0,
+     "y5": 3105.0,
+     "after5": 23366.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 369747286,
+   "invest": {
+    "capex_ytd_m": 826.0,
+    "ppe_net_m": 10755.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": 8872.0
+   }
+  },
+  "ACN": {
+   "asof": "2026-08-31",
+   "filed": "2026-10-16",
+   "basis": "LT debt & finance leases (noncurrent as reported)",
+   "total_debt_m": 9998.7,
+   "lt_noncurrent_m": 9998.7,
+   "current_m": null,
+   "cash_m": 12831.5,
+   "net_debt_m": -2832.8,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": 303.4,
+   "interest_fy_end": "2026-08-31",
+   "eff_rate_pct": 3.03,
+   "eff_basis": "fy",
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 4979.2,
+   "repaid_fy_m": 0.0,
+   "series": [
+    [
+     "2024-11-30",
+     5039.5
+    ],
+    [
+     "2025-02-28",
+     5042.1
+    ],
+    [
+     "2025-05-31",
+     5036.0
+    ],
+    [
+     "2025-08-31",
+     5034.2
+    ],
+    [
+     "2025-11-30",
+     5031.6
+    ],
+    [
+     "2026-02-28",
+     5030.3
+    ],
+    [
+     "2026-05-31",
+     5029.4
+    ],
+    [
+     "2026-08-31",
+     9998.7
+    ]
+   ],
+   "sector": "Technology",
+   "maturity": {
+    "buckets": {
+     "y2": 1100.0,
+     "y3": 1300.0,
+     "y4": 1200.0,
+     "y5": 1500.0,
+     "after5": 4900.0
+    },
+    "family": "long-term debt",
+    "asof": "2026-08-31"
+   },
+   "shares_out": 637016143,
+   "invest": {
+    "capex_ytd_m": 742.7,
+    "ppe_net_m": 1721.7,
+    "securities_m": null,
+    "equity_inv_m": 355.9,
+    "acq_ytd_m": null
+   }
+  },
+  "LIN": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-29",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 26702.0,
+   "lt_noncurrent_m": 20593.0,
+   "current_m": 6109.0,
+   "cash_m": 3947.0,
+   "net_debt_m": 22755.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": 575.0,
+   "interest_fy_end": "2025-12-31",
+   "eff_rate_pct": 2.13,
+   "eff_basis": "fy",
+   "raised_ytd_m": 2087.0,
+   "repaid_ytd_m": 1765.0,
+   "raised_fy_m": 5148.0,
+   "repaid_fy_m": 2278.0,
+   "series": [
+    [
+     "2024-12-31",
+     21623.0
+    ],
+    [
+     "2025-03-31",
+     23897.0
+    ],
+    [
+     "2025-06-30",
+     25920.0
+    ],
+    [
+     "2025-09-30",
+     25925.0
+    ],
+    [
+     "2025-12-31",
+     26989.0
+    ],
+    [
+     "2026-03-31",
+     26317.0
+    ],
+    [
+     "2026-06-30",
+     28013.0
+    ],
+    [
+     "2026-09-30",
+     26702.0
+    ]
+   ],
+   "sector": "Materials",
+   "maturity": {
+    "buckets": {
+     "next12": 1796.0,
+     "y2": 2311.0,
+     "y3": 1730.0,
+     "y4": 2168.0,
+     "y5": 1708.0,
+     "after5": 12766.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 459083779,
+   "invest": {
+    "capex_ytd_m": 4172.0,
+    "ppe_net_m": null,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": 411.0
+   }
+  },
+  "SHOP": {
+   "status": "no_xbrl_debt"
+  },
+  "MELI": {
+   "asof": "2026-03-31",
+   "filed": "2026-05-08",
+   "basis": "LT debt & finance leases incl. current portion",
+   "total_debt_m": 9927.0,
+   "lt_noncurrent_m": 4611.0,
+   "current_m": 5316.0,
+   "cash_m": 3677.0,
+   "net_debt_m": 6250.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": null,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-06-30",
+     4642.0
+    ],
+    [
+     "2024-09-30",
+     5353.0
+    ],
+    [
+     "2024-12-31",
+     5715.0
+    ],
+    [
+     "2025-03-31",
+     6433.0
+    ],
+    [
+     "2025-06-30",
+     7302.0
+    ],
+    [
+     "2025-09-30",
+     7840.0
+    ],
+    [
+     "2025-12-31",
+     9193.0
+    ],
+    [
+     "2026-03-31",
+     9927.0
+    ]
+   ],
+   "sector": "Consumer Discretionary",
+   "maturity": null,
+   "shares_out": 50696802,
+   "invest": {
+    "capex_ytd_m": 271.0,
+    "ppe_net_m": null,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "ARM": {
+   "status": "no_xbrl_debt"
+  },
+  "APP": {
+   "asof": "2026-06-30",
+   "filed": "2026-08-05",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 3515.1,
+   "lt_noncurrent_m": 3515.1,
+   "current_m": 0.0,
+   "cash_m": 3053.3,
+   "net_debt_m": 461.8,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": 200.6,
+   "interest_fy_end": "2025-12-31",
+   "eff_rate_pct": 5.71,
+   "eff_basis": "fy",
+   "raised_ytd_m": 0.0,
+   "repaid_ytd_m": 0.0,
+   "raised_fy_m": null,
+   "repaid_fy_m": 200.0,
+   "series": [
+    [
+     "2024-09-30",
+     3510.0
+    ],
+    [
+     "2024-12-31",
+     3509.0
+    ],
+    [
+     "2025-03-31",
+     3710.0
+    ],
+    [
+     "2025-06-30",
+     3511.0
+    ],
+    [
+     "2025-09-30",
+     3512.0
+    ],
+    [
+     "2025-12-31",
+     3513.0
+    ],
+    [
+     "2026-03-31",
+     3514.0
+    ],
+    [
+     "2026-06-30",
+     3515.1
+    ]
+   ],
+   "sector": "Communication Services",
+   "maturity": null,
+   "shares_out": null,
+   "invest": {
+    "capex_ytd_m": null,
+    "ppe_net_m": null,
+    "securities_m": null,
+    "equity_inv_m": 290.0,
+    "acq_ytd_m": null
+   }
+  },
+  "UBER": {
+   "asof": "2026-06-30",
+   "filed": "2026-08-05",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 12723.0,
+   "lt_noncurrent_m": 10726.0,
+   "current_m": 1997.0,
+   "cash_m": 4870.0,
+   "net_debt_m": 7853.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 3997.0,
+   "repaid_ytd_m": 2000.0,
+   "raised_fy_m": 3359.0,
+   "repaid_fy_m": 2350.0,
+   "series": [
+    [
+     "2024-09-30",
+     11486.0
+    ],
+    [
+     "2024-12-31",
+     9497.0
+    ],
+    [
+     "2025-03-31",
+     9500.0
+    ],
+    [
+     "2025-06-30",
+     10728.0
+    ],
+    [
+     "2025-09-30",
+     11765.0
+    ],
+    [
+     "2025-12-31",
+     10521.0
+    ],
+    [
+     "2026-03-31",
+     10514.0
+    ],
+    [
+     "2026-06-30",
+     12723.0
+    ]
+   ],
+   "sector": "Industrials",
+   "maturity": {
+    "buckets": {
+     "next12": 0.0,
+     "y2": 0.0,
+     "y3": 2850.0,
+     "y4": 1500.0,
+     "y5": 1250.0,
+     "after5": 5000.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 2042560121,
+   "invest": {
+    "capex_ytd_m": 135.0,
+    "ppe_net_m": null,
+    "securities_m": 521.0,
+    "equity_inv_m": 3773.0,
+    "acq_ytd_m": 653.0
+   }
+  },
+  "NOW": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-28",
+   "basis": "LongTermDebt as reported",
+   "total_debt_m": 7524.0,
+   "lt_noncurrent_m": null,
+   "current_m": null,
+   "cash_m": 2393.0,
+   "net_debt_m": 5131.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": null,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2025-12-31",
+     1491.0
+    ],
+    [
+     "2026-06-30",
+     5435.0
+    ],
+    [
+     "2026-09-30",
+     5438.0
+    ]
+   ],
+   "sector": "Technology",
+   "maturity": null,
+   "shares_out": 1038000000,
+   "invest": {
+    "capex_ytd_m": 346.0,
+    "ppe_net_m": 2145.0,
+    "securities_m": 4568.0,
+    "equity_inv_m": null,
+    "acq_ytd_m": 9167.0
+   }
+  },
+  "INTU": {
+   "asof": "2026-07-31",
+   "filed": "2026-09-09",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 7669.0,
+   "lt_noncurrent_m": 6420.0,
+   "current_m": 1249.0,
+   "cash_m": 4705.0,
+   "net_debt_m": 2964.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": 256.0,
+   "interest_fy_end": "2026-07-31",
+   "eff_rate_pct": 3.34,
+   "eff_basis": "fy",
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": null,
+   "repaid_fy_m": 0.0,
+   "series": [
+    [
+     "2024-10-31",
+     6124.0
+    ],
+    [
+     "2025-01-31",
+     6260.0
+    ],
+    [
+     "2025-04-30",
+     6406.0
+    ],
+    [
+     "2025-07-31",
+     5973.0
+    ],
+    [
+     "2025-10-31",
+     6140.0
+    ],
+    [
+     "2026-01-31",
+     6160.0
+    ],
+    [
+     "2026-04-30",
+     6162.0
+    ],
+    [
+     "2026-07-31",
+     7669.0
+    ]
+   ],
+   "sector": "Technology",
+   "maturity": {
+    "buckets": {
+     "next12": 1250.0,
+     "y2": 400.0,
+     "y3": 1100.0,
+     "y4": 720.0,
+     "y5": 750.0,
+     "after5": 3500.0
+    },
+    "family": "long-term debt",
+    "asof": "2026-07-31"
+   },
+   "shares_out": 267236000,
+   "invest": {
+    "capex_ytd_m": 175.0,
+    "ppe_net_m": 1023.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": 0.0
+   }
+  },
+  "ADP": {
+   "asof": "2026-06-30",
+   "filed": "2026-08-05",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 4964.1,
+   "lt_noncurrent_m": 4964.1,
+   "current_m": 1.0,
+   "cash_m": 4230.1,
+   "net_debt_m": 734.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": 459.3,
+   "interest_fy_end": "2026-06-30",
+   "eff_rate_pct": 9.25,
+   "eff_basis": "fy",
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 985.7,
+   "repaid_fy_m": 1.1,
+   "series": [
+    [
+     "2024-09-30",
+     2981.4
+    ],
+    [
+     "2024-12-31",
+     2982.0
+    ],
+    [
+     "2025-03-31",
+     2982.5
+    ],
+    [
+     "2025-06-30",
+     3974.7
+    ],
+    [
+     "2025-09-30",
+     3975.6
+    ],
+    [
+     "2025-12-31",
+     3976.4
+    ],
+    [
+     "2026-03-31",
+     3977.3
+    ],
+    [
+     "2026-06-30",
+     4964.1
+    ]
+   ],
+   "sector": "Technology",
+   "maturity": null,
+   "shares_out": 397262737,
+   "invest": {
+    "capex_ytd_m": null,
+    "ppe_net_m": 641.3,
+    "securities_m": 138.6,
+    "equity_inv_m": null,
+    "acq_ytd_m": 22.8
+   }
+  },
+  "COP": {
+   "asof": "2026-06-30",
+   "filed": "2026-08-06",
+   "basis": "LT debt & finance leases incl. current maturities",
+   "total_debt_m": 23300.0,
+   "lt_noncurrent_m": null,
+   "current_m": null,
+   "cash_m": 6574.0,
+   "net_debt_m": 16726.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": 1176.0,
+   "interest_fy_end": "2025-12-31",
+   "eff_rate_pct": 5.03,
+   "eff_basis": "fy",
+   "raised_ytd_m": null,
+   "repaid_ytd_m": 175.0,
+   "raised_fy_m": 0.0,
+   "repaid_fy_m": 913.0,
+   "series": [
+    [
+     "2024-09-30",
+     18300.0
+    ],
+    [
+     "2024-12-31",
+     24324.0
+    ],
+    [
+     "2025-03-31",
+     23800.0
+    ],
+    [
+     "2025-06-30",
+     23500.0
+    ],
+    [
+     "2025-09-30",
+     23500.0
+    ],
+    [
+     "2025-12-31",
+     23400.0
+    ],
+    [
+     "2026-03-31",
+     23300.0
+    ],
+    [
+     "2026-06-30",
+     23300.0
+    ]
+   ],
+   "sector": "Energy",
+   "maturity": {
+    "buckets": {
+     "next12": 713.0,
+     "y2": 786.0,
+     "y3": 670.0,
+     "y4": 992.0,
+     "y5": 1599.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 1201337479,
+   "invest": {
+    "capex_ytd_m": null,
+    "ppe_net_m": null,
+    "securities_m": 1613.0,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "SLB": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-28",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 11147.0,
+   "lt_noncurrent_m": 11147.0,
+   "current_m": 0.0,
+   "cash_m": null,
+   "net_debt_m": null,
+   "interest_ytd_m": 377.0,
+   "interest_days": 272,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": 4.56,
+   "eff_basis": "ytd",
+   "raised_ytd_m": 2000.0,
+   "repaid_ytd_m": 715.0,
+   "raised_fy_m": null,
+   "repaid_fy_m": 1597.0,
+   "series": [
+    [
+     "2024-12-31",
+     11023.0
+    ],
+    [
+     "2025-03-31",
+     10527.0
+    ],
+    [
+     "2025-06-30",
+     10891.0
+    ],
+    [
+     "2025-09-30",
+     10843.0
+    ],
+    [
+     "2025-12-31",
+     9742.0
+    ],
+    [
+     "2026-03-31",
+     9670.0
+    ],
+    [
+     "2026-06-30",
+     11140.0
+    ],
+    [
+     "2026-09-30",
+     11147.0
+    ]
+   ],
+   "sector": "Energy",
+   "maturity": {
+    "buckets": {
+     "y2": 1600.0,
+     "y3": 2000.0,
+     "y4": 1300.0,
+     "y5": 1200.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 1476029613,
+   "invest": {
+    "capex_ytd_m": 1287.0,
+    "ppe_net_m": 7707.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "VZ": {
+   "asof": "2025-12-31",
+   "filed": "2026-02-17",
+   "basis": "LT debt & finance leases incl. current maturities",
+   "total_debt_m": 158150.0,
+   "lt_noncurrent_m": null,
+   "current_m": null,
+   "cash_m": 19048.0,
+   "net_debt_m": 139102.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 27600.0,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2018-12-31",
+     113063.0
+    ],
+    [
+     "2019-12-31",
+     111489.0
+    ],
+    [
+     "2020-12-31",
+     129062.0
+    ],
+    [
+     "2021-12-31",
+     150868.0
+    ],
+    [
+     "2022-12-31",
+     150639.0
+    ],
+    [
+     "2023-12-31",
+     150674.0
+    ],
+    [
+     "2024-12-31",
+     144014.0
+    ],
+    [
+     "2025-12-31",
+     158150.0
+    ]
+   ],
+   "sector": "Communication Services",
+   "maturity": {
+    "buckets": {
+     "next12": 17267.0,
+     "y2": 9569.0,
+     "y3": 13032.0,
+     "y4": 8115.0,
+     "y5": 11081.0,
+     "after5": 96753.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 4144598336,
+   "invest": {
+    "capex_ytd_m": null,
+    "ppe_net_m": 109467.0,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": 0.0
+   }
+  },
+  "CMCSA": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-22",
+   "basis": "LT debt & finance leases (noncurrent as reported)",
+   "total_debt_m": 83806.0,
+   "lt_noncurrent_m": 83806.0,
+   "current_m": null,
+   "cash_m": 7596.0,
+   "net_debt_m": 76210.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 1990.0,
+   "repaid_ytd_m": 10405.0,
+   "raised_fy_m": 3494.0,
+   "repaid_fy_m": 5740.0,
+   "series": [
+    [
+     "2024-12-31",
+     94186.0
+    ],
+    [
+     "2025-03-31",
+     92274.0
+    ],
+    [
+     "2025-06-30",
+     95808.0
+    ],
+    [
+     "2025-09-30",
+     93211.0
+    ],
+    [
+     "2025-12-31",
+     92979.0
+    ],
+    [
+     "2026-03-31",
+     89218.0
+    ],
+    [
+     "2026-06-30",
+     84264.0
+    ],
+    [
+     "2026-09-30",
+     83806.0
+    ]
+   ],
+   "sector": "Communication Services",
+   "maturity": {
+    "buckets": {
+     "next12": 5800.0,
+     "y2": 4900.0,
+     "y3": 5600.0,
+     "y4": 4700.0,
+     "y5": 4800.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 2063073161,
+   "invest": {
+    "capex_ytd_m": 8311.0,
+    "ppe_net_m": 66957.0,
+    "securities_m": null,
+    "equity_inv_m": 6967.0,
+    "acq_ytd_m": 0.0
+   }
+  },
+  "PFE": {
+   "asof": "2026-06-28",
+   "filed": "2026-08-04",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 63100.0,
+   "lt_noncurrent_m": 60495.0,
+   "current_m": 2699.0,
+   "cash_m": 976.0,
+   "net_debt_m": 62124.0,
+   "interest_ytd_m": 1336.0,
+   "interest_days": 178,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": 4.39,
+   "eff_basis": "ytd",
+   "raised_ytd_m": 0.0,
+   "repaid_ytd_m": 1250.0,
+   "raised_fy_m": 9678.0,
+   "repaid_fy_m": 6757.0,
+   "series": [
+    [
+     "2024-09-29",
+     61748.0
+    ],
+    [
+     "2024-12-31",
+     61152.0
+    ],
+    [
+     "2025-03-30",
+     61388.0
+    ],
+    [
+     "2025-06-29",
+     61748.0
+    ],
+    [
+     "2025-09-28",
+     61656.0
+    ],
+    [
+     "2025-12-31",
+     64638.0
+    ],
+    [
+     "2026-03-29",
+     64426.0
+    ],
+    [
+     "2026-06-28",
+     63100.0
+    ]
+   ],
+   "sector": "Healthcare",
+   "maturity": null,
+   "shares_out": 5699673589,
+   "invest": {
+    "capex_ytd_m": 969.0,
+    "ppe_net_m": 19029.0,
+    "securities_m": null,
+    "equity_inv_m": 241.0,
+    "acq_ytd_m": null
+   }
+  },
+  "BMY": {
+   "asof": "2026-09-30",
+   "filed": "2026-10-29",
+   "basis": "LT noncurrent + current portion + ST borrowings",
+   "total_debt_m": 43645.0,
+   "lt_noncurrent_m": 41849.0,
+   "current_m": 1028.0,
+   "cash_m": 9574.0,
+   "net_debt_m": 34071.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": 1720.0,
+   "raised_fy_m": 5740.0,
+   "repaid_fy_m": 10940.0,
+   "series": [
+    [
+     "2024-12-31",
+     51477.0
+    ],
+    [
+     "2025-03-31",
+     53060.0
+    ],
+    [
+     "2025-06-30",
+     53660.0
+    ],
+    [
+     "2025-09-30",
+     53226.0
+    ],
+    [
+     "2025-12-31",
+     47088.0
+    ],
+    [
+     "2026-03-31",
+     46448.0
+    ],
+    [
+     "2026-06-30",
+     43888.0
+    ],
+    [
+     "2026-09-30",
+     43645.0
+    ]
+   ],
+   "sector": "Healthcare",
+   "maturity": {
+    "buckets": {
+     "next12": 2000.0,
+     "y2": 2000.0,
+     "y3": 544.0,
+     "y4": 2200.0,
+     "y5": 2100.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 2044085831,
+   "invest": {
+    "capex_ytd_m": 996.0,
+    "ppe_net_m": 7971.0,
+    "securities_m": null,
+    "equity_inv_m": 845.0,
+    "acq_ytd_m": 1268.0
+   }
+  },
+  "CVS": {
+   "asof": "2025-12-31",
+   "filed": "2026-02-10",
+   "basis": "Total debt carrying amount as reported",
+   "total_debt_m": 63709.0,
+   "lt_noncurrent_m": null,
+   "current_m": null,
+   "cash_m": 8453.0,
+   "net_debt_m": 55256.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 3969.0,
+   "repaid_fy_m": 3629.0,
+   "series": [
+    [
+     "2019-09-30",
+     69848.0
+    ],
+    [
+     "2019-12-31",
+     68438.0
+    ],
+    [
+     "2020-12-31",
+     64235.0
+    ],
+    [
+     "2021-12-31",
+     55443.0
+    ],
+    [
+     "2022-12-31",
+     51288.0
+    ],
+    [
+     "2023-12-31",
+     60569.0
+    ],
+    [
+     "2024-12-31",
+     63268.0
+    ],
+    [
+     "2025-12-31",
+     63709.0
+    ]
+   ],
+   "sector": "Healthcare",
+   "maturity": {
+    "buckets": {
+     "next12": 4007.0,
+     "y2": 3379.0,
+     "y3": 5008.0,
+     "y4": 3758.0,
+     "y5": 4258.0,
+     "after5": 43299.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 1278970369,
+   "invest": {
+    "capex_ytd_m": 2832.0,
+    "ppe_net_m": null,
+    "securities_m": 28718.0,
+    "equity_inv_m": null,
+    "acq_ytd_m": 436.0
+   }
+  },
+  "CI": {
+   "asof": "2026-06-30",
+   "filed": "2026-07-30",
+   "basis": "LT debt & finance leases (noncurrent as reported)",
+   "total_debt_m": 29086.0,
+   "lt_noncurrent_m": 29086.0,
+   "current_m": null,
+   "cash_m": 6298.0,
+   "net_debt_m": 22788.0,
+   "interest_ytd_m": 716.0,
+   "interest_days": 180,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": 4.9,
+   "eff_basis": "ytd",
+   "raised_ytd_m": null,
+   "repaid_ytd_m": 550.0,
+   "raised_fy_m": 4458.0,
+   "repaid_fy_m": 4197.0,
+   "series": [
+    [
+     "2024-09-30",
+     30230.0
+    ],
+    [
+     "2024-12-31",
+     28937.0
+    ],
+    [
+     "2025-03-31",
+     26455.0
+    ],
+    [
+     "2025-06-30",
+     26480.0
+    ],
+    [
+     "2025-09-30",
+     30947.0
+    ],
+    [
+     "2025-12-31",
+     30871.0
+    ],
+    [
+     "2026-03-31",
+     29371.0
+    ],
+    [
+     "2026-06-30",
+     29086.0
+    ]
+   ],
+   "sector": "Healthcare",
+   "maturity": {
+    "buckets": {
+     "next12": 550.0,
+     "y2": 2359.0,
+     "y3": 3800.0,
+     "y4": 1000.0,
+     "y5": 2400.0,
+     "after5": 21485.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 264240486,
+   "invest": {
+    "capex_ytd_m": null,
+    "ppe_net_m": null,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "ANET": {
+   "status": "no_xbrl_debt"
+  },
+  "TGT": {
+   "asof": "2026-08-01",
+   "filed": "2026-08-28",
+   "basis": "LT debt & finance leases incl. current portion",
+   "total_debt_m": 15357.0,
+   "lt_noncurrent_m": 14221.0,
+   "current_m": 1136.0,
+   "cash_m": null,
+   "net_debt_m": null,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": 0.0,
+   "repaid_ytd_m": 1070.0,
+   "raised_fy_m": 1984.0,
+   "repaid_fy_m": 1643.0,
+   "series": [
+    [
+     "2024-11-02",
+     15981.0
+    ],
+    [
+     "2025-02-01",
+     15940.0
+    ],
+    [
+     "2025-05-03",
+     15473.0
+    ],
+    [
+     "2025-08-02",
+     16456.0
+    ],
+    [
+     "2025-11-01",
+     16499.0
+    ],
+    [
+     "2026-01-31",
+     16456.0
+    ],
+    [
+     "2026-05-02",
+     15415.0
+    ],
+    [
+     "2026-08-01",
+     15357.0
+    ]
+   ],
+   "sector": "Consumer Discretionary",
+   "maturity": {
+    "buckets": {
+     "next12": 2000.0,
+     "y2": 97.0,
+     "y3": 581.0,
+     "y4": 1000.0,
+     "y5": 1230.0,
+     "after5": 9593.0
+    },
+    "family": "long-term debt",
+    "asof": "2026-01-31"
+   },
+   "shares_out": 454296736,
+   "invest": {
+    "capex_ytd_m": 2404.0,
+    "ppe_net_m": null,
+    "securities_m": null,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "MET": {
+   "asof": "2026-06-30",
+   "filed": "2026-08-06",
+   "basis": "LT debt & finance leases incl. current maturities",
+   "total_debt_m": 14704.0,
+   "lt_noncurrent_m": null,
+   "current_m": null,
+   "cash_m": 19301.0,
+   "net_debt_m": -4597.0,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": 724.0,
+   "interest_fy_end": "2025-12-31",
+   "eff_rate_pct": 4.88,
+   "eff_basis": "fy",
+   "raised_ytd_m": 65.0,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 743.0,
+   "repaid_fy_m": null,
+   "series": [
+    [
+     "2024-09-30",
+     15682.0
+    ],
+    [
+     "2024-12-31",
+     15551.0
+    ],
+    [
+     "2025-03-31",
+     15076.0
+    ],
+    [
+     "2025-06-30",
+     15753.0
+    ],
+    [
+     "2025-09-30",
+     15678.0
+    ],
+    [
+     "2025-12-31",
+     14822.0
+    ],
+    [
+     "2026-03-31",
+     14849.0
+    ],
+    [
+     "2026-06-30",
+     14704.0
+    ]
+   ],
+   "sector": "Financials",
+   "maturity": {
+    "buckets": {
+     "next12": 172.0,
+     "y2": 81.0,
+     "y3": 300.0,
+     "y4": 459.0,
+     "y5": 996.0,
+     "after5": 12500.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 635476927,
+   "invest": {
+    "capex_ytd_m": null,
+    "ppe_net_m": null,
+    "securities_m": 322183.0,
+    "equity_inv_m": null,
+    "acq_ytd_m": null
+   }
+  },
+  "ALL": {
+   "asof": "2025-12-31",
+   "filed": "2026-02-20",
+   "basis": "Total debt carrying amount as reported",
+   "total_debt_m": 7541.0,
+   "lt_noncurrent_m": null,
+   "current_m": null,
+   "cash_m": null,
+   "net_debt_m": null,
+   "interest_ytd_m": null,
+   "interest_days": null,
+   "interest_fy_m": null,
+   "interest_fy_end": null,
+   "eff_rate_pct": null,
+   "eff_basis": null,
+   "raised_ytd_m": null,
+   "repaid_ytd_m": null,
+   "raised_fy_m": 0.0,
+   "repaid_fy_m": 600.0,
+   "series": [
+    [
+     "2018-12-31",
+     6508.0
+    ],
+    [
+     "2019-12-31",
+     6691.0
+    ],
+    [
+     "2020-12-31",
+     7891.0
+    ],
+    [
+     "2021-12-31",
+     7991.0
+    ],
+    [
+     "2022-12-31",
+     7991.0
+    ],
+    [
+     "2023-12-31",
+     7991.0
+    ],
+    [
+     "2024-12-31",
+     8141.0
+    ],
+    [
+     "2025-12-31",
+     7541.0
+    ]
+   ],
+   "sector": "Financials",
+   "maturity": {
+    "buckets": {
+     "next12": 550.0,
+     "y2": 0.0,
+     "y3": 0.0,
+     "y4": 500.0,
+     "y5": 600.0,
+     "after5": 5891.0
+    },
+    "family": "long-term debt",
+    "asof": "2025-12-31"
+   },
+   "shares_out": 252857950,
+   "invest": {
+    "capex_ytd_m": 228.0,
+    "ppe_net_m": 627.0,
+    "securities_m": null,
+    "equity_inv_m": 466.0,
+    "acq_ytd_m": null
+   }
+  }
+ }
+}
