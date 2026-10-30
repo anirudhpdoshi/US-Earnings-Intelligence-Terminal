@@ -96,12 +96,49 @@ def main():
         print("ERROR: FMP_KEY env var is empty - repository secret missing or not mapped.", file=sys.stderr)
         return 2
 
-    fetch_indices()
-    fetch_market()
-    fetch_fundamentals()
-    fetch_poll()
-
+    # 0) EVENT GATE -------------------------------------------------------
+    # Refresh is event-based, not random: the free EDGAR tripwire runs every
+    # cycle; the quota-API modules run only when an event is due or has just
+    # landed (new Item 2.02 filing, or a tracked reporter inside its window).
+    prev_poll = _loadj("poll.json", {}).get("poll", {})
+    poll_now = fetch_poll() or {}
+    new_events = sorted(tk for tk, v in poll_now.items()
+                        if prev_poll.get(tk, {}).get("accession") != v.get("accession"))
+    reporters = []
+    rep_path0 = os.path.join(ROOT, "data", "reporters.json")
+    if os.path.exists(rep_path0):
+        with open(rep_path0, encoding="utf-8") as f:
+            reporters = json.load(f).get("reporters", [])
     today = datetime.now(timezone.utc).date()
+
+    def _inwin(rep, lo, hi):
+        try:
+            dd = datetime.strptime(rep["earnings_date"], "%Y-%m-%d").date()
+            return lo <= (today - dd).days <= hi
+        except Exception:
+            return False
+
+    due = [r["ticker"] for r in reporters if _inwin(r, -1, 3)]
+    event_active = bool(new_events or due)
+    fund_due = True
+    try:
+        gen = datetime.strptime(_loadj("debt.json", {}).get("generated_at", ""),
+                                "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+        fund_due = (datetime.now(timezone.utc) - gen).days >= 6
+    except Exception:
+        fund_due = True
+    print(f"event gate: new filings={new_events or 'none'} reporters in window={due or 'none'} "
+          f"fundamentals_due={fund_due} -> {'EVENT' if event_active else 'quiet'}")
+
+    fetch_indices()
+    if event_active:
+        fetch_market()
+    else:
+        print("quiet cycle: market pack skipped (event-based refresh)")
+    if event_active or fund_due:
+        fetch_fundamentals()
+    else:
+        print("quiet cycle: fundamentals skipped (no event; snapshot under 6 days old)")
 
     # 1) Earnings calendar, next 14 days -----------------------------------
     try:
@@ -126,11 +163,14 @@ def main():
     if os.path.exists(rep_path):
         with open(rep_path, encoding="utf-8") as f:
             reporters = json.load(f).get("reporters", [])
-    fetch_ownership([r["ticker"] for r in reporters[:20]])
+    if event_active:
+        fetch_ownership([r["ticker"] for r in reporters[:20]])
+    else:
+        print("quiet cycle: ownership skipped (event-based refresh)")
 
-    # 2) Earnings surprises for reporters -----------------------------------
-    surprises = {}
-    for rep in reporters[:20]:
+    # 2) Earnings surprises for reporters (event window only) ---------------
+    surprises = _loadj("fmp_surprises.json", {}).get("surprises", {})
+    for rep in [r for r in reporters[:20] if event_active or _inwin(r, -1, 10)]:
         tk = rep["ticker"]
         try:
             rows = get("/earnings-surprises", {"symbol": tk})
@@ -143,8 +183,8 @@ def main():
     if surprises:
         write_json("data/fmp_surprises.json", {"generated_at": now_iso(), "surprises": surprises})
 
-    # 3) Transcripts for reporters with a fiscal period on file --------------
-    for rep in reporters[:20]:
+    # 3) Transcripts for reporters with a fiscal period on file (event window)
+    for rep in [r for r in reporters[:20] if event_active or _inwin(r, -1, 14)]:
         tk = rep["ticker"]
         q, y = rep.get("fiscal_quarter"), rep.get("fiscal_year")
         if not q or not y:
@@ -193,7 +233,7 @@ def fetch_poll():
         cikmap = {v["ticker"]: v["cik_str"] for v in tickers.values()}
     except Exception as e:
         print("poll: cik map failed:", type(e).__name__)
-        return
+        return {}
     uni = _loadj("universe_tickers.json", {"tickers": []}).get("tickers", [])
     cutoff = (_dt.date.today() - _dt.timedelta(days=21)).isoformat()
     poll = {}
@@ -219,6 +259,7 @@ def fetch_poll():
     if poll:
         write_json("data/poll.json", {"generated_at": now_iso(), "poll": poll})
         print("poll:", len(poll), "recent reporters")
+    return poll
 
 # ---------------------------------------------------------------- market pack
 def fetch_market():

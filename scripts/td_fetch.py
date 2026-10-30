@@ -151,8 +151,26 @@ def main():
     if os.path.exists(rep_path):
         with open(rep_path, encoding="utf-8") as f:
             reporters = json.load(f).get("reporters", [])
+    _today = datetime.now(timezone.utc).date()
+
+    def _ev(rep):
+        try:
+            return -1 <= (_today - datetime.strptime(rep["earnings_date"], "%Y-%m-%d").date()).days <= 3
+        except Exception:
+            return False
+
+    ev_window = any(_ev(r) for r in reporters)
+    print(f"event gate: reporters in window = {[r['ticker'] for r in reporters if _ev(r)] or 'none'} "
+          f"-> {'EVENT' if ev_window else 'quiet'}")
     reactions = {}
-    for rep in reporters[:20]:
+    _rp = os.path.join(ROOT, "data", "reactions.json")
+    if os.path.exists(_rp):
+        try:
+            with open(_rp, encoding="utf-8") as f:
+                reactions = json.load(f).get("reactions", {})
+        except Exception:
+            reactions = {}
+    for rep in [r for r in reporters[:20] if ev_window and _ev(r)]:
         tk, edate, timing = rep["ticker"], rep["earnings_date"], rep.get("timing", "AMC")
         try:
             ts = get("/time_series", {"symbol": tk, "interval": "1day", "outputsize": 15})
@@ -217,6 +235,8 @@ def main():
         stale = (not rows) or (qdate is not None and last_date is not None and last_date < qdate) or len(rows) < 10
         if not stale:
             continue
+        if not ev_window and len(rows) >= 10:
+            continue  # quiet cycle: history top-ups are event-driven; bootstrap still fills thin series
         if isinstance(used, (int, float)) and used + calls >= STOP_AT:
             print("Budget guard reached during history fetch; remaining tickers keep prior history.")
             break
