@@ -206,8 +206,6 @@ def main():
     return 0
 
 
-if __name__ == "__main__":
-    sys.exit(main())
 
 
 # ---------------------------------------------------------------- EDGAR poll
@@ -758,3 +756,6 @@ def fetch_fundamentals():
     write_json("data/ratios.json", rsnap)
     print('ratios coverage:', len(ratios_out), '| maturities:', sum(1 for r in out.values() if r.get('maturity')))
     print('coverage:', stats, 'of', len(uni))
+
+if __name__ == "__main__":
+    sys.exit(main())
