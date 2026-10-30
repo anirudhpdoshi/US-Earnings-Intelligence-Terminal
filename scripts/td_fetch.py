@@ -42,6 +42,13 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 calls = 0
 
 
+def scrub(text):
+    """Defense-in-depth: never let the API key reach a log line, even if a
+    transport error echoes the request URL back. (GitHub also masks secret
+    values in Actions logs; this protects every other log sink.)"""
+    return text.replace(KEY, "***") if KEY else text
+
+
 def get(path, params):
     global calls
     params = dict(params)
@@ -86,10 +93,10 @@ def main():
     try:
         usage = get("/api_usage", {})
     except Exception as e:
-        print(f"ERROR: /api_usage failed: {type(e).__name__}: {e}", file=sys.stderr)
+        print(f"ERROR: /api_usage failed: {type(e).__name__}: {scrub(str(e))}", file=sys.stderr)
         return 2
     if isinstance(usage, dict) and usage.get("status") == "error":
-        print(f"ERROR: Twelve Data rejected the key: {usage.get('message')}", file=sys.stderr)
+        print(f"ERROR: Twelve Data rejected the key: {scrub(str(usage.get('message')))}", file=sys.stderr)
         return 2
     used = usage.get("current_day_usage")
     limit = usage.get("daily_limit")
@@ -110,7 +117,7 @@ def main():
         try:
             resp = get("/quote", {"symbol": ",".join(chunk)})
         except Exception as e:
-            print(f"quote chunk {i}: FAILED {type(e).__name__}: {e}")
+            print(f"quote chunk {i}: FAILED {type(e).__name__}: {scrub(str(e))}")
             continue
         if isinstance(resp, dict) and resp.get("symbol"):  # single-symbol shape
             resp = {resp["symbol"]: resp}
@@ -144,7 +151,7 @@ def main():
         try:
             ts = get("/time_series", {"symbol": tk, "interval": "1day", "outputsize": 15})
         except Exception as e:
-            print(f"time_series {tk}: FAILED {type(e).__name__}: {e}")
+            print(f"time_series {tk}: FAILED {type(e).__name__}: {scrub(str(e))}")
             continue
         vals = ts.get("values") if isinstance(ts, dict) else None
         if not vals:
@@ -182,7 +189,7 @@ def main():
             if trimmed:
                 write_json("data/td_earnings.json", {"generated_at": now_iso(), "earnings": trimmed})
     except Exception as e:
-        print(f"earnings cross-check: FAILED {type(e).__name__}: {e} (fail-soft)")
+        print(f"earnings cross-check: FAILED {type(e).__name__}: {scrub(str(e))} (fail-soft)")
 
     print(f"done. API calls this run: {calls}")
     return 0

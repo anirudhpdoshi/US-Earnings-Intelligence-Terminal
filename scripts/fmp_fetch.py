@@ -35,6 +35,13 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 calls = 0
 
 
+def scrub(text):
+    """Defense-in-depth: never let the API key reach a log line, even if a
+    transport error echoes the request URL back. (GitHub also masks secret
+    values in Actions logs; this protects every other log sink.)"""
+    return text.replace(KEY, "***") if KEY else text
+
+
 def get(path, params):
     global calls
     params = dict(params)
@@ -72,10 +79,10 @@ def main():
         cal = get("/earnings-calendar", {"from": today.isoformat(),
                                          "to": (today + timedelta(days=14)).isoformat()})
     except Exception as e:
-        print(f"ERROR: earnings-calendar failed: {type(e).__name__}: {e}", file=sys.stderr)
+        print(f"ERROR: earnings-calendar failed: {type(e).__name__}: {scrub(str(e))}", file=sys.stderr)
         return 2
     if isinstance(cal, dict) and cal.get("Error Message"):
-        print(f"ERROR: FMP rejected the key: {cal['Error Message']}", file=sys.stderr)
+        print(f"ERROR: FMP rejected the key: {scrub(str(cal['Error Message']))}", file=sys.stderr)
         return 2
     if isinstance(cal, list):
         write_json("data/fmp_calendar.json", {
@@ -98,7 +105,7 @@ def main():
         try:
             rows = get("/earnings-surprises", {"symbol": tk})
         except Exception as e:
-            print(f"surprises {tk}: FAILED {type(e).__name__}: {e}")
+            print(f"surprises {tk}: FAILED {type(e).__name__}: {scrub(str(e))}")
             continue
         if isinstance(rows, list) and rows:
             surprises[tk] = rows[:8]
@@ -115,7 +122,7 @@ def main():
         try:
             tr = get("/earning-call-transcript", {"symbol": tk, "quarter": q, "year": y})
         except Exception as e:
-            print(f"transcript {tk}: FAILED {type(e).__name__}: {e}")
+            print(f"transcript {tk}: FAILED {type(e).__name__}: {scrub(str(e))}")
             continue
         if isinstance(tr, list) and tr and tr[0].get("content"):
             write_json(f"data/transcripts/{tk}-Q{q}-{y}.json",
