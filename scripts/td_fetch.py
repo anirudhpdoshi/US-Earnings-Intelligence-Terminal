@@ -141,7 +141,7 @@ def main():
                     except (TypeError, ValueError):
                         pass
     if quotes:
-        write_json("data/prices.json", {"generated_at": now_iso(), "count": len(quotes), "quotes": quotes})
+        write_json("data/prices.json", {"generated_at": now_iso(), "source": "Twelve Data", "basis": "Delayed quotes - not real-time; always display with source and timestamp", "count": len(quotes), "quotes": quotes})
     else:
         print("quotes: no valid quotes returned; prices.json left untouched")
 
