@@ -34,3 +34,14 @@ The terminal page reads `prices.json` / `reactions.json` at load and fails
 soft to its card-verified data when the files are absent.
 Committing refreshed data requires Settings → Actions → General →
 Workflow permissions = "Read and write permissions".
+
+## FMP data (same workflow)
+
+`scripts/fmp_fetch.py` runs in the same `data-refresh` workflow, using the
+repository secret **FMP_KEY**. It refreshes `data/fmp_calendar.json`
+(next-14-day earnings calendar with current estimates - labelled as
+retrieval-time values, NOT frozen point-in-time consensus),
+`data/fmp_surprises.json`, and `data/transcripts/` for tickers listed in
+`data/reporters.json`. Only ONE workflow file is needed:
+`.github/workflows/data-refresh.yml` (it supersedes the earlier
+Twelve-Data-only draft of the same idea).
