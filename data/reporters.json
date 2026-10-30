@@ -14,6 +14,76 @@
    "timing": "AMC",
    "fiscal_quarter": 3,
    "fiscal_year": 2026
+  },
+  {
+   "ticker": "LLY",
+   "earnings_date": "2026-10-29",
+   "timing": "BMO",
+   "fiscal_quarter": 3,
+   "fiscal_year": 2026
+  },
+  {
+   "ticker": "MA",
+   "earnings_date": "2026-10-29",
+   "timing": "BMO",
+   "fiscal_quarter": 3,
+   "fiscal_year": 2026
+  },
+  {
+   "ticker": "MRK",
+   "earnings_date": "2026-10-29",
+   "timing": "BMO",
+   "fiscal_quarter": 3,
+   "fiscal_year": 2026
+  },
+  {
+   "ticker": "BMY",
+   "earnings_date": "2026-10-29",
+   "timing": "BMO",
+   "fiscal_quarter": 3,
+   "fiscal_year": 2026
+  },
+  {
+   "ticker": "CAT",
+   "earnings_date": "2026-10-29",
+   "timing": "BMO",
+   "fiscal_quarter": 3,
+   "fiscal_year": 2026
+  },
+  {
+   "ticker": "GILD",
+   "earnings_date": "2026-10-29",
+   "timing": "AMC",
+   "fiscal_quarter": 3,
+   "fiscal_year": 2026
+  },
+  {
+   "ticker": "AMZN",
+   "earnings_date": "2026-10-29",
+   "timing": "AMC",
+   "fiscal_quarter": 3,
+   "fiscal_year": 2026
+  },
+  {
+   "ticker": "INTC",
+   "earnings_date": "2026-10-29",
+   "timing": "AMC",
+   "fiscal_quarter": 3,
+   "fiscal_year": 2026
+  },
+  {
+   "ticker": "SBUX",
+   "earnings_date": "2026-10-29",
+   "timing": "AMC",
+   "fiscal_quarter": 4,
+   "fiscal_year": 2026
+  },
+  {
+   "ticker": "MDLZ",
+   "earnings_date": "2026-10-29",
+   "timing": "AMC",
+   "fiscal_quarter": 3,
+   "fiscal_year": 2026
   }
  ]
 }

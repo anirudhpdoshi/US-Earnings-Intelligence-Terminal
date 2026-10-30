@@ -19,6 +19,12 @@ Outputs (only written when the fetch succeeded):
   data/prices.json     latest quotes for the Top-100 universe
   data/reactions.json  first-full-session stock reaction for reporters
   data/td_earnings.json earnings dates cross-check (raw, trimmed)
+  data/history.json    rolling 45-session daily closes per ticker
+                       (incremental: only stale tickers are re-fetched,
+                       so steady-state history cost is ~0-100 calls/day)
+  data/moves.json      per-ticker price moves computed from history:
+                       last price, 5-session %, 7-session %, and the
+                       USD + % change since the previous earnings date
   data/td_usage.json   API usage snapshot for the day
 
 Fail-soft by module: a failed module leaves its previous file untouched
@@ -177,6 +183,7 @@ def main():
         write_json("data/reactions.json", {"generated_at": now_iso(), "reactions": reactions})
 
     # 4) Earnings-date cross-check (one batched call, fail-soft) ------------
+    td_earn = {}
     try:
         er = get("/earnings", {"symbol": ",".join(tickers)})
         if isinstance(er, dict) and er.get("earnings"):
@@ -187,9 +194,84 @@ def main():
                                      "eps_estimate": r.get("epsEstimate"),
                                      "eps_actual": r.get("epsActual")} for r in rows[:6]]
             if trimmed:
+                td_earn = trimmed
                 write_json("data/td_earnings.json", {"generated_at": now_iso(), "earnings": trimmed})
     except Exception as e:
         print(f"earnings cross-check: FAILED {type(e).__name__}: {scrub(str(e))} (fail-soft)")
+
+    # 5) Price moves: incremental daily history + computed 5d/7d/since-earnings
+    hist = {}
+    hist_path = os.path.join(ROOT, "data", "history.json")
+    if os.path.exists(hist_path):
+        try:
+            with open(hist_path, encoding="utf-8") as f:
+                hist = json.load(f).get("series", {})
+        except Exception:
+            hist = {}
+    fetched = 0
+    for tk in tickers:
+        rows = hist.get(tk) or []
+        last_date = rows[-1][0] if rows else None
+        qdate = (quotes.get(tk) or {}).get("datetime") or ""
+        qdate = qdate[:10] if qdate else None
+        stale = (not rows) or (qdate is not None and last_date is not None and last_date < qdate) or len(rows) < 10
+        if not stale:
+            continue
+        if isinstance(used, (int, float)) and used + calls >= STOP_AT:
+            print("Budget guard reached during history fetch; remaining tickers keep prior history.")
+            break
+        if fetched >= 110:
+            print("History fetch cap (110/run) reached; remaining tickers keep prior history.")
+            break
+        try:
+            ts = get("/time_series", {"symbol": tk, "interval": "1day", "outputsize": 45})
+        except Exception as e:
+            print(f"history {tk}: FAILED {type(e).__name__}: {scrub(str(e))}")
+            continue
+        fetched += 1
+        vals = ts.get("values") if isinstance(ts, dict) else None
+        if not vals:
+            continue
+        merged = {d: c for d, c in rows}
+        for v in vals:
+            try:
+                merged[v["datetime"]] = float(v["close"])
+            except (TypeError, ValueError, KeyError):
+                pass
+        hist[tk] = sorted(merged.items())[-45:]
+    if fetched:
+        write_json("data/history.json", {"generated_at": now_iso(), "series": hist})
+        print(f"history: fetched {fetched} tickers this run")
+
+    rep_dates = {r["ticker"]: r["earnings_date"] for r in reporters}
+    today = now_iso()[:10]
+    moves = {}
+    for tk, rows in hist.items():
+        if len(rows) < 8:
+            continue
+        closes = [c for _, c in rows]
+        px = closes[-1]
+        q = quotes.get(tk)
+        if q and q.get("price"):
+            px = q["price"]
+        mv = {"px": px, "asof": rows[-1][0],
+              "chg5_pct": round((px / closes[-6] - 1) * 100, 2) if len(closes) >= 6 else None,
+              "chg7_pct": round((px / closes[-8] - 1) * 100, 2) if len(closes) >= 8 else None}
+        prev_date = rep_dates.get(tk)
+        past = [r["date"] for r in td_earn.get(tk, []) if r.get("eps_actual") is not None and r.get("date") and r["date"] < today]
+        if past:
+            prev_date = sorted(past)[-1]
+        if prev_date:
+            at = [c for d, c in rows if d <= prev_date]
+            if at:
+                mv["prev_earn_date"] = prev_date
+                mv["px_prev_earn"] = at[-1]
+                mv["since_usd"] = round(px - at[-1], 2)
+                mv["since_pct"] = round((px / at[-1] - 1) * 100, 2) if at[-1] else None
+        moves[tk] = mv
+    if moves:
+        write_json("data/moves.json", {"generated_at": now_iso(), "moves": moves})
+        print(f"moves: computed for {len(moves)} tickers")
 
     print(f"done. API calls this run: {calls}")
     return 0
