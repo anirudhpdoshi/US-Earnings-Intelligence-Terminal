@@ -757,5 +757,7 @@ def fetch_fundamentals():
     print('ratios coverage:', len(ratios_out), '| maturities:', sum(1 for r in out.values() if r.get('maturity')))
     print('coverage:', stats, 'of', len(uni))
 
+# Entry-point guard: this block MUST remain the last lines of the file.
+# (All fetch_* modules are defined above it; anything below never loads.)
 if __name__ == "__main__":
     sys.exit(main())
