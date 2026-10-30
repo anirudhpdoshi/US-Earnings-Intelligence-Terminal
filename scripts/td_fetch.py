@@ -299,3 +299,5 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+
+# Oct 30, 2026: workflow permissions granted (read/write) - trigger run to verify first data commit.
