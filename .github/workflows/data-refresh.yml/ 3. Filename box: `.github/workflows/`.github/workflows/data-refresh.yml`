@@ -1,0 +1,62 @@
+name: Earnings data refresh (Twelve Data + FMP)
+
+# Single workflow for all scheduled data pulls. Secrets used:
+#   TWELVE_DATA  -> prices, reactions, earnings cross-check, usage guard
+#   FMP_KEY      -> earnings calendar + estimates, surprises, transcripts
+# Neither key ever appears in a file or a log line.
+#
+# Committing refreshed data requires Settings -> Actions -> General ->
+# Workflow permissions = "Read and write permissions".
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "5 13 * * 1-5"   # ~08:05 ET pre-market (UTC; shifts 1h across DST)
+    - cron: "35 17 * * 1-5"  # ~12:35 ET midday
+    - cron: "25 21 * * 1-5"  # ~16:25 ET after the close
+  push:
+    paths:
+      - "scripts/td_fetch.py"
+      - "scripts/fmp_fetch.py"
+      - ".github/workflows/data-refresh.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: earnings-data-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Twelve Data — prices, reactions, usage (budget-guarded <600/day)
+        env:
+          TWELVE_DATA_KEY: ${{ secrets.TWELVE_DATA }}
+        run: python3 scripts/td_fetch.py
+
+      - name: FMP — calendar, surprises, transcripts
+        continue-on-error: true
+        env:
+          FMP_KEY: ${{ secrets.FMP_KEY }}
+        run: python3 scripts/fmp_fetch.py
+
+      - name: Commit refreshed data
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/prices.json data/reactions.json data/td_earnings.json data/td_usage.json data/fmp_calendar.json data/fmp_surprises.json data/transcripts
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "data: scheduled refresh [skip ci]"
+            git push
+          fi
